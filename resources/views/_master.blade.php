@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>@yield('title', 'Fast Pokedex')</title>
+		<title>@yield('title', 'Fast Pokédex')</title>
 		<meta charset="utf-8">
-		<meta name="description" content="Simple and fast Pokedex">
-		<meta name="keywords" content="pokedex, pokemon">
+		<meta name="description" content="Simple and fast Pokédex">
+		<meta name="keywords" content="pokedex, pokemon, pokémon, pokédex">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Google Fonts --> 
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -27,8 +27,8 @@
 	</nav>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Minimal Pokedex<br>
-			<small>Fast and simple UI for base stats and type defenses</small></h1>			
+			<h1>Minimal Pokédex<br>
+			<small>Fast and simple UI for looking up base stats and type defenses</small></h1>			
 		</div>
 	</div>
 
