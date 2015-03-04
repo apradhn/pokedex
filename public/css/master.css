@@ -5,6 +5,7 @@ body {
 
 .jumbotron {
 	background: #F44336;
+	border-bottom: 10px solid #555555;
 }
 
 .jumbotron h1 {
