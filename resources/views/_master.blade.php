@@ -28,7 +28,7 @@
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Minimal Pokédex<br>
-			<small>Fast and simple UI for looking up base stats and type defenses</small></h1>			
+			<small>Look up a Pokémon's base stats and type defenses with a fast and simple UI</small></h1>			
 		</div>
 	</div>
 

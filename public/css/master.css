@@ -13,6 +13,7 @@ body {
 
 .jumbotron h1 small {
 	color: #FFCDD2;
+	font-size: 50%;
 }
 
 .navbar {
