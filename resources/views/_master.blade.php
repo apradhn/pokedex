@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>@yield('title', 'Fast Pokédex')</title>
+		<title>@yield('title', 'Minimal Pokédex')</title>
 		<meta charset="utf-8">
 		<meta name="description" content="Simple and fast Pokédex">
 		<meta name="keywords" content="pokedex, pokemon, pokémon, pokédex">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">		
 		<!-- Google Fonts --> 
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<!-- Latest compiled and minified Bootstrap CSS --> 
