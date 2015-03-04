@@ -1,3 +1,8 @@
+body {
+	background: #F2F2F2;
+	font-family: "Lato", sans-serif;
+}
+
 .jumbotron {
 	background: #F44336;
 }
@@ -8,10 +13,6 @@
 
 .jumbotron h1 small {
 	color: #FFCDD2;
-}
-
-body {
-	background: #F2F2F2;
 }
 
 .navbar {
