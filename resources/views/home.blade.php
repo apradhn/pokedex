@@ -1,17 +1,14 @@
-@extends('app')
+@extends('_master')
 
 @section('content')
-<div class="container">
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-default">
-				<div class="panel-heading">Home</div>
-
-				<div class="panel-body">
-					You are logged in!
-				</div>
+<div class="row">
+	<div class="col-sm-4 col-md-offset-4">
+		<form class="form">
+			<div class="form-group">
+				<input type="text" class="form-control" id="search" placeholder="Name...">
 			</div>
-		</div>
+			<button type="submit" id="submit" class="btn btn-default">Search</button>
+		</form>
 	</div>
 </div>
-@endsection
+@stop

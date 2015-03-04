@@ -1,0 +1,33 @@
+.jumbotron {
+	background: #F44336;
+}
+
+.jumbotron h1 {
+	color: #FFFFFF;
+}
+
+.jumbotron h1 small {
+	color: #FFCDD2;
+}
+
+body {
+	background: #F2F2F2;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.navbar-default {
+	background: #D32F2F;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #FFCDD2;
+}
