@@ -11,10 +11,12 @@
 |
 */
 
+
 Route::get('/', function()
 	{
 		return View::make('home');
 	});
+
 
 Route::get('home', 'HomeController@index');
 
@@ -34,3 +36,12 @@ Route::get('mysql-test', function() {
 	# If the "Pre" package is not installed, you should output using print_r instead
 	echo Pre::render($results);
 });
+
+
+Route::get('/', function()
+	{
+		return View::make('pokemon_search');
+	}); # Display the search
+
+
+Route::post('/pokemon/search', 'PokemonController@postSearch'); # Process the search
