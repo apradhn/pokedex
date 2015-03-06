@@ -30,8 +30,7 @@
 	</nav>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Minimal Pokédex<br>
-			<small>Fast and simple UI for looking up a Pokémon's base stats and type defenses</small></h1>			
+			<h1>Minimal Pokédex</h1>			
 		</div>
 	</div>
 

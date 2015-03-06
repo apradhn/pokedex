@@ -3,9 +3,14 @@
 }
 
 .panel {
-	padding-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .type {
 	text-align: center;
 }
@@ -23,6 +28,10 @@ table {
 	margin-top: 10px;
 }
 
+table.type-defenses {
+	width: 50%;
+}
+
 table > thead > tr > th {
 	font-weight: normal;
 }
@@ -30,7 +39,6 @@ table > thead > tr > th {
 table > tbody > tr > th {
 	font-weight: normal;
 }
-
 
 /*
 .table.base-stats > tbody > tr > th:first-child {
@@ -42,13 +50,22 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 	font-weight: bold;
 }
 
-.table.type-defenses {
-	color: #f9f9f9;
-}
-.table.type-defenses > tbody > tr > th, .table.type-defenses > tbody > tr > td {
+.table.type-defenses > tbody > tr > th {
 	border: none;
 }
 
+.table.type-defenses > tbody > tr > td {
+
+}
+
+.table.type-defenses > tbody > tr > th {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child {
+	border-bottom-left-radius: 0px;
+}
 .normal {
 	background: #EDD7B8;
 }
