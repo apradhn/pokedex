@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row search-results">
 	<div class="panel panel-default col-sm-8 col-sm-offset-2">
 		<div class="col-sm-2">
-			<h3>{{ $pm['name'] }}</h3>
-			<img src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
+			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>
+			<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
 			<div class="type">{{ $pm['type_a'] }}<br>{{ $pm ['type_b'] }}</div>
 		</div>
-		<div class="col-sm-4 col-sm-offset-1">
+		<div class="col-sm-4">
 			<table class="table table-condensed base-stats">
 				<thead>
 					<tr>

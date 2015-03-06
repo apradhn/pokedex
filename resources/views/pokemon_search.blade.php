@@ -1,15 +1,22 @@
 @extends('_master')
 
 @section('content')
-	<h1>Search with Ajax</h1>
+	<div class="row">
+		<div class="col-sm-offset-2">
+			<h3>Search by Name</h3>
 
-	<label for='query'>Search:</label>
-	<input type='text' id='query' name='query' value='pokemon'><br><br>
+			<!-- <label for='query'>Search:</label> -->
+			<div class="form-group col-sm-4">
+				<input type='text' id='query' name='query' placeholder='Pokémon' class="form-control">
+				{!! Form::token() !!}
+			</div>
+			<!-- <button id='search-json'>Search and get JSON back</button><br><br> -->
 
-	{!! Form::token() !!}
-	<button id='search-json'>Search and get JSON back</button><br><br>
-	<button id='search-html'>Search and get HTML back</button>
+			<!-- Search by HTML button -->
+			<button id='search-html' class="btn btn-default">Go</button>
 
+	</div>
+	
 	<div id='results'></div>
 @stop
 

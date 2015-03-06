@@ -1,4 +1,5 @@
 // Demo 1) Getting JSON data as a result and letting JS decide where to put the data on the page
+/*
 $('#search-json').click(function() {
 	console.log("search-json clicked");
 	$.ajax({
@@ -18,24 +19,6 @@ $('#search-json').click(function() {
 				var name = response[index]['name'];
 
 				$('#results').append(name);
-				/*
-				var name = response[index]['name'];
-				var type_a = response[index]['type_a'];
-				var type_b = response[index]['type_b'];
-				var type_a = response[index]['type_a'];
-				var sprite_url = response[index]['sprite_url'];
-				var hp = response[index]['hp'];
-				var attack = response[index]['attack'];
-				var defense = response[index]['defense'];
-				var sp_atk = response[index]['sp_atk'];
-				var sp_def = response[index]['sp_def'];
-				var speed = response[index]['speed'];
-				
-				$('#results').append(name + "<br>" + type_a + " " + type_b + "<br>" +sprite_url
-					+ "<br>" + "hp: " + hp + " attack: " + attack + " Sp. Atk: " + sp_atk
-					+ " Sp. Def: " + sp_def + " Speed: " + speed);
-				*/
-
 			});
 		},
 		data: {
@@ -45,6 +28,7 @@ $('#search-json').click(function() {
 		},
 	});
 });
+*/
 
 // Demo 2) Getting HTML/A View as a result and just throwing it in to the response div
 $('#search-html').click(function() {
