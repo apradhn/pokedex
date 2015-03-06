@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
 		@yield('head')
 	</head>
 

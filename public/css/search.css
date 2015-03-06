@@ -1,0 +1,100 @@
+.type {
+	text-align: center;
+}
+
+table {
+	margin-top: 10px;
+}
+
+table > tbody > tr > th {
+	font-weight: normal;
+}
+
+/*
+.table.base-stats > tbody > tr > th:first-child {
+	border-top: none;
+}
+*/
+
+table > tbody > tr > th.total, table > tbody > tr > td.total {
+	font-weight: bold;
+}
+
+.table.type-defenses {
+	color: #f9f9f9;
+}
+.table.type-defenses > tbody > tr > th, .table.type-defenses > tbody > tr > td {
+	border: none;
+}
+
+.normal {
+	background: #EDD7B8;
+}
+
+.fire {
+	background: #ff9800;
+}
+
+.water {
+	background: #2196f3;
+}
+
+.electric {
+	background: #ffeb3b;
+}
+
+.grass {
+	background: #4caf50;
+}
+
+.ice {
+	background: #00bcd4;
+}
+
+.fighting {
+	background: #d50000;
+}
+
+.poison {
+	background: #9c27b0;
+}
+
+.ground {
+	background: #ffc107;
+}
+
+.flying {
+	background: #b388ff;
+}
+
+.psychic {
+	background: #e91e63;
+}
+
+.bug {
+	background: #cddc39;
+}
+
+.rock {
+	background: #8d6e63;
+}
+
+.ghost {
+	background: #673ab7;
+}
+
+.dragon {
+	background:  #3f51b5;
+}
+
+.dark {
+	background: #000000;
+}
+
+.steel {
+	background: #607d8b;
+}
+
+.fairy {
+	background: #ff80ab;
+}
