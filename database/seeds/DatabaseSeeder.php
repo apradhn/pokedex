@@ -483,7 +483,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Meganium', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/meganium.png',
 			'hp'=>'80', 'attack'=>'82', 'defense'=>'100', 'sp_atk'=>'83', 'sp_def'=>'100', 'speed'=>'80'),
 
-			array('name'=>'Cyndaquill', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/cyndaquill.png',
+			array('name'=>'Cyndaquil', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/cyndaquil.png',
 			'hp'=>'39', 'attack'=>'52', 'defense'=>'43', 'sp_atk'=>'60', 'sp_def'=>'50', 'speed'=>'65'),
 
 			array('name'=>'Quilava', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/quilava.png',
@@ -689,9 +689,6 @@ class PokemonTableSeeder extends Seeder {
 
 			array('name'=>'Remoraid', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/remoraid.png',
 			'hp'=>'35', 'attack'=>'65', 'defense'=>'35', 'sp_atk'=>'65', 'sp_def'=>'35', 'speed'=>'65'),
-
-			array('name'=>'Slugma', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/slugma.png',
-			'hp'=>'40', 'attack'=>'40', 'defense'=>'40', 'sp_atk'=>'70', 'sp_def'=>'40', 'speed'=>'20'),
 
 			array('name'=>'Octillery', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/octillery.png',
 			'hp'=>'75', 'attack'=>'105', 'defense'=>'75', 'sp_atk'=>'105', 'sp_def'=>'75', 'speed'=>'45'),
