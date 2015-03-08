@@ -35,12 +35,16 @@ class PokemonController extends Controller {
 
 					$type_a = $pm['type_a'];
 					$type_b = $pm['type_b'];
+					$id = $pm['id'];
+
+					$national_number = Pokemon::get_national_number($id);
 
 					$type_defenses = Pokemon::type_defenses($type_a, $type_b);
 
 					$results .= View::make('pokemon_search_result')
 					->with('pm', $pm)
 					->with('total', $total)
+					->with('national_number', $national_number)
 					->with('type_defenses', $type_defenses)
 					->render();      		
 	        	}

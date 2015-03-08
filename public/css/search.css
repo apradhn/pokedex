@@ -6,12 +6,24 @@
 	margin-top: 10px;
 }
 
-.row {
-	margin-left: 0px;
-	margin-right: 0px;
+.panel-default {
+	border: none;
 }
+
+.panel {
+	border-radius: 0px;
+	background: #eeeeee;
+	box-shadow: none;
+}
+
+.national-number {
+	text-align: center;
+	font-size: 16px;
+}
+
 .type {
 	text-align: center;
+	font-size: 16px;
 }
 
 .pokemon-name {
@@ -27,8 +39,18 @@
 	margin-top: 15px;
 }
 
+.stats > table {
+	border-spacing: 0px 5px;
+	border-collapse: separate;
+}
+
+.stats > table > tbody > tr {
+	background: #bdbdbd;
+	color: #FFFFFF;
+}
+
 table.type-defenses {
-	width: 50%;
+	width: 100%;
 }
 
 table > thead > tr > th {
@@ -39,206 +61,202 @@ table > tbody > tr > th {
 	font-weight: normal;
 }
 
-/*
-.table.base-stats > tbody > tr > th:first-child {
-	border-top: none;
-}
-*/
-
 table > tbody > tr > th.total, table > tbody > tr > td.total {
-	font-weight: bold;
+	background: #616161;
 }
 
-/*
-table.type-defenses > tbody > tr:last-child > td {
-	border-bottom: 1px solid #DDDDDD;
-}
-
-div.col-lg-8.col-lg-offset-2 > table.type-defenses:last-child > tbody > tr > td {
-	border-right: 1px solid #DDDDDD;
-}
-*/
 table.type-defenses > tbody > tr > th, table.type-defenses > tbody > tr > td {
 	border-top: none;
+	padding: 15px 10px 15px 10px;
+	font-size: 16px;
 }
 
-.normal {
+table.type-defenses > tbody > tr {
+	margin-bottom: 5px;
+}
+
+table.type-defenses {
+	border-spacing: 0px 15px;
+	border-collapse: separate;
+}
+
+.Normal {
 	background: #EDD7B8;
 	color: #8D6E63;
 }
 
-.normal + td {
-	background: #FCEFDE;
+.Normal + td {
+	background: #EDD7B8;
 	color: #8D6E63
 }
 
-.fire {
+.Fire {
 	background: #ffa726;
 	color: #e65100;
 }
 
-.fire + td {
-	background: #ffe0b2;
+.Fire + td {
+	background: #ffa726;
 	color: #e65100;
 }
 
-.water {
+.Water {
 	background: #42a5f5;
 	color: #0d47a1;
 }
 
-.water + td {
-	background: #bbdefb;
+.Water + td {
+	background: #42a5f5;
 	color: #0d47a1;
 }
 
-.electric {
+.Electric {
 	background: #ffee58;
 	color: #f57f17;
 }
 
-.electric + td {
-	background: #fff9c4;
+.Electric + td {
+	background: #ffee58;
 	color: #f57f17;
 }
 
-.grass {
+.Grass {
 	background: #66bb6a;
 	color: #1b5e20;
 }
 
-.grass + td {
-	background: #c8e6c9;
+.Grass + td {
+	background: #66bb6a;
 	color: #1b5e20;
 }
 
-.ice {
+.Ice {
 	background: #26c6da;
 	color: #006064;
 }
 
-.ice + td {
-	background: #b2ebf2;
+.Ice + td {
+	background: #26c6da;
 	color: #006064;
 }
 
-.fighting {
+.Fighting {
 	background: #ef5350;
 	color: #ffcdd2;
 }
 
-.fighting + td {
-	background: #ffcdd2;
-	color: #b71c1c;
+.Fighting + td {
+	background: #ef5350;
+	color: #ffcdd2;
 }
 
-.poison {
+.Poison {
 	background: #ab47bc;
 	color: #e1bee7;
 }
 
-.poison + td {
-	background: #e1bee7;
-	color: #4a148c;
+.Poison + td {
+	background: #ab47bc;
+	color: #e1bee7;
 }
 
-.ground {
+.Ground {
 	background: #ffca28;
 	color: #ff6f00;
 }
 
-.ground + td {
-	background: #ffecb3;
+.Ground + td {
+	background: #ffca28;
 	color: #ff6f00;
 }
 
-.flying {
+.Flying {
 	background: #b388ff;
 	color: #ede7f6;
 }
 
-.flying + td {
-	background: #ede7f6;
-	color: #311b92;
+.Flying + td {
+	background: #b388ff;
+	color: #ede7f6;
 }
 
-.psychic {
+.Psychic {
 	background: #ec407a;
 	color: #f8bbd0;
 }
 
-.psychic + td {
-	background: #f8bbd0;
-	color: #880e4f;
+.Psychic + td {
+	background: #ec407a;
+	color: #f8bbd0;
 }
 
-.bug {
+.Bug {
 	background: #d4e157;
 	color: #827717;
 }
 
-.bug + td {
-	background: #f0f4c3;
+.Bug + td {
+	background: #d4e157;
 	color: #827717;
 }
 
-.rock {
+.Rock {
 	background: #8d6e63;
 	color: #d7ccc8;
 }
 
-.rock + td {
-	background: #d7ccc8;
-	color: #3e2723;
+.Rock + td {
+	background: #8d6e63;
+	color: #d7ccc8;
 }
 
-.ghost {
+.Ghost {
 	background: #7e57c2;
 	color: #d1c4e9;
 }
 
-.ghost + td {
-	background: #d1c4e9;
-	color: #311b92;
+.Ghost + td {
+	background: #7e57c2;
+	color: #d1c4e9;
 }
 
-.dragon {
+.Dragon {
 	background: #5c6bc0;
 	color: #c5cae9;
 }
 
-.dragon + td {
-	background: #c5cae9;
-	color: #1a237e;
+.Dragon + td {
+	background: #5c6bc0;
+	color: #c5cae9;
 }
 
-.dark {
+.Dark {
 	background: #555555;
 	color: #BABABA;
 }
 
-.dark + td {
-	background: #BABABA;
-	color: #555555;
+.Dark + td {
+	background: #555555;
+	color: #BABABA;
 }
 
-.steel {
+.Steel {
 	background: #78909c;
 	color: #cfd8dc;
 }
 
-.steel + td {
-	background: #cfd8dc;
-	color: #263238;
+.Steel + td {
+	background: #78909c;
+	color: #cfd8dc;
 }
 
-.fairy {
+.Fairy {
 	background: #f48fb1;
 	color: #ad1457;
 }
 
-.fairy + td {
-	background: #fce4ec;
+.Fairy + td {
+	background: #f48fb1;
 	color: #ad1457;
 	/* border-left: 2px solid #fce4ec; */
 }

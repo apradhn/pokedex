@@ -444,7 +444,21 @@ class Pokemon extends Model {
 		}
 
 		return $type_defenses;
+	}
 
+	public static function get_national_number($id) {
+		if($id < 10) {
+			$national_number = "#00".$id;
+		}
+		elseif ($id < 100) {
+			$national_number = "#0".$id;
+		} 
+		else 
+		{
+			$national_number = "#".$id;
+		}
+
+		return $national_number;
 	}
 
 }
