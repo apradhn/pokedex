@@ -10,6 +10,8 @@
 				<input type='text' id='query' name='query' placeholder='Pokémon' class="form-control">
 				{!! Form::token() !!}
 			</div>
+
+
 			<!-- <button id='search-json'>Search and get JSON back</button><br><br> -->
 
 			<!-- Search by HTML button -->
