@@ -45,7 +45,7 @@
 }
 
 .stats > table > tbody > tr {
-	background: #bdbdbd;
+	background: #757575;
 	color: #FFFFFF;
 }
 
@@ -63,6 +63,11 @@ table > tbody > tr > th {
 
 table > tbody > tr > th.total, table > tbody > tr > td.total {
 	background: #616161;
+}
+
+.type-defenses-table {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .type-defenses div {

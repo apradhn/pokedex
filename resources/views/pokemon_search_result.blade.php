@@ -12,56 +12,53 @@
 
 			<div class="col-lg-6">
 				<div class="panel panel-default stats">
-					<canvas id="{{ $pm['id'] }}" width="300" height="300"></canvas>
 					<div style="display:none;">
-						<div id="id">{{ $pm['id'] }}</div>
-						<div id="hp">{{ $pm['hp'] }}</div>
-						<div id="attack">{{ $pm['attack'] }}</div>
-						<div id="defense">{{ $pm['defense'] }}</div>
-						<div id="sp-atk">{{ $pm['sp_atk'] }}</div>
-						<div id="sp-def">{{ $pm['sp_def'] }}</div>
-						<div id="speed">{{ $pm['speed'] }}</div>
-						<div id="total">{{ $total }}</div>
+						<div id="hp">HP: {{ $pm['hp'] }}</div>
+						<div id="attack">Attack: {{ $pm['attack'] }}</div>
+						<div id="defense">Defense: {{ $pm['defense'] }}</div>
+						<div id="sp-atk">Sp. Atk: {{ $pm['sp_atk'] }}</div>
+						<div id="sp-def">Sp. Def: {{ $pm['sp_def'] }}</div>
+						<div id="speed">Speed: {{ $pm['speed'] }}</div>
+						<div id="total">Total: {{ $total }}</div>
 					</div>
-
-					<script>
-					var id = String(document.getElementById('id').textContent);
-					console.log(id);
-					var hp = document.getElementById('hp').textContent;
-					var attack = document.getElementById('attack').textContent;
-					var defense = document.getElementById('defense').textContent;
-					var spAtk = document.getElementById('sp-atk').textContent;
-					var spDef = document.getElementById('sp-def').textContent;
-					var speed = document.getElementById('speed').textContent;
-					var total = document.getElementById('total').textContent;
-					
-					// Get the context of the canvas element we want to select
-					var ctx = document.getElementById(id).getContext("2d");
-
-					var data = {
-					    labels: ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"],
-					    datasets: [
-					        {
-						        label: "My First dataset",
-					            fillColor: "rgba(151,187,205,0.2)",
-					            strokeColor: "rgba(151,187,205,1)",
-					            pointColor: "rgba(151,187,205,1)",
-					            pointStrokeColor: "#fff",
-					            pointHighlightFill: "#fff",
-					            data: [hp, attack, defense, spAtk, spDef, speed]
-					        },			        
-					    ]
-					};
-					
-					var myRadarChart = new Chart(ctx).Radar(data);				
-					</script>	
-
+					<table class="table">
+						<tbody>
+							<tr>
+								<th>HP</th>
+								<td>{{ $pm['hp'] }}</td>
+							</tr>
+							<tr>
+								<th>Attack</th>
+								<td>{{ $pm['attack'] }}</td>
+							</tr>
+							<tr>
+								<th>Defense</th>
+								<td>{{ $pm['defense'] }}</td>
+							</tr>
+							<tr>
+								<th>Sp. Atk</th>
+								<td>{{ $pm['sp_atk'] }}</td>
+							</tr>
+							<tr>
+								<th>Sp. Def</th>
+								<td>{{ $pm['sp_def'] }}</td>
+							</tr>
+							<tr>
+								<th>Speed</th>
+								<td>{{ $pm['speed'] }}</td>
+							</tr>
+							<tr>
+								<th>Total</th>
+								<td>{{ $total }}</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
+			<div class="col-lg-10 col-lg-offset-1 type-defenses-table">
 				<div class="type-defenses">
 					<div class="Normal col-xs-2">Normal<br>{{ $type_defenses['Normal'] }}%</div>
 					<div class="Fire col-xs-2">Fire<br>{{ $type_defenses['Fire'] }}%</div>

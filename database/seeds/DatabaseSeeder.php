@@ -165,6 +165,9 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Paras', 'type_a'=>'Bug', 'type_b'=>'Grass', 'sprite_url'=>'/sprites/paras.png',
 			'hp'=>'35', 'attack'=>'70', 'defense'=>'55', 'sp_atk'=>'45', 'sp_def'=>'55', 'speed'=>'25'),
 
+			array('name'=>'Parasect', 'type_a'=>'Bug', 'type_b'=>'Grass', 'sprite_url'=>'/sprites/parasect.png',
+			'hp'=>'60', 'attack'=>'95', 'defense'=>'80', 'sp_atk'=>'60', 'sp_def'=>'80', 'speed'=>'30'),
+
 			array('name'=>'Venonat', 'type_a'=>'Bug', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/venonat.png',
 			'hp'=>'60', 'attack'=>'55', 'defense'=>'50', 'sp_atk'=>'40', 'sp_def'=>'55', 'speed'=>'45'),
 
@@ -234,7 +237,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Weepinbell', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/weepinbell.png',
 			'hp'=>'65', 'attack'=>'90', 'defense'=>'50', 'sp_atk'=>'85', 'sp_def'=>'45', 'speed'=>'55'),
 
-			array('name'=>'Victreebell', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/victreebell.png',
+			array('name'=>'Victreebel', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/victreebel.png',
 			'hp'=>'80', 'attack'=>'105', 'defense'=>'65', 'sp_atk'=>'100', 'sp_def'=>'70', 'speed'=>'70'),
 
 			array('name'=>'Tentacool', 'type_a'=>'Water', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/tentacool.png',
@@ -287,6 +290,9 @@ class PokemonTableSeeder extends Seeder {
 
 			array('name'=>'Grimer', 'type_a'=>'Poison', 'type_b'=>'', 'sprite_url'=>'/sprites/grimer.png',
 			'hp'=>'80', 'attack'=>'80', 'defense'=>'50', 'sp_atk'=>'40', 'sp_def'=>'50', 'speed'=>'25'),
+
+			array('name'=>'Muk', 'type_a'=>'Poison', 'type_b'=>'', 'sprite_url'=>'/sprites/muk.png',
+			'hp'=>'105', 'attack'=>'105', 'defense'=>'75', 'sp_atk'=>'65', 'sp_def'=>'100', 'speed'=>'50'),
 
 			array('name'=>'Shellder', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/shellder.png',
 			'hp'=>'30', 'attack'=>'65', 'defense'=>'100', 'sp_atk'=>'45', 'sp_def'=>'25', 'speed'=>'40'),
@@ -780,7 +786,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Grovyle', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/grovyle.png',
 			'hp'=>'50', 'attack'=>'65', 'defense'=>'45', 'sp_atk'=>'85', 'sp_def'=>'65', 'speed'=>'95'),
 
-			array('name'=>'Sceptile', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/grovyle.png',
+			array('name'=>'Sceptile', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/sceptile.png',
 			'hp'=>'70', 'attack'=>'85', 'defense'=>'65', 'sp_atk'=>'105', 'sp_def'=>'85', 'speed'=>'120'),
 
 			array('name'=>'Torchic', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/torchic.png',
@@ -804,7 +810,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Poochyena', 'type_a'=>'Dark', 'type_b'=>'', 'sprite_url'=>'/sprites/poochyena.png',
 			'hp'=>'35', 'attack'=>'55', 'defense'=>'35', 'sp_atk'=>'30', 'sp_def'=>'30', 'speed'=>'35'),
 
-			array('name'=>'Mightyena', 'type_a'=>'Dark', 'type_b'=>'', 'sprite_url'=>'/sprites/mightyeena.png',
+			array('name'=>'Mightyena', 'type_a'=>'Dark', 'type_b'=>'', 'sprite_url'=>'/sprites/mightyena.png',
 			'hp'=>'70', 'attack'=>'90', 'defense'=>'70', 'sp_atk'=>'60', 'sp_def'=>'60', 'speed'=>'70'),
 
 			array('name'=>'Zigzagoon', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/zigzagoon.png',
@@ -941,6 +947,9 @@ class PokemonTableSeeder extends Seeder {
 
 			array('name'=>'Meditite', 'type_a'=>'Fighting', 'type_b'=>'Psychic', 'sprite_url'=>'/sprites/meditite.png',
 			'hp'=>'30', 'attack'=>'40', 'defense'=>'55', 'sp_atk'=>'40', 'sp_def'=>'55', 'speed'=>'60'),
+
+			array('name'=>'Medicham', 'type_a'=>'Fighting', 'type_b'=>'Psychic', 'sprite_url'=>'/sprites/medicham.png',
+			'hp'=>'60', 'attack'=>'60', 'defense'=>'75', 'sp_atk'=>'60', 'sp_def'=>'75', 'speed'=>'80'),
 
 			array('name'=>'Electrike', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/electrike.png',
 			'hp'=>'40', 'attack'=>'45', 'defense'=>'40', 'sp_atk'=>'65', 'sp_def'=>'40', 'speed'=>'65'),
@@ -1175,7 +1184,7 @@ class PokemonTableSeeder extends Seeder {
 
 			array('name'=>'Deoxys', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/deoxys.png',
 			'hp'=>'50', 'attack'=>'150', 'defense'=>'50', 'sp_atk'=>'150', 'sp_def'=>'50', 'speed'=>'150'),
-			
+
 			));
 	}
 }
