@@ -17,6 +17,8 @@
 
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
+		<script src="js/Chart.js"></script>
+
 		@yield('head')
 	</head>
 
@@ -35,6 +37,7 @@
 	</div>
 
 	<div class="container-fluid content">
+
 	@yield('content')
 	</div>
 	
@@ -44,6 +47,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>	
+
     @yield('footer') 
 	</body>
 </html>

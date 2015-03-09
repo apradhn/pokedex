@@ -65,19 +65,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 	background: #616161;
 }
 
-table.type-defenses > tbody > tr > th, table.type-defenses > tbody > tr > td {
-	border-top: none;
-	padding: 15px 10px 15px 10px;
-	font-size: 16px;
-}
-
-table.type-defenses > tbody > tr {
+.type-defenses div {
+	margin-right: 5px;
 	margin-bottom: 5px;
-}
-
-table.type-defenses {
-	border-spacing: 0px 15px;
-	border-collapse: separate;
+	line-height: 1.5;
+	text-align: center;
+	padding: 2px;
 }
 
 .Normal {
@@ -85,17 +78,7 @@ table.type-defenses {
 	color: #8D6E63;
 }
 
-.Normal + td {
-	background: #EDD7B8;
-	color: #8D6E63
-}
-
 .Fire {
-	background: #ffa726;
-	color: #e65100;
-}
-
-.Fire + td {
 	background: #ffa726;
 	color: #e65100;
 }
@@ -105,17 +88,7 @@ table.type-defenses {
 	color: #0d47a1;
 }
 
-.Water + td {
-	background: #42a5f5;
-	color: #0d47a1;
-}
-
 .Electric {
-	background: #ffee58;
-	color: #f57f17;
-}
-
-.Electric + td {
 	background: #ffee58;
 	color: #f57f17;
 }
@@ -125,17 +98,7 @@ table.type-defenses {
 	color: #1b5e20;
 }
 
-.Grass + td {
-	background: #66bb6a;
-	color: #1b5e20;
-}
-
 .Ice {
-	background: #26c6da;
-	color: #006064;
-}
-
-.Ice + td {
 	background: #26c6da;
 	color: #006064;
 }
@@ -145,17 +108,7 @@ table.type-defenses {
 	color: #ffcdd2;
 }
 
-.Fighting + td {
-	background: #ef5350;
-	color: #ffcdd2;
-}
-
 .Poison {
-	background: #ab47bc;
-	color: #e1bee7;
-}
-
-.Poison + td {
 	background: #ab47bc;
 	color: #e1bee7;
 }
@@ -165,17 +118,7 @@ table.type-defenses {
 	color: #ff6f00;
 }
 
-.Ground + td {
-	background: #ffca28;
-	color: #ff6f00;
-}
-
 .Flying {
-	background: #b388ff;
-	color: #ede7f6;
-}
-
-.Flying + td {
 	background: #b388ff;
 	color: #ede7f6;
 }
@@ -185,17 +128,7 @@ table.type-defenses {
 	color: #f8bbd0;
 }
 
-.Psychic + td {
-	background: #ec407a;
-	color: #f8bbd0;
-}
-
 .Bug {
-	background: #d4e157;
-	color: #827717;
-}
-
-.Bug + td {
 	background: #d4e157;
 	color: #827717;
 }
@@ -205,17 +138,7 @@ table.type-defenses {
 	color: #d7ccc8;
 }
 
-.Rock + td {
-	background: #8d6e63;
-	color: #d7ccc8;
-}
-
 .Ghost {
-	background: #7e57c2;
-	color: #d1c4e9;
-}
-
-.Ghost + td {
 	background: #7e57c2;
 	color: #d1c4e9;
 }
@@ -225,17 +148,7 @@ table.type-defenses {
 	color: #c5cae9;
 }
 
-.Dragon + td {
-	background: #5c6bc0;
-	color: #c5cae9;
-}
-
 .Dark {
-	background: #555555;
-	color: #BABABA;
-}
-
-.Dark + td {
 	background: #555555;
 	color: #BABABA;
 }
@@ -245,18 +158,7 @@ table.type-defenses {
 	color: #cfd8dc;
 }
 
-.Steel + td {
-	background: #78909c;
-	color: #cfd8dc;
-}
-
 .Fairy {
 	background: #f48fb1;
 	color: #ad1457;
-}
-
-.Fairy + td {
-	background: #f48fb1;
-	color: #ad1457;
-	/* border-left: 2px solid #fce4ec; */
 }
