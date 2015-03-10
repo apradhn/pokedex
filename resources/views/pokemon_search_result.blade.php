@@ -1,4 +1,5 @@
 <div class="row search-results">
+	
 	<div class="panel panel-default card col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
 		<div class="row name {{ $pm['type_a'] }}">
 			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>

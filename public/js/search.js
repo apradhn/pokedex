@@ -32,6 +32,8 @@ $('#search-json').click(function() {
 
 // Demo 2) Getting HTML/A View as a result and just throwing it in to the response div
 $('#search-html').click(function() {
+	var image = "img/throbber.gif"
+	$('#loading').html("<img src="+image+" />");
     $.ajax({
         type: 'POST',
         url: '/pokemon/search',
@@ -39,6 +41,7 @@ $('#search-html').click(function() {
         	console.log(data);
         },
         success: function(response) { 
+        	$('#loading').html("").hide();
         	console.log("success-html");
             $('#results').html(response);
         },

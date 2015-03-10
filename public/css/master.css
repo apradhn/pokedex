@@ -34,3 +34,7 @@ body {
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #FFCDD2;
 }
+
+#loading {
+	margin: 25 auto;
+}

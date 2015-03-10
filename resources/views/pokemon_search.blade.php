@@ -18,7 +18,7 @@
 			<button id='search-html' class="btn btn-default">Go</button>
 
 	</div>
-	
+	<div id="loading"></div>
 	<div id='results'></div>
 @stop
 
