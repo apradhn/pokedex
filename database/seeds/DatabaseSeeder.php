@@ -1185,6 +1185,324 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Deoxys', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/deoxys.png',
 			'hp'=>'50', 'attack'=>'150', 'defense'=>'50', 'sp_atk'=>'150', 'sp_def'=>'50', 'speed'=>'150'),
 
+			array('name'=>'Turtwig', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/turtwig.png',
+			'hp'=>'55', 'attack'=>'68', 'defense'=>'64', 'sp_atk'=>'45', 'sp_def'=>'55', 'speed'=>'31'),
+
+			array('name'=>'Grotle', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/grotle.png',
+			'hp'=>'75', 'attack'=>'89', 'defense'=>'85', 'sp_atk'=>'55', 'sp_def'=>'65', 'speed'=>'36'),
+
+			array('name'=>'Torterra', 'type_a'=>'Grass', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/torterra.png',
+			'hp'=>'95', 'attack'=>'109', 'defense'=>'105', 'sp_atk'=>'75', 'sp_def'=>'85', 'speed'=>'56'),
+
+			array('name'=>'Chimchar', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/chimchar.png',
+			'hp'=>'44', 'attack'=>'58', 'defense'=>'44', 'sp_atk'=>'58', 'sp_def'=>'55', 'speed'=>'61'),
+
+			array('name'=>'Monferno', 'type_a'=>'Fire', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/monferno.png',
+			'hp'=>'64', 'attack'=>'78', 'defense'=>'52', 'sp_atk'=>'78', 'sp_def'=>'52', 'speed'=>'81'),
+
+			array('name'=>'Infernape', 'type_a'=>'Fire', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/infernape.png',
+			'hp'=>'76', 'attack'=>'104', 'defense'=>'71', 'sp_atk'=>'104', 'sp_def'=>'71', 'speed'=>'108'),
+
+			array('name'=>'Piplup', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/piplup.png',
+			'hp'=>'64', 'attack'=>'66', 'defense'=>'68', 'sp_atk'=>'81', 'sp_def'=>'76', 'speed'=>'50'),
+
+			array('name'=>'Empoleon', 'type_a'=>'Water', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/empoleon.png',
+			'hp'=>'84', 'attack'=>'86', 'defense'=>'88', 'sp_atk'=>'11', 'sp_def'=>'101', 'speed'=>'60'),
+
+			array('name'=>'Starly', 'type_a'=>'Normal', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/starly.png',
+			'hp'=>'40', 'attack'=>'55', 'defense'=>'30', 'sp_atk'=>'30', 'sp_def'=>'30', 'speed'=>'60'),
+
+			array('name'=>'Staravia', 'type_a'=>'Normal', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/staravia.png',
+			'hp'=>'55', 'attack'=>'75', 'defense'=>'50', 'sp_atk'=>'40', 'sp_def'=>'40', 'speed'=>'80'),
+
+			array('name'=>'Staraptor', 'type_a'=>'Normal', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/staraptor.png',
+			'hp'=>'85', 'attack'=>'120', 'defense'=>'70', 'sp_atk'=>'50', 'sp_def'=>'60', 'speed'=>'100'),
+
+			array('name'=>'Bidoof', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/bidoof.png',
+			'hp'=>'59', 'attack'=>'45', 'defense'=>'40', 'sp_atk'=>'35', 'sp_def'=>'40', 'speed'=>'41'),
+
+			array('name'=>'Bibarel', 'type_a'=>'Normal', 'type_b'=>'Water', 'sprite_url'=>'/sprites/bibarel.png',
+			'hp'=>'79', 'attack'=>'85', 'defense'=>'60', 'sp_atk'=>'55', 'sp_def'=>'60', 'speed'=>'71'),
+
+			array('name'=>'Kricketot', 'type_a'=>'Bug', 'type_b'=>'', 'sprite_url'=>'/sprites/kricketot.png',
+			'hp'=>'37', 'attack'=>'25', 'defense'=>'41', 'sp_atk'=>'25', 'sp_def'=>'41', 'speed'=>'25'),
+
+			array('name'=>'Kricketune', 'type_a'=>'Bug', 'type_b'=>'', 'sprite_url'=>'/sprites/kricketune.png',
+			'hp'=>'77', 'attack'=>'85', 'defense'=>'51', 'sp_atk'=>'55', 'sp_def'=>'51', 'speed'=>'65'),
+
+			array('name'=>'Shinx', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/shinx.png',
+			'hp'=>'45', 'attack'=>'65', 'defense'=>'34', 'sp_atk'=>'40', 'sp_def'=>'34', 'speed'=>'45'),
+
+			array('name'=>'Luxio', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/luxio.png',
+			'hp'=>'60', 'attack'=>'85', 'defense'=>'49', 'sp_atk'=>'60', 'sp_def'=>'49', 'speed'=>'60'),
+
+			array('name'=>'Luxray', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/luxio.png',
+			'hp'=>'60', 'attack'=>'85', 'defense'=>'49', 'sp_atk'=>'60', 'sp_def'=>'49', 'speed'=>'60'),
+
+			array('name'=>'Budew', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/budew.png',
+			'hp'=>'40', 'attack'=>'30', 'defense'=>'35', 'sp_atk'=>'50', 'sp_def'=>'70', 'speed'=>'55'),
+
+			array('name'=>'Roserade', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/roserade.png',
+			'hp'=>'60', 'attack'=>'70', 'defense'=>'65', 'sp_atk'=>'125', 'sp_def'=>'105', 'speed'=>'90'),
+
+			array('name'=>'Cranidos', 'type_a'=>'Rock', 'type_b'=>'', 'sprite_url'=>'/sprites/cranidos.png',
+			'hp'=>'67', 'attack'=>'125', 'defense'=>'40', 'sp_atk'=>'30', 'sp_def'=>'30', 'speed'=>'58'),
+
+			array('name'=>'Rampardos', 'type_a'=>'Rock', 'type_b'=>'', 'sprite_url'=>'/sprites/rampardos.png',
+			'hp'=>'97', 'attack'=>'165', 'defense'=>'60', 'sp_atk'=>'65', 'sp_def'=>'50', 'speed'=>'58'),
+
+			array('name'=>'Shieldon', 'type_a'=>'Rock', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/shieldon.png',
+			'hp'=>'30', 'attack'=>'42', 'defense'=>'118', 'sp_atk'=>'42', 'sp_def'=>'88', 'speed'=>'30'),
+
+			array('name'=>'Bastiodon', 'type_a'=>'Rock', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/bastiodon.png',
+			'hp'=>'60', 'attack'=>'52', 'defense'=>'168', 'sp_atk'=>'47', 'sp_def'=>'138', 'speed'=>'30'),
+
+			array('name'=>'Burmy', 'type_a'=>'Bug', 'type_b'=>'', 'sprite_url'=>'/sprites/burmy.png',
+			'hp'=>'60', 'attack'=>'52', 'defense'=>'168', 'sp_atk'=>'47', 'sp_def'=>'138', 'speed'=>'30'),
+
+			array('name'=>'Wormadam', 'type_a'=>'Bug', 'type_b'=>'Grass', 'sprite_url'=>'/sprites/wormadam.png',
+			'hp'=>'60', 'attack'=>'59', 'defense'=>'85', 'sp_atk'=>'79', 'sp_def'=>'105', 'speed'=>'36'),
+
+			array('name'=>'Mothim', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/mothim.png',
+			'hp'=>'70', 'attack'=>'94', 'defense'=>'50', 'sp_atk'=>'94', 'sp_def'=>'50', 'speed'=>'66'),
+
+			array('name'=>'Combee', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/combee.png',
+			'hp'=>'30', 'attack'=>'30', 'defense'=>'42', 'sp_atk'=>'30', 'sp_def'=>'42', 'speed'=>'70'),
+
+			array('name'=>'Vespiquen', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/vespiquen.png',
+			'hp'=>'70', 'attack'=>'80', 'defense'=>'102', 'sp_atk'=>'80', 'sp_def'=>'102', 'speed'=>'40'),
+
+			array('name'=>'Pachirisu', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/pachirisu.png',
+			'hp'=>'60', 'attack'=>'45', 'defense'=>'70', 'sp_atk'=>'45', 'sp_def'=>'90', 'speed'=>'95'),
+
+			array('name'=>'Buizel', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/buizel.png',
+			'hp'=>'55', 'attack'=>'65', 'defense'=>'35', 'sp_atk'=>'60', 'sp_def'=>'30', 'speed'=>'85'),
+
+			array('name'=>'Floatzel', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/floatzel.png',
+			'hp'=>'85', 'attack'=>'105', 'defense'=>'55', 'sp_atk'=>'85', 'sp_def'=>'50', 'speed'=>'115'),
+
+			array('name'=>'Cherubi', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/cherubi.png',
+			'hp'=>'45', 'attack'=>'35', 'defense'=>'45', 'sp_atk'=>'62', 'sp_def'=>'53', 'speed'=>'35'),
+
+			array('name'=>'Cherrim', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/cherrim.png',
+			'hp'=>'70', 'attack'=>'60', 'defense'=>'70', 'sp_atk'=>'87', 'sp_def'=>'78', 'speed'=>'85'),
+
+			array('name'=>'Shellos', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/shellos.png',
+			'hp'=>'50', 'attack'=>'150', 'defense'=>'50', 'sp_atk'=>'150', 'sp_def'=>'50', 'speed'=>'150'),
+
+			array('name'=>'Gastrodon', 'type_a'=>'Water', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/gastrodon.png',
+			'hp'=>'111', 'attack'=>'83', 'defense'=>'68', 'sp_atk'=>'92', 'sp_def'=>'82', 'speed'=>'39'),
+
+			array('name'=>'Ambipom', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/ambipom.png',
+			'hp'=>'75', 'attack'=>'100', 'defense'=>'66', 'sp_atk'=>'60', 'sp_def'=>'66', 'speed'=>'115'),
+
+			array('name'=>'Drifloon', 'type_a'=>'Ghost', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/drifloon.png',
+			'hp'=>'90', 'attack'=>'50', 'defense'=>'34', 'sp_atk'=>'60', 'sp_def'=>'44', 'speed'=>'70'),
+
+			array('name'=>'Drifblim', 'type_a'=>'Ghost', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/drifblim.png',
+			'hp'=>'150', 'attack'=>'80', 'defense'=>'44', 'sp_atk'=>'90', 'sp_def'=>'54', 'speed'=>'80'),
+
+			array('name'=>'Buneary', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/buneary.png',
+			'hp'=>'55', 'attack'=>'66', 'defense'=>'44', 'sp_atk'=>'44', 'sp_def'=>'56', 'speed'=>'85'),
+
+			array('name'=>'Lopunny', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/lopunny.png',
+			'hp'=>'65', 'attack'=>'76', 'defense'=>'84', 'sp_atk'=>'54', 'sp_def'=>'96', 'speed'=>'105'),
+
+			array('name'=>'Mismagius', 'type_a'=>'Ghost', 'type_b'=>'', 'sprite_url'=>'/sprites/mismagius.png',
+			'hp'=>'60', 'attack'=>'60', 'defense'=>'60', 'sp_atk'=>'105', 'sp_def'=>'105', 'speed'=>'105'),
+
+			array('name'=>'Honchkrow', 'type_a'=>'Dark', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/honckrow.png',
+			'hp'=>'100', 'attack'=>'125', 'defense'=>'52', 'sp_atk'=>'105', 'sp_def'=>'52', 'speed'=>'71'),
+
+			array('name'=>'Glameow', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/glameow.png',
+			'hp'=>'49', 'attack'=>'55', 'defense'=>'42', 'sp_atk'=>'42', 'sp_def'=>'37', 'speed'=>'85'),
+
+			array('name'=>'Purugly', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/purugly.png',
+			'hp'=>'71', 'attack'=>'82', 'defense'=>'64', 'sp_atk'=>'64', 'sp_def'=>'59', 'speed'=>'112'),
+
+			array('name'=>'Chingling', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/chingling.png',
+			'hp'=>'45', 'attack'=>'30', 'defense'=>'50', 'sp_atk'=>'65', 'sp_def'=>'50', 'speed'=>'45'),
+
+			array('name'=>'Stunky', 'type_a'=>'Poison', 'type_b'=>'Dark', 'sprite_url'=>'/sprites/stunky.png',
+			'hp'=>'62', 'attack'=>'63', 'defense'=>'47', 'sp_atk'=>'41', 'sp_def'=>'41', 'speed'=>'74'),
+
+			array('name'=>'Skuntank', 'type_a'=>'Poison', 'type_b'=>'Dark', 'sprite_url'=>'/sprites/skuntank.png',
+			'hp'=>'103', 'attack'=>'93', 'defense'=>'67', 'sp_atk'=>'71', 'sp_def'=>'61', 'speed'=>'84'),
+
+			array('name'=>'Bronzor', 'type_a'=>'Steel', 'type_b'=>'Psychic', 'sprite_url'=>'/sprites/bronzor.png',
+			'hp'=>'57', 'attack'=>'24', 'defense'=>'86', 'sp_atk'=>'24', 'sp_def'=>'86', 'speed'=>'23'),
+
+			array('name'=>'Bronzong', 'type_a'=>'Steel', 'type_b'=>'Psychic', 'sprite_url'=>'/sprites/bronzong.png',
+			'hp'=>'67', 'attack'=>'89', 'defense'=>'116', 'sp_atk'=>'79', 'sp_def'=>'116', 'speed'=>'33'),
+
+			array('name'=>'Bonsly', 'type_a'=>'Rock', 'type_b'=>'', 'sprite_url'=>'/sprites/bonsly.png',
+			'hp'=>'50', 'attack'=>'85', 'defense'=>'95', 'sp_atk'=>'10', 'sp_def'=>'45', 'speed'=>'10'),
+
+			array('name'=>'Mime Jr.', 'type_a'=>'Psychic', 'type_b'=>'Fairy', 'sprite_url'=>'/sprites/mime-jr.png',
+			'hp'=>'20', 'attack'=>'25', 'defense'=>'45', 'sp_atk'=>'70', 'sp_def'=>'90', 'speed'=>'60'),
+
+			array('name'=>'Happiny', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/happiny.png',
+			'hp'=>'100', 'attack'=>'5', 'defense'=>'5', 'sp_atk'=>'15', 'sp_def'=>'65', 'speed'=>'30'),
+
+			array('name'=>'Chatot', 'type_a'=>'Normal', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/chatot.png',
+			'hp'=>'76', 'attack'=>'65', 'defense'=>'45', 'sp_atk'=>'92', 'sp_def'=>'42', 'speed'=>'91'),
+
+			array('name'=>'Spiritomb', 'type_a'=>'Ghost', 'type_b'=>'Dark', 'sprite_url'=>'/sprites/spiritomb.png',
+			'hp'=>'50', 'attack'=>'92', 'defense'=>'108', 'sp_atk'=>'92', 'sp_def'=>'108', 'speed'=>'35'),
+
+			array('name'=>'Gible', 'type_a'=>'Dragon', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/gible.png',
+			'hp'=>'58', 'attack'=>'70', 'defense'=>'45', 'sp_atk'=>'40', 'sp_def'=>'45', 'speed'=>'42'),
+
+			array('name'=>'Gabite', 'type_a'=>'Dragon', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/gabite.png',
+			'hp'=>'68', 'attack'=>'90', 'defense'=>'65', 'sp_atk'=>'50', 'sp_def'=>'55', 'speed'=>'82'),
+
+			array('name'=>'Garchomp', 'type_a'=>'Dragon', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/garchomp.png',
+			'hp'=>'108', 'attack'=>'130', 'defense'=>'95', 'sp_atk'=>'80', 'sp_def'=>'85', 'speed'=>'102'),
+
+			array('name'=>'Munchlax', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/munchlax.png',
+			'hp'=>'135', 'attack'=>'85', 'defense'=>'40', 'sp_atk'=>'40', 'sp_def'=>'85', 'speed'=>'5'),
+
+			array('name'=>'Riolu', 'type_a'=>'Fighting', 'type_b'=>'', 'sprite_url'=>'/sprites/riolu.png',
+			'hp'=>'40', 'attack'=>'70', 'defense'=>'40', 'sp_atk'=>'35', 'sp_def'=>'40', 'speed'=>'60'),
+
+			array('name'=>'Lucario', 'type_a'=>'Fighting', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/lucario.png',
+			'hp'=>'70', 'attack'=>'110', 'defense'=>'70', 'sp_atk'=>'115', 'sp_def'=>'70', 'speed'=>'90'),
+
+			array('name'=>'Hippopotas', 'type_a'=>'Ground', 'type_b'=>'', 'sprite_url'=>'/sprites/hippopotas.png',
+			'hp'=>'68', 'attack'=>'72', 'defense'=>'78', 'sp_atk'=>'38', 'sp_def'=>'42', 'speed'=>'32'),
+
+			array('name'=>'Hippowdon', 'type_a'=>'Ground', 'type_b'=>'', 'sprite_url'=>'/sprites/hippowdon.png',
+			'hp'=>'108', 'attack'=>'112', 'defense'=>'118', 'sp_atk'=>'68', 'sp_def'=>'72', 'speed'=>'47'),
+
+			array('name'=>'Skorupi', 'type_a'=>'Poison', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/skorupi.png',
+			'hp'=>'40', 'attack'=>'50', 'defense'=>'90', 'sp_atk'=>'30', 'sp_def'=>'55', 'speed'=>'65'),
+
+			array('name'=>'Drapion', 'type_a'=>'Poison', 'type_b'=>'Dark', 'sprite_url'=>'/sprites/drapion.png',
+			'hp'=>'70', 'attack'=>'90', 'defense'=>'110', 'sp_atk'=>'60', 'sp_def'=>'75', 'speed'=>'95'),
+
+			array('name'=>'Croagunk', 'type_a'=>'Poison', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/croagunk.png',
+			'hp'=>'48', 'attack'=>'10616', 'defense'=>'40', 'sp_atk'=>'61', 'sp_def'=>'40', 'speed'=>'50'),
+
+			array('name'=>'Toxicroak', 'type_a'=>'Poison', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/toxicroak.png',
+			'hp'=>'83', 'attack'=>'106', 'defense'=>'65', 'sp_atk'=>'86', 'sp_def'=>'65', 'speed'=>'85'),
+
+			array('name'=>'Carnivine', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/carnivine.png',
+			'hp'=>'74', 'attack'=>'100', 'defense'=>'72', 'sp_atk'=>'90', 'sp_def'=>'72', 'speed'=>'46'),
+
+			array('name'=>'Finneon', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/finneon.png',
+			'hp'=>'49', 'attack'=>'49', 'defense'=>'56', 'sp_atk'=>'49', 'sp_def'=>'61', 'speed'=>'66'),
+
+			array('name'=>'Lumineon', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/lumineon.png',
+			'hp'=>'69', 'attack'=>'69', 'defense'=>'76', 'sp_atk'=>'69', 'sp_def'=>'86', 'speed'=>'91'),
+
+			array('name'=>'Mantyke', 'type_a'=>'Water', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/mantyke.png',
+			'hp'=>'45', 'attack'=>'20', 'defense'=>'50', 'sp_atk'=>'60', 'sp_def'=>'120', 'speed'=>'120'),
+
+			array('name'=>'Snover', 'type_a'=>'Grass', 'type_b'=>'Ice', 'sprite_url'=>'/sprites/snover.png',
+			'hp'=>'60', 'attack'=>'62', 'defense'=>'50', 'sp_atk'=>'62', 'sp_def'=>'60', 'speed'=>'40'),
+
+			array('name'=>'Abomasnow', 'type_a'=>'Grass', 'type_b'=>'Ice', 'sprite_url'=>'/sprites/abomasnow.png',
+			'hp'=>'90', 'attack'=>'92', 'defense'=>'75', 'sp_atk'=>'92', 'sp_def'=>'85', 'speed'=>'60'),
+
+			array('name'=>'Weavile', 'type_a'=>'Dark', 'type_b'=>'Ice', 'sprite_url'=>'/sprites/weavile.png',
+			'hp'=>'70', 'attack'=>'120', 'defense'=>'65', 'sp_atk'=>'45', 'sp_def'=>'85', 'speed'=>'125'),
+
+			array('name'=>'Magnezone', 'type_a'=>'Electric', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/magnezone.png',
+			'hp'=>'70', 'attack'=>'70', 'defense'=>'115', 'sp_atk'=>'130', 'sp_def'=>'90', 'speed'=>'60'),
+
+			array('name'=>'Lickilicky', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/lickilicky.png',
+			'hp'=>'110', 'attack'=>'85', 'defense'=>'95', 'sp_atk'=>'80', 'sp_def'=>'95', 'speed'=>'50'),
+
+			array('name'=>'Rhyperior', 'type_a'=>'Ground', 'type_b'=>'Rock', 'sprite_url'=>'/sprites/rhyperior.png',
+			'hp'=>'115', 'attack'=>'140', 'defense'=>'130', 'sp_atk'=>'55', 'sp_def'=>'55', 'speed'=>'40'),
+
+			array('name'=>'Tangrowth', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/tangrowth.png',
+			'hp'=>'100', 'attack'=>'100', 'defense'=>'125', 'sp_atk'=>'110', 'sp_def'=>'50', 'speed'=>'50'),
+
+			array('name'=>'Electivire', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/electivire.png',
+			'hp'=>'75', 'attack'=>'123', 'defense'=>'67', 'sp_atk'=>'95', 'sp_def'=>'85', 'speed'=>'95'),
+
+			array('name'=>'Magmortar', 'type_a'=>'Fire', 'type_b'=>'', 'sprite_url'=>'/sprites/magmortar.png',
+			'hp'=>'75', 'attack'=>'95', 'defense'=>'67', 'sp_atk'=>'125', 'sp_def'=>'95', 'speed'=>'83'),
+
+			array('name'=>'Togekiss', 'type_a'=>'Fairy', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/togekiss.png',
+			'hp'=>'85', 'attack'=>'50', 'defense'=>'95', 'sp_atk'=>'120', 'sp_def'=>'115', 'speed'=>'80'),
+
+			array('name'=>'Yanmega', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/yanmega.png',
+			'hp'=>'86', 'attack'=>'76', 'defense'=>'86', 'sp_atk'=>'116', 'sp_def'=>'56', 'speed'=>'95'),
+
+			array('name'=>'Leafeon', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/leafeon.png',
+			'hp'=>'65', 'attack'=>'110', 'defense'=>'130', 'sp_atk'=>'60', 'sp_def'=>'65', 'speed'=>'95'),
+
+			array('name'=>'Glaceon', 'type_a'=>'Ice', 'type_b'=>'', 'sprite_url'=>'/sprites/glaceon.png',
+			'hp'=>'65', 'attack'=>'60', 'defense'=>'110', 'sp_atk'=>'130', 'sp_def'=>'95', 'speed'=>'65'),
+
+			array('name'=>'Gliscor', 'type_a'=>'Ground', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/gliscor.png',
+			'hp'=>'75', 'attack'=>'95', 'defense'=>'125', 'sp_atk'=>'45', 'sp_def'=>'75', 'speed'=>'95'),
+
+			array('name'=>'Mamoswine', 'type_a'=>'Ice', 'type_b'=>'Ground', 'sprite_url'=>'/sprites/mamoswine.png',
+			'hp'=>'110', 'attack'=>'130', 'defense'=>'80', 'sp_atk'=>'70', 'sp_def'=>'60', 'speed'=>'80'),
+
+			array('name'=>'Porygon-Z', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/porygon-z.png',
+			'hp'=>'85', 'attack'=>'80', 'defense'=>'70', 'sp_atk'=>'135', 'sp_def'=>'75', 'speed'=>'90'),
+
+			array('name'=>'Gallade', 'type_a'=>'Psychic', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/gallade.png',
+			'hp'=>'68', 'attack'=>'125', 'defense'=>'65', 'sp_atk'=>'65', 'sp_def'=>'115', 'speed'=>'80'),
+
+			array('name'=>'Probopass', 'type_a'=>'Rock', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/probopass.png',
+			'hp'=>'60', 'attack'=>'55', 'defense'=>'145', 'sp_atk'=>'75', 'sp_def'=>'150', 'speed'=>'40'),
+
+			array('name'=>'Dusknoir', 'type_a'=>'Ghost', 'type_b'=>'', 'sprite_url'=>'/sprites/dusknoir.png',
+			'hp'=>'45', 'attack'=>'100', 'defense'=>'135', 'sp_atk'=>'65', 'sp_def'=>'135', 'speed'=>'45'),
+
+			array('name'=>'Froslass', 'type_a'=>'Ice', 'type_b'=>'Ghost', 'sprite_url'=>'/sprites/froslass.png',
+			'hp'=>'70', 'attack'=>'80', 'defense'=>'70', 'sp_atk'=>'80', 'sp_def'=>'70', 'speed'=>'110'),
+
+			array('name'=>'Rotom', 'type_a'=>'Electric', 'type_b'=>'Ghost', 'sprite_url'=>'/sprites/rotom.png',
+			'hp'=>'50', 'attack'=>'50', 'defense'=>'77', 'sp_atk'=>'95', 'sp_def'=>'77', 'speed'=>'91'),
+
+			array('name'=>'Uxie', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/uxie.png',
+			'hp'=>'75', 'attack'=>'75', 'defense'=>'130', 'sp_atk'=>'75', 'sp_def'=>'130', 'speed'=>'95'),
+
+			array('name'=>'Mesprit', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/mesprit.png',
+			'hp'=>'80', 'attack'=>'105', 'defense'=>'105', 'sp_atk'=>'105', 'sp_def'=>'105', 'speed'=>'80'),
+
+			array('name'=>'Azelf', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/azelf.png',
+			'hp'=>'75', 'attack'=>'125', 'defense'=>'70', 'sp_atk'=>'125', 'sp_def'=>'70', 'speed'=>'115'),
+
+			array('name'=>'Dialga', 'type_a'=>'Steel', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/dialga.png',
+			'hp'=>'100', 'attack'=>'120', 'defense'=>'120', 'sp_atk'=>'150', 'sp_def'=>'100', 'speed'=>'90'),
+
+			array('name'=>'Palkia', 'type_a'=>'Water', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/palkia.png',
+			'hp'=>'90', 'attack'=>'120', 'defense'=>'120', 'sp_atk'=>'150', 'sp_def'=>'120', 'speed'=>'100'),
+
+			array('name'=>'Heatran', 'type_a'=>'Fire', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/heatran.png',
+			'hp'=>'91', 'attack'=>'90', 'defense'=>'106', 'sp_atk'=>'130', 'sp_def'=>'106', 'speed'=>'77'),
+
+			array('name'=>'Regigigas', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/regigigas.png',
+			'hp'=>'110', 'attack'=>'160', 'defense'=>'110', 'sp_atk'=>'80', 'sp_def'=>'110', 'speed'=>'100'),
+
+			array('name'=>'Giratina', 'type_a'=>'Ghost', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/giratina.png',
+			'hp'=>'150', 'attack'=>'120', 'defense'=>'100', 'sp_atk'=>'120', 'sp_def'=>'100', 'speed'=>'90'),
+
+			array('name'=>'Cresselia', 'type_a'=>'Psychic', 'type_b'=>'', 'sprite_url'=>'/sprites/cresselia.png',
+			'hp'=>'120', 'attack'=>'70', 'defense'=>'120', 'sp_atk'=>'75', 'sp_def'=>'130', 'speed'=>'85'),
+
+			array('name'=>'Phione', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/phione.png',
+			'hp'=>'80', 'attack'=>'80', 'defense'=>'80', 'sp_atk'=>'80', 'sp_def'=>'80', 'speed'=>'80'),
+
+			array('name'=>'Manaphy', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/manaphy.png',
+			'hp'=>'100', 'attack'=>'100', 'defense'=>'100', 'sp_atk'=>'100', 'sp_def'=>'100', 'speed'=>'100'),
+
+			array('name'=>'Darkrai', 'type_a'=>'Dark', 'type_b'=>'', 'sprite_url'=>'/sprites/darkrai.png',
+			'hp'=>'70', 'attack'=>'90', 'defense'=>'90', 'sp_atk'=>'135', 'sp_def'=>'90', 'speed'=>'125'),
+
+			array('name'=>'Shaymin', 'type_a'=>'Grass', 'type_b'=>'', 'sprite_url'=>'/sprites/shaymin.png',
+			'hp'=>'100', 'attack'=>'100', 'defense'=>'100', 'sp_atk'=>'100', 'sp_def'=>'100', 'speed'=>'100'),
+
+			array('name'=>'Arceus', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/arceus.png',
+			'hp'=>'120', 'attack'=>'120', 'defense'=>'50', 'sp_atk'=>'120', 'sp_def'=>'120', 'speed'=>'120'),
+
 			));
 	}
 }
