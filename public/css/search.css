@@ -1,169 +1,348 @@
 .row.search-results {
-	margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .card {
-	margin-top: 10px;
-}
+  margin-top: 10px; }
 
 .panel-default {
-	border: none;
-}
+  border: none; }
 
 .panel {
-	border-radius: 0px;
-	background: #eeeeee;
-	box-shadow: none;
-}
+  border-radius: 0px;
+  background: #eeeeee;
+  box-shadow: none; }
 
 .national-number {
-	text-align: center;
-	font-size: 16px;
-}
+  text-align: center;
+  font-size: 16px;
+  color: #555555; }
 
 .type {
-	text-align: center;
-	font-size: 16px;
-}
+  text-align: center;
+  font-size: 16px; }
 
 .pokemon-name {
-	text-align: center;
-}
+  text-align: center; }
 
 .sprite {
-	display: block;
-	margin: 0 auto;
-}
+  display: block;
+  margin: 0 auto; }
 
 .stats {
-	margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .stats > table {
-	border-spacing: 0px 5px;
-	border-collapse: separate;
-}
+  border-spacing: 0px 5px;
+  border-collapse: separate; }
 
-.stats > table > tbody > tr {
-	background: #757575;
-	color: #FFFFFF;
-}
+.stats > table > tbody > tr > th, .stats > table > tbody > tr > td {
+  border-top: none; }
+
+.panel.stats > .table:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.panel.stats > .table:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px; }
 
 table.type-defenses {
-	width: 100%;
-}
+  width: 100%; }
 
 table > thead > tr > th {
-	font-weight: normal;
-}
+  font-weight: normal; }
 
 table > tbody > tr > th {
-	font-weight: normal;
-}
+  font-weight: normal; }
 
 table > tbody > tr > th.total, table > tbody > tr > td.total {
-	background: #616161;
-}
+  background: #616161; }
 
 .type-defenses-table {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .type-defenses div {
-	margin-right: 5px;
-	margin-bottom: 5px;
-	line-height: 1.5;
-	text-align: center;
-	padding: 2px;
-}
+  margin-right: 5px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 2px; }
 
+.row.td-heading p {
+  text-align: center;
+  background: transparent;
+  font-size: 16px;
+  color: #555555; }
+
+/* Type Colors */
 .Normal {
-	background: #EDD7B8;
-	color: #8D6E63;
-}
+  background: #EDD7B8;
+  color: #8D6E63; }
+
+.stats > table > tbody > tr.Normal.total {
+  background: #d39e52;
+  color: #FFFFFF; }
+
+.type > .Normal {
+  background: transparent;
+  color: #d39e52; }
+
+.row.section.Normal, .stats > table.Normal {
+  background: #FCF6E4; }
 
 .Fire {
-	background: #ffa726;
-	color: #e65100;
-}
+  background: #ffa726;
+  color: #e65100; }
+
+.stats > table > tbody > tr.Fire.total {
+  background: #a56200;
+  color: #FFFFFF; }
+
+.type > .Fire {
+  background: transparent;
+  color: #E65100; }
+
+.row.section.Fire, .stats > table.Fire {
+  background: #ffdba5; }
 
 .Water {
-	background: #42a5f5;
-	color: #0d47a1;
-}
+  background: #42a5f5;
+  color: #0d47a1; }
+
+.type > .Water {
+  background: transparent;
+  color: #0965ae; }
+
+.stats > table > tbody > tr.Water.total {
+  background: #0965ae;
+  color: #FFFFFF; }
+
+.row.section.Water, .stats > table.Water {
+  background: #bbdffb; }
 
 .Electric {
-	background: #ffee58;
-	color: #f57f17;
-}
+  background: #ffee58;
+  color: #f57f17; }
+
+.stats > table > tbody > tr.Electric.total {
+  background: #d8c200;
+  color: #FFFFFF; }
+
+.type > .Electric {
+  background: transparent;
+  color: #d8c200; }
+
+.row.section.Electric, .stats > table.Electric {
+  background: #fffbd8; }
 
 .Grass {
-	background: #66bb6a;
-	color: #1b5e20;
-}
+  background: #66bb6a;
+  color: #1b5e20; }
+
+.stats > table > tbody > tr.Grass.total {
+  background: #327035;
+  color: #FFFFFF; }
+
+.type > .Grass {
+  background: transparent;
+  color: #327035; }
+
+.row.section.Grass, .stats > table.Grass {
+  background: #bee2c0; }
 
 .Ice {
-	background: #26c6da;
-	color: #006064;
-}
+  background: #26c6da;
+  color: #006064; }
+
+.stats > table > tbody > tr.Ice.total {
+  background: #13646e;
+  color: #FFFFFF; }
+
+.type > .Ice {
+  background: transparent;
+  color: #13646e; }
+
+.row.section.Ice, .stats > table.Ice {
+  background: #93e3ed; }
 
 .Fighting {
-	background: #ef5350;
-	color: #ffcdd2;
-}
+  background: #ef5350;
+  color: #ffcdd2; }
+
+.stats > table > tbody > tr.Fighting.total {
+  background: #af1310;
+  color: #FFFFFF; }
+
+.type > .Fighting {
+  background: transparent;
+  color: #af1310; }
+
+.row.section.Fighting, .stats > table.Fighting {
+  background: #fac6c5; }
 
 .Poison {
-	background: #ab47bc;
-	color: #e1bee7;
-}
+  background: #ab47bc;
+  color: #e1bee7; }
+
+.stats > table > tbody > tr.Poison.total {
+  background: #572360;
+  color: #FFFFFF; }
+
+.type > .Poison {
+  background: transparent;
+  color: #ab47bc; }
+
+.row.section.Poison, .stats > table.Poison {
+  background: #d6a4de; }
 
 .Ground {
-	background: #ffca28;
-	color: #ff6f00;
-}
+  background: #ffca28;
+  color: #ff6f00; }
+
+.stats > table > tbody > tr.Ground.total {
+  background: #a77e00;
+  color: #FFFFFF; }
+
+.type > .Ground {
+  background: transparent;
+  color: #ffca28; }
+
+.row.section.Ground, .stats > table.Ground {
+  background: #ffe9a8; }
 
 .Flying {
-	background: #b388ff;
-	color: #ede7f6;
-}
+  background: #b388ff;
+  color: #ede7f6; }
+
+.stats > table > tbody > tr.Flying.total {
+  background: #6209ff;
+  color: #FFFFFF; }
+
+.type > .Flying {
+  background: transparent;
+  color: #b388ff; }
+
+.row.section.Flying, .stats > table.Flying {
+  background: white; }
 
 .Psychic {
-	background: #ec407a;
-	color: #f8bbd0;
-}
+  background: #ec407a;
+  color: #f8bbd0; }
+
+.stats > table > tbody > tr.Psychic.total {
+  background: #9d103f;
+  color: #FFFFFF; }
+
+.type > .Psychic {
+  background: transparent;
+  color: #ec407a; }
+
+.row.section.Psychic, .stats > table.Psychic {
+  background: #f8b4cb; }
 
 .Bug {
-	background: #d4e157;
-	color: #827717;
-}
+  background: #d4e157;
+  color: #827717; }
+
+.stats > table > tbody > tr.Bug.total {
+  background: #909d1c;
+  color: #FFFFFF; }
+
+.type > .Psychic {
+  background: transparent;
+  color: #ec407a; }
+
+.row.section.Psychic, .stats > table.Psychic {
+  background: #f8b4cb; }
 
 .Rock {
-	background: #8d6e63;
-	color: #d7ccc8;
-}
+  background: #8d6e63;
+  color: #d7ccc8; }
+
+.stats > table > tbody > tr.Rock.total {
+  background: #42342e;
+  color: #FFFFFF; }
+
+.type > .Rock {
+  background: transparent;
+  color: #8d6e63; }
+
+.row.section.Rock, .stats > table.Rock {
+  background: #c4b2ab; }
 
 .Ghost {
-	background: #7e57c2;
-	color: #d1c4e9;
-}
+  background: #7e57c2;
+  color: #d1c4e9; }
+
+.stats > table > tbody > tr.Ghost.total {
+  background: #432971;
+  color: #FFFFFF; }
+
+.type > .Ghost {
+  background: transparent;
+  color: #7e57c2; }
+
+.row.section.Ghost, .stats > table.Ghost {
+  background: #c6b5e4; }
 
 .Dragon {
-	background: #5c6bc0;
-	color: #c5cae9;
-}
+  background: #5c6bc0;
+  color: #c5cae9; }
+
+.stats > table > tbody > tr.Dragon.total {
+  background: #2c3671;
+  color: #FFFFFF; }
+
+.type > .Dragon {
+  background: transparent;
+  color: #7e57c2; }
+
+.row.section.Dragon, .stats > table.Dragon {
+  background: #c6b5e4; }
 
 .Dark {
-	background: #555555;
-	color: #BABABA;
-}
+  background: #555555;
+  color: #BABABA; }
+
+.stats > table > tbody > tr.Dark.total {
+  background: #151515;
+  color: #FFFFFF; }
+
+.type > .Dark {
+  background: transparent;
+  color: #555555; }
+
+.row.section.Dark, .stats > table.Dark {
+  background: #959595; }
 
 .Steel {
-	background: #78909c;
-	color: #cfd8dc;
-}
+  background: #78909c;
+  color: #cfd8dc; }
+
+.stats > table > tbody > tr.Steel.total {
+  background: #3f4e56;
+  color: #FFFFFF; }
+
+.type > .Steel {
+  background: transparent;
+  color: #78909c; }
+
+.row.section.Steel, .stats > table.Steel {
+  background: #c2ccd2; }
 
 .Fairy {
-	background: #f48fb1;
-	color: #ad1457;
-}
+  background: #f48fb1;
+  color: #ad1457; }
+
+.stats > table > tbody > tr.Fairy.total {
+  background: #e91b60;
+  color: #FFFFFF; }
+
+.type > .Fairy {
+  background: transparent;
+  color: #e91b60; }
+
+.row.section.Fairy, .stats > table.Fairy {
+  background: #f8bbd0; }
+
+/*# sourceMappingURL=search.css.map */

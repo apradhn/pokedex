@@ -1,0 +1,99 @@
+.row.search-results {
+	margin-top: 20px;
+}
+
+.card {
+	margin-top: 10px;
+}
+
+.panel-default {
+	border: none;
+}
+
+.panel {
+	border-radius: 0px;
+	background: #eeeeee;
+	box-shadow: none;
+}
+
+.national-number {
+	text-align: center;
+	font-size: 16px;
+	color: #555555;
+}
+
+.type {
+	text-align: center;
+	font-size: 16px;
+}
+
+.pokemon-name {
+	text-align: center;
+}
+
+.sprite {
+	display: block;
+	margin: 0 auto;
+}
+
+.stats {
+	margin-top: 15px;
+}
+
+.stats > table {
+	border-spacing: 0px 5px;
+	border-collapse: separate;
+}
+
+.stats > table > tbody > tr > th, .stats > table > tbody > tr > td {
+	border-top: none;
+}
+
+
+.panel.stats > .table:last-child {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.panel.stats > .table:first-child {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+table.type-defenses {
+	width: 100%;
+}
+
+table > thead > tr > th {
+	font-weight: normal;
+}
+
+table > tbody > tr > th {
+	font-weight: normal;
+}
+
+table > tbody > tr > th.total, table > tbody > tr > td.total {
+	background: #616161;
+}
+
+.type-defenses-table {
+	margin-bottom: 20px;
+}
+
+.type-defenses div {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	line-height: 1.5;
+	text-align: center;
+	padding: 2px;
+}
+
+.row.td-heading p {
+	text-align: center;
+	background: transparent;
+	font-size: 16px;
+	color: #555555;
+
+}
+
+@import 'type-colors';

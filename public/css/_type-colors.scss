@@ -1,0 +1,361 @@
+/* Type Colors */ 
+$normal: #EDD7B8;
+$fire: #ffa726;
+$water: #42a5f5;
+$electric: #ffee58;
+$grass: #66bb6a;
+$ice: #26c6da;
+$fighting: #ef5350;
+$poison: #ab47bc;
+$ground: #ffca28;
+$flying: #b388ff;
+$psychic: #ec407a;
+$bug: #d4e157;
+$rock: #8d6e63;
+$ghost: #7e57c2;
+$dragon: #5c6bc0;
+$dark: #555555;
+$steel: #78909c;
+$fairy: #f48fb1;
+
+.Normal {
+	background: $normal;
+	color: #8D6E63;
+}
+
+.stats > table > tbody > tr.Normal.total {
+	background: darken($normal, 25);
+	color: #FFFFFF;
+}
+
+.type > .Normal {
+	background: transparent;
+	color: darken($normal, 25);
+}
+
+.row.section.Normal, .stats > table.Normal {
+	background: #FCF6E4;
+}
+
+.Fire {
+	background: $fire;
+	color: #e65100;
+}
+
+.stats > table > tbody > tr.Fire.total {
+	background: darken($fire, 25);
+	color: #FFFFFF;
+}
+
+.type > .Fire {
+	background: transparent;
+	color: #E65100;
+}
+
+.row.section.Fire, .stats > table.Fire {
+	background: lighten($fire, 25);
+}
+
+.Water {
+	background: $water;
+	color: #0d47a1;
+}
+
+.type > .Water {
+	background: transparent;
+	color: darken($water, 25);
+}
+
+.stats > table > tbody > tr.Water.total {
+	background: darken($water, 25);
+	color: #FFFFFF;
+}
+
+.row.section.Water, .stats > table.Water {
+	background: lighten($water, 25);
+}
+
+.Electric {
+	background: #ffee58;
+	color: #f57f17;
+}
+
+.stats > table > tbody > tr.Electric.total {
+	background: darken($electric, 25);
+	color: #FFFFFF;
+}
+
+.type > .Electric {
+	background: transparent;
+	color: darken($electric, 25);
+}
+
+.row.section.Electric, .stats > table.Electric {
+	background: lighten($electric, 25);
+}
+
+.Grass {
+	background: $grass;
+	color: #1b5e20;
+}
+
+.stats > table > tbody > tr.Grass.total {
+	background: darken($grass, 25);
+	color: #FFFFFF;
+}
+
+.type > .Grass {
+	background: transparent;
+	color: darken($grass, 25);
+}
+
+.row.section.Grass, .stats > table.Grass {
+	background: lighten($grass, 25);
+}
+
+.Ice {
+	background: $ice;
+	color: #006064;
+}
+
+.stats > table > tbody > tr.Ice.total {
+	background: darken($ice, 25);
+	color: #FFFFFF;
+}
+
+.type > .Ice {
+	background: transparent;
+	color: darken($ice, 25);
+}
+.row.section.Ice, .stats > table.Ice {
+	background: lighten($ice, 25);
+}
+
+.Fighting {
+	background: $fighting;
+	color: #ffcdd2;
+}
+
+.stats > table > tbody > tr.Fighting.total {
+	background: darken($fighting, 25);
+	color: #FFFFFF;
+}
+
+.type > .Fighting {
+	background: transparent;
+	color: darken($fighting, 25);
+}
+
+.row.section.Fighting, .stats > table.Fighting {
+	background: lighten($fighting, 25);
+}
+
+.Poison {
+	background: $poison;
+	color: #e1bee7;
+}
+
+.stats > table > tbody > tr.Poison.total {
+	background: darken($poison, 25);
+	color: #FFFFFF;
+}
+
+.type > .Poison {
+	background: transparent;
+	color: $poison;
+}
+
+.row.section.Poison, .stats > table.Poison {
+	background: lighten($poison, 25);
+}
+
+.Ground {
+	background: $ground;
+	color: #ff6f00;
+}
+
+.stats > table > tbody > tr.Ground.total {
+	background: darken($ground, 25);
+	color: #FFFFFF;
+}
+
+.type > .Ground {
+	background: transparent;
+	color: $ground;
+}
+
+.row.section.Ground, .stats > table.Ground {
+	background: lighten($ground, 25);
+}
+
+.Flying {
+	background: $flying;
+	color: #ede7f6;
+}
+
+.stats > table > tbody > tr.Flying.total {
+	background: darken($flying, 25);
+	color: #FFFFFF;
+}
+
+.type > .Flying {
+	background: transparent;
+	color: $flying;
+}
+
+.row.section.Flying, .stats > table.Flying {
+	background: lighten($flying, 25);
+}
+
+.Psychic {
+	background: $psychic;
+	color: #f8bbd0;
+}
+
+
+.stats > table > tbody > tr.Psychic.total {
+	background: darken($psychic, 25);
+	color: #FFFFFF;
+}
+
+.type > .Psychic {
+	background: transparent;
+	color: $psychic;
+}
+
+.row.section.Psychic, .stats > table.Psychic {
+	background: lighten($psychic, 25);
+}
+
+.Bug {
+	background: $bug;
+	color: #827717;
+}
+
+.stats > table > tbody > tr.Bug.total {
+	background: darken($bug, 25);
+	color: #FFFFFF;
+}
+
+.type > .Psychic {
+	background: transparent;
+	color: $psychic;
+}
+
+.row.section.Psychic, .stats > table.Psychic {
+	background: lighten($psychic, 25);
+}
+
+.Rock {
+	background: $rock;
+	color: #d7ccc8;
+}
+
+.stats > table > tbody > tr.Rock.total {
+	background: darken($rock, 25);
+	color: #FFFFFF;
+}
+
+.type > .Rock {
+	background: transparent;
+	color: $rock;
+}
+
+.row.section.Rock, .stats > table.Rock {
+	background: lighten($rock, 25);
+}
+
+.Ghost {
+	background: $ghost;
+	color: #d1c4e9;
+}
+
+.stats > table > tbody > tr.Ghost.total {
+	background: darken($ghost, 25);
+	color: #FFFFFF;
+}
+
+.type > .Ghost {
+	background: transparent;
+	color: $ghost;
+}
+
+.row.section.Ghost, .stats > table.Ghost {
+	background: lighten($ghost, 25);
+}
+
+.Dragon {
+	background: $dragon;
+	color: #c5cae9;
+}
+
+.stats > table > tbody > tr.Dragon.total {
+	background: darken($dragon, 25);
+	color: #FFFFFF;
+}
+
+.type > .Dragon {
+	background: transparent;
+	color: $ghost;
+}
+
+.row.section.Dragon, .stats > table.Dragon {
+	background: lighten($ghost, 25);
+}
+
+.Dark {
+	background: $dark;
+	color: #BABABA;
+}
+
+.stats > table > tbody > tr.Dark.total {
+	background: darken($dark, 25);
+	color: #FFFFFF;
+}
+
+.type > .Dark {
+	background: transparent;
+	color: $dark;
+}
+
+.row.section.Dark, .stats > table.Dark {
+	background: lighten($dark, 25);
+}
+
+.Steel {
+	background: $steel;
+	color: #cfd8dc;
+}
+
+.stats > table > tbody > tr.Steel.total {
+	background: darken($steel, 25);
+	color: #FFFFFF;
+}
+
+.type > .Steel {
+	background: transparent;
+	color: $steel;
+}
+
+.row.section.Steel, .stats > table.Steel {
+	background: lighten($steel, 25);
+}
+
+.Fairy {
+	background: $fairy;
+	color: #ad1457;
+}
+
+.stats > table > tbody > tr.Fairy.total {
+	background: darken($fairy, 25);
+	color: #FFFFFF;
+}
+
+.type > .Fairy {
+	background: transparent;
+	color: darken($fairy, 25);
+}
+
+.row.section.Fairy, .stats > table.Fairy {
+	background: #f8bbd0;
+}

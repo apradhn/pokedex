@@ -1,54 +1,45 @@
 <div class="row search-results">
-	
+
 	<div class="panel panel-default card col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
 		<div class="row name {{ $pm['type_a'] }}">
 			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>
 		</div>
-		<div class="row">
+		<div class="row section {{ $pm['type_a'] }}">
 			<div class="col-lg-6">
 				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}" height="200">
 				<div class="national-number">{{ $national_number }}</div>
-				<div class="type">{{ $pm['type_a'] }}<br>{{ $pm ['type_b'] }}</div>
+				<div class="type"><span class="{{ $pm['type_a'] }}">{{ $pm['type_a'] }}</span><br><span class="{{ $pm['type_b'] }}">{{ $pm ['type_b'] }}</span></div>
 			</div>
 
 			<div class="col-lg-6">
 				<div class="panel panel-default stats">
-					<div style="display:none;">
-						<div id="hp">HP: {{ $pm['hp'] }}</div>
-						<div id="attack">Attack: {{ $pm['attack'] }}</div>
-						<div id="defense">Defense: {{ $pm['defense'] }}</div>
-						<div id="sp-atk">Sp. Atk: {{ $pm['sp_atk'] }}</div>
-						<div id="sp-def">Sp. Def: {{ $pm['sp_def'] }}</div>
-						<div id="speed">Speed: {{ $pm['speed'] }}</div>
-						<div id="total">Total: {{ $total }}</div>
-					</div>
-					<table class="table">
+					<table class="table {{ $pm['type_a'] }}">
 						<tbody>
-							<tr>
+							<tr class="{{ $pm['type_a'] }}">
 								<th>HP</th>
 								<td>{{ $pm['hp'] }}</td>
 							</tr>
-							<tr>
+							<tr class="{{ $pm['type_a'] }}">
 								<th>Attack</th>
 								<td>{{ $pm['attack'] }}</td>
 							</tr>
-							<tr>
+							<tr class="{{ $pm['type_a'] }}">
 								<th>Defense</th>
 								<td>{{ $pm['defense'] }}</td>
 							</tr>
-							<tr>
+								<tr class="{{ $pm['type_a'] }}">
 								<th>Sp. Atk</th>
 								<td>{{ $pm['sp_atk'] }}</td>
 							</tr>
-							<tr>
+							<tr class="{{ $pm['type_a'] }}">
 								<th>Sp. Def</th>
 								<td>{{ $pm['sp_def'] }}</td>
 							</tr>
-							<tr>
+							<tr class="{{ $pm['type_a'] }}">
 								<th>Speed</th>
 								<td>{{ $pm['speed'] }}</td>
 							</tr>
-							<tr>
+							<tr class="{{ $pm['type_a'] }} total">
 								<th>Total</th>
 								<td>{{ $total }}</td>
 							</tr>
@@ -57,9 +48,11 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1 type-defenses-table">
+		<div class="row section {{ $pm['type_a'] }} td-heading">
+			<p>Type Defenses</p>
+		</div>
+		<div class="row section {{ $pm['type_a'] }}">
+			<div class="col-lg-8 col-lg-offset-2 type-defenses-table">
 				<div class="type-defenses">
 					<div class="Normal col-xs-2">Normal<br>{{ $type_defenses['Normal'] }}%</div>
 					<div class="Fire col-xs-2">Fire<br>{{ $type_defenses['Fire'] }}%</div>
