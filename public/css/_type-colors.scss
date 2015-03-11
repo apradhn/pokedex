@@ -237,13 +237,13 @@ $fairy: #f48fb1;
 	color: #FFFFFF;
 }
 
-.type > .Psychic {
+.type > .Bug {
 	background: transparent;
-	color: $psychic;
+	color: darken($bug, 25);
 }
 
-.row.section.Psychic, .stats > table.Psychic {
-	background: lighten($psychic, 25);
+.row.section.Bug, .stats > table.Bug {
+	background: lighten($bug, 25);
 }
 
 .Rock {

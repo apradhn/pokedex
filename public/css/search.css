@@ -248,12 +248,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #909d1c;
   color: #FFFFFF; }
 
-.type > .Psychic {
+.type > .Bug {
   background: transparent;
-  color: #ec407a; }
+  color: #909d1c; }
 
-.row.section.Psychic, .stats > table.Psychic {
-  background: #f8b4cb; }
+.row.section.Bug, .stats > table.Bug {
+  background: #f0f4c3; }
 
 .Rock {
   background: #8d6e63;
