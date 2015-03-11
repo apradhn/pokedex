@@ -1311,7 +1311,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Mismagius', 'type_a'=>'Ghost', 'type_b'=>'', 'sprite_url'=>'/sprites/mismagius.png',
 			'hp'=>'60', 'attack'=>'60', 'defense'=>'60', 'sp_atk'=>'105', 'sp_def'=>'105', 'speed'=>'105'),
 
-			array('name'=>'Honchkrow', 'type_a'=>'Dark', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/honckrow.png',
+			array('name'=>'Honchkrow', 'type_a'=>'Dark', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/honchkrow.png',
 			'hp'=>'100', 'attack'=>'125', 'defense'=>'52', 'sp_atk'=>'105', 'sp_def'=>'52', 'speed'=>'71'),
 
 			array('name'=>'Glameow', 'type_a'=>'Normal', 'type_b'=>'', 'sprite_url'=>'/sprites/glameow.png',
