@@ -35,6 +35,12 @@ body {
 	color: #FFCDD2;
 }
 
-#loading {
-	margin: 25 auto;
+.loading-row div {
+	margin-bottom: 0px;
+}
+
+.loading img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 50px;
 }

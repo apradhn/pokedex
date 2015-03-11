@@ -18,7 +18,9 @@
 			<button id='search-html' class="btn btn-default">Go</button>
 
 	</div>
-	<div id="loading"></div>
+	<div class="row loading-row">
+		<div class="loading col-xs-2 col-xs-10"></div>
+	</div>
 	<div id='results'></div>
 @stop
 
