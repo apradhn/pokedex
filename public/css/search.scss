@@ -12,11 +12,15 @@
 	box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.24), 0px 17px 50px 0px rgba(0, 0, 0, 0.19);
 }
 
+.panel.panel-default.stats {
+	box-shadow: none;
+}
+
 .national-number {
 	text-align: center;
 	font-size: 16px;
 	color: #555555;
-	width: 75%;
+	width: 95%;
 	margin: 0 auto;
 	border-top: 1px solid #555555;
 	padding-top: 10px;
@@ -28,7 +32,10 @@
 }
 
 .pokemon-name {
-	text-align: center;
+	text-align: left;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	width: 95%;
 }
 
 .sprite {
@@ -44,6 +51,7 @@
 .stats > table {
 	border-spacing: 0px 5px;
 	border-collapse: separate;
+	background: #eeeeee;
 }
 
 .stats > table > tbody > tr > th, .stats > table > tbody > tr > td {
@@ -86,11 +94,13 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 	margin-bottom: 15px;
 }
 
-.row.td-heading div {
+.td-heading {
 	background: transparent;
-	font-size: 18px;
 	color: #555555;
+	margin-left: 20px;
 	margin-bottom: 10px;
+	width: 95%;
+	border-bottom: 1px solid black;
 
 }
 

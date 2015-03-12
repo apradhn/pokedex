@@ -9,11 +9,14 @@
   background: #eeeeee;
   box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.24), 0px 17px 50px 0px rgba(0, 0, 0, 0.19); }
 
+.panel.panel-default.stats {
+  box-shadow: none; }
+
 .national-number {
   text-align: center;
   font-size: 16px;
   color: #555555;
-  width: 75%;
+  width: 95%;
   margin: 0 auto;
   border-top: 1px solid #555555;
   padding-top: 10px; }
@@ -23,7 +26,10 @@
   font-size: 16px; }
 
 .pokemon-name {
-  text-align: center; }
+  text-align: left;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  width: 95%; }
 
 .sprite {
   display: block;
@@ -35,7 +41,8 @@
 
 .stats > table {
   border-spacing: 0px 5px;
-  border-collapse: separate; }
+  border-collapse: separate;
+  background: #eeeeee; }
 
 .stats > table > tbody > tr > th, .stats > table > tbody > tr > td {
   border-top: none; }
@@ -68,22 +75,25 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .type-defenses div:last-child {
   margin-bottom: 15px; }
 
-.row.td-heading div {
+.td-heading {
   background: transparent;
-  font-size: 18px;
   color: #555555;
-  margin-bottom: 10px; }
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 95%;
+  border-bottom: 1px solid black; }
 
 /* Type Colors */
 .Normal {
   background: #EDD7B8;
   color: #8D6E63; }
 
-tr.Normal {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Normal {
+  color: #d39e52;
+  background: transparent; }
 
-tr.Normal.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Normal .pokemon-name {
+  border-bottom: 2px solid #d39e52; }
 
 .stats > table > tbody > tr.Normal.total {
   background: #d39e52;
@@ -93,18 +103,16 @@ tr.Normal.total {
   background: transparent;
   color: #d39e52; }
 
-.row.section.Normal, .stats > table.Normal {
-  background: #FCF6E4; }
-
 .Fire {
   background: #ffa726;
   color: #e65100; }
 
-tr.Fire {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Fire {
+  color: #a56200;
+  background: transparent; }
 
-tr.Fire.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Fire .pokemon-name {
+  border-bottom: 2px solid #a56200; }
 
 .stats > table > tbody > tr.Fire.total {
   background: #a56200;
@@ -114,18 +122,16 @@ tr.Fire.total {
   background: transparent;
   color: #E65100; }
 
-.row.section.Fire, .stats > table.Fire {
-  background: #ffdba5; }
-
 .Water {
   background: #42a5f5;
   color: #0d47a1; }
 
-tr.Water {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Water {
+  color: #0965ae;
+  background: transparent; }
 
-tr.Water.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Water .pokemon-name {
+  border-bottom: 2px solid #0965ae; }
 
 .type > .Water {
   background: transparent;
@@ -135,18 +141,16 @@ tr.Water.total {
   background: #0965ae;
   color: #FFFFFF; }
 
-.row.section.Water, .stats > table.Water {
-  background: #bbdffb; }
-
 .Electric {
   background: #ffee58;
   color: #f57f17; }
 
-tr.Electric {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Electric {
+  color: #d8c200;
+  background: transparent; }
 
-tr.Electric.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Electric .pokemon-name {
+  border-bottom: 2px solid #d8c200; }
 
 .stats > table > tbody > tr.Electric.total {
   background: #d8c200;
@@ -156,18 +160,16 @@ tr.Electric.total {
   background: transparent;
   color: #d8c200; }
 
-.row.section.Electric, .stats > table.Electric {
-  background: #fffbd8; }
-
 .Grass {
   background: #66bb6a;
   color: #1b5e20; }
 
-tr.Grass {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Grass {
+  color: #327035;
+  background: transparent; }
 
-tr.Grass.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Grass .pokemon-name {
+  border-bottom: 2px solid #327035; }
 
 .stats > table > tbody > tr.Grass.total {
   background: #327035;
@@ -175,20 +177,21 @@ tr.Grass.total {
 
 .type > .Grass {
   background: transparent;
-  color: #327035; }
+  color: #66bb6a; }
 
-.row.section.Grass, .stats > table.Grass {
+.row.section.Grass {
   background: #bee2c0; }
 
 .Ice {
   background: #26c6da;
   color: #006064; }
 
-tr.Ice {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Ice {
+  color: #13646e;
+  background: transparent; }
 
-tr.Ice.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Ice .pokemon-name {
+  border-bottom: 2px solid #13646e; }
 
 .stats > table > tbody > tr.Ice.total {
   background: #13646e;
@@ -198,18 +201,16 @@ tr.Ice.total {
   background: transparent;
   color: #13646e; }
 
-.row.section.Ice, .stats > table.Ice {
-  background: #93e3ed; }
-
 .Fighting {
   background: #ef5350;
   color: #ffcdd2; }
 
-tr.Fighting {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Fighting {
+  color: #ef5350;
+  background: transparent; }
 
-tr.Fighting.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Fighting .pokemon-name {
+  border-bottom: 2px solid #ef5350; }
 
 .stats > table > tbody > tr.Fighting.total {
   background: #af1310;
@@ -217,20 +218,18 @@ tr.Fighting.total {
 
 .type > .Fighting {
   background: transparent;
-  color: #af1310; }
-
-.row.section.Fighting, .stats > table.Fighting {
-  background: #fac6c5; }
+  color: #ef5350; }
 
 .Poison {
   background: #ab47bc;
   color: #e1bee7; }
 
-tr.Poison {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Poison {
+  color: #ab47bc;
+  background: transparent; }
 
-tr.Poison.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Poison .pokemon-name {
+  border-bottom: 2px solid #ab47bc; }
 
 .stats > table > tbody > tr.Poison.total {
   background: #572360;
@@ -240,18 +239,16 @@ tr.Poison.total {
   background: transparent;
   color: #ab47bc; }
 
-.row.section.Poison, .stats > table.Poison {
-  background: #d6a4de; }
-
 .Ground {
   background: #ffca28;
   color: #ff6f00; }
 
-tr.Ground {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Ground {
+  color: #a77e00;
+  background: transparent; }
 
-tr.Ground.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Ground .pokemon-name {
+  border-bottom: 2px solid #a77e00; }
 
 .stats > table > tbody > tr.Ground.total {
   background: #a77e00;
@@ -261,18 +258,16 @@ tr.Ground.total {
   background: transparent;
   color: #ffca28; }
 
-.row.section.Ground, .stats > table.Ground {
-  background: #ffe9a8; }
-
 .Flying {
   background: #b388ff;
   color: #ede7f6; }
 
-tr.Flying {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Flying {
+  color: #6209ff;
+  background: transparent; }
 
-tr.Flying.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Flying .pokemon-name {
+  border-bottom: 2px solid #6209ff; }
 
 .stats > table > tbody > tr.Flying.total {
   background: #6209ff;
@@ -282,18 +277,16 @@ tr.Flying.total {
   background: transparent;
   color: #b388ff; }
 
-.row.section.Flying, .stats > table.Flying {
-  background: white; }
-
 .Psychic {
   background: #ec407a;
   color: #f8bbd0; }
 
-tr.Psychic {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Psychic {
+  color: #ec407a;
+  background: transparent; }
 
-tr.Psychic.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Psychic .pokemon-name {
+  border-bottom: 2px solid #ec407a; }
 
 .stats > table > tbody > tr.Psychic.total {
   background: #9d103f;
@@ -303,18 +296,16 @@ tr.Psychic.total {
   background: transparent;
   color: #ec407a; }
 
-.row.section.Psychic, .stats > table.Psychic {
-  background: #f8b4cb; }
-
 .Bug {
   background: #d4e157;
   color: #827717; }
 
-tr.Bug {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Bug {
+  color: #909d1c;
+  background: transparent; }
 
-tr.Bug.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Bug .pokemon-name {
+  border-bottom: 2px solid #909d1c; }
 
 .stats > table > tbody > tr.Bug.total {
   background: #909d1c;
@@ -324,18 +315,16 @@ tr.Bug.total {
   background: transparent;
   color: #909d1c; }
 
-.row.section.Bug, .stats > table.Bug {
-  background: #f0f4c3; }
-
 .Rock {
   background: #8d6e63;
   color: #d7ccc8; }
 
-tr.Rock {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Rock {
+  color: #8d6e63;
+  background: transparent; }
 
-tr.Rock.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Rock .pokemon-name {
+  border-bottom: 2px solid #8d6e63; }
 
 .stats > table > tbody > tr.Rock.total {
   background: #42342e;
@@ -345,18 +334,16 @@ tr.Rock.total {
   background: transparent;
   color: #8d6e63; }
 
-.row.section.Rock, .stats > table.Rock {
-  background: #c4b2ab; }
-
 .Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
 
-tr.Ghost {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Ghost {
+  color: #7e57c2;
+  background: transparent; }
 
-tr.Ghost.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Ghost .pokemon-name {
+  border-bottom: 2px solid #7e57c2; }
 
 .stats > table > tbody > tr.Ghost.total {
   background: #432971;
@@ -366,18 +353,16 @@ tr.Ghost.total {
   background: transparent;
   color: #7e57c2; }
 
-.row.section.Ghost, .stats > table.Ghost {
-  background: #c6b5e4; }
-
 .Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
 
-tr.Dragon {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Dragon {
+  color: #5c6bc0;
+  background: transparent; }
 
-tr.Dragon.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Dragon .pokemon-name {
+  border-bottom: 2px solid #5c6bc0; }
 
 .stats > table > tbody > tr.Dragon.total {
   background: #2c3671;
@@ -385,20 +370,18 @@ tr.Dragon.total {
 
 .type > .Dragon {
   background: transparent;
-  color: #7e57c2; }
-
-.row.section.Dragon, .stats > table.Dragon {
-  background: #c6b5e4; }
+  color: #5c6bc0; }
 
 .Dark {
   background: #555555;
   color: #BABABA; }
 
-tr.Dark {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Dark {
+  color: #151515;
+  background: transparent; }
 
-tr.Dark.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Dark .pokemon-name {
+  border-bottom: 2px solid #151515; }
 
 .stats > table > tbody > tr.Dark.total {
   background: #151515;
@@ -408,18 +391,23 @@ tr.Dark.total {
   background: transparent;
   color: #555555; }
 
-.row.section.Dark, .stats > table.Dark {
-  background: #959595; }
-
 .Steel {
   background: #78909c;
   color: #cfd8dc; }
 
-tr.Steel {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Steel {
+  color: #3f4e56;
+  background: transparent; }
 
-tr.Steel.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Stel .pokemon-name {
+  border-bottom: 2px solid #3f4e56; }
+
+.row.name.Steel {
+  color: #78909c;
+  background: transparent; }
+
+.Steel .pokemon-name {
+  border-bottom: 2px solid #78909c; }
 
 .stats > table > tbody > tr.Steel.total {
   background: #3f4e56;
@@ -429,18 +417,16 @@ tr.Steel.total {
   background: transparent;
   color: #78909c; }
 
-.row.section.Steel, .stats > table.Steel {
-  background: #c2ccd2; }
-
 .Fairy {
   background: #f48fb1;
   color: #ad1457; }
 
-tr.Fairy {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.row.name.Fairy {
+  color: #f48fb1;
+  background: transparent; }
 
-tr.Fairy.total {
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+.Fairy .pokemon-name {
+  border-bottom: 2px solid #f48fb1; }
 
 .stats > table > tbody > tr.Fairy.total {
   background: #e91b60;
@@ -448,9 +434,6 @@ tr.Fairy.total {
 
 .type > .Fairy {
   background: transparent;
-  color: #e91b60; }
-
-.row.section.Fairy, .stats > table.Fairy {
-  background: #f8bbd0; }
+  color: #f48fb1; }
 
 /*# sourceMappingURL=search.css.map */

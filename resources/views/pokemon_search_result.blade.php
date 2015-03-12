@@ -2,9 +2,9 @@
 
 	<div class="panel panel-default content col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
 		<div class="row name {{ $pm['type_a'] }}">
-			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>
+			<h2 class="pokemon-name">{{ $pm['name'] }}</h2>
 		</div>
-		<div class="row section {{ $pm['type_a'] }}">
+		<div class="row section">
 			<div class="col-xs-6 col-sm-6">
 				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
 				<div class="national-number">{{ $national_number }}</div>
@@ -48,11 +48,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="row section {{ $pm['type_a'] }} td-heading">
-			<div class="col-xs-offset-2 col-sm-4 col-sm-offset-2">Type Defenses</div>
+		<div class="row section">
+			<div class="td-heading"><h3>Type Defenses</h3></div>
 		</div>
 
-		<div class="row section {{ $pm['type_a'] }}">
+		<div class="row section">
 			<div class="type-defenses col-xs-offset-2 col-sm-offset-2">
 				<div class="Normal col-xs-3 col-sm-3">Normal<br>{{ $type_defenses['Normal'] }}%</div>
 				<div class="Fire col-xs-3 col-sm-3">Fire<br>{{ $type_defenses['Fire'] }}%</div>
