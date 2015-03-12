@@ -2,10 +2,6 @@
 	margin-top: 20px;
 }
 
-.card {
-	margin-top: 10px;
-}
-
 .panel-default {
 	border: none;
 }
@@ -34,6 +30,7 @@
 .sprite {
 	display: block;
 	margin: 0 auto;
+	width: 200px;
 }
 
 .stats {
@@ -60,10 +57,6 @@
 	border-top-left-radius: 0px;
 }
 
-table.type-defenses {
-	width: 100%;
-}
-
 table > thead > tr > th {
 	font-weight: normal;
 }
@@ -76,10 +69,6 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 	background: #616161;
 }
 
-.type-defenses-table {
-	margin-bottom: 20px;
-}
-
 .type-defenses div {
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -88,11 +77,15 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 	padding: 2px;
 }
 
-.row.td-heading p {
-	text-align: center;
+.type-defenses div:last-child {
+	margin-bottom: 15px;
+}
+
+.row.td-heading div {
 	background: transparent;
-	font-size: 16px;
+	font-size: 18px;
 	color: #555555;
+	margin-bottom: 10px;
 
 }
 

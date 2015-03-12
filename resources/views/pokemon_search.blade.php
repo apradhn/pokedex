@@ -19,7 +19,7 @@
 
 	</div>
 	<div class="row loading-row">
-		<div class="loading col-xs-2 col-xs-10"></div>
+		<div class="loading col-xs-2 col-xs-offset-5"></div>
 	</div>
 	<div id='results'></div>
 @stop

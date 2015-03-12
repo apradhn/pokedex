@@ -1,17 +1,17 @@
 <div class="row search-results">
 
-	<div class="panel panel-default card col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+	<div class="panel panel-default col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
 		<div class="row name {{ $pm['type_a'] }}">
 			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>
 		</div>
 		<div class="row section {{ $pm['type_a'] }}">
-			<div class="col-lg-6">
-				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}" height="200">
+			<div class="col-xs-6 col-sm-6">
+				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
 				<div class="national-number">{{ $national_number }}</div>
 				<div class="type"><span class="{{ $pm['type_a'] }}">{{ $pm['type_a'] }}</span><br><span class="{{ $pm['type_b'] }}">{{ $pm ['type_b'] }}</span></div>
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-xs-6">
 				<div class="panel panel-default stats">
 					<table class="table {{ $pm['type_a'] }}">
 						<tbody>
@@ -49,32 +49,30 @@
 			</div>
 		</div>
 		<div class="row section {{ $pm['type_a'] }} td-heading">
-			<p>Type Defenses</p>
-		</div>
-		<div class="row section {{ $pm['type_a'] }}">
-			<div class="col-lg-8 col-lg-offset-2 type-defenses-table">
-				<div class="type-defenses">
-					<div class="Normal col-xs-2">Normal<br>{{ $type_defenses['Normal'] }}%</div>
-					<div class="Fire col-xs-2">Fire<br>{{ $type_defenses['Fire'] }}%</div>
-					<div class="Water col-xs-2">Water<br>{{ $type_defenses['Water'] }}%</div>
-					<div class="Electric col-xs-2">Electric<br>{{ $type_defenses['Electric'] }}%</div>
-					<div class="Grass col-xs-2">Grass<br>{{ $type_defenses['Grass'] }}%</div>
-					<div class="Ice col-xs-2">Ice<br>{{ $type_defenses['Ice'] }}%</div>
-					<div class="Fighting col-xs-2">Fighting<br>{{ $type_defenses['Fighting'] }}%</div>
-					<div class="Poison col-xs-2">Poison<br>{{ $type_defenses['Poison'] }}%</div>
-					<div class="Ground col-xs-2">Ground<br>{{ $type_defenses['Ground'] }}%</div>
-					<div class="Flying col-xs-2">Flying<br>{{ $type_defenses['Flying'] }}%</div>
-					<div class="Psychic col-xs-2">Psychic<br>{{ $type_defenses['Psychic'] }}%</div>
-					<div class="Bug col-xs-2">Bug<br>{{ $type_defenses['Bug'] }}%</div>
-					<div class="Rock col-xs-2">Rock<br>{{ $type_defenses['Rock'] }}%</div>
-					<div class="Ghost col-xs-2">Ghost<br>{{ $type_defenses['Ghost'] }}%</div>
-					<div class="Dragon col-xs-2">Dragon<br>{{ $type_defenses['Dragon'] }}%</div>
-					<div class="Dark col-xs-2">Dark<br>{{ $type_defenses['Dark'] }}%</div>
-					<div class="Steel col-xs-2">Steel<br>{{ $type_defenses['Steel'] }}%</div>
-					<div class="Fairy col-xs-2">Fairy<br>{{ $type_defenses['Fairy'] }}%</div>
-				</div>
-			</div>		
+			<div class="col-xs-offset-2 col-sm-4 col-sm-offset-2">Type Defenses</div>
 		</div>
 
+		<div class="row section {{ $pm['type_a'] }}">
+			<div class="type-defenses col-xs-offset-2 col-sm-offset-2">
+				<div class="Normal col-xs-3 col-sm-3">Normal<br>{{ $type_defenses['Normal'] }}%</div>
+				<div class="Fire col-xs-3 col-sm-3">Fire<br>{{ $type_defenses['Fire'] }}%</div>
+				<div class="Water col-xs-3 col-sm-3">Water<br>{{ $type_defenses['Water'] }}%</div>
+				<div class="Electric col-xs-3 col-sm-3">Electric<br>{{ $type_defenses['Electric'] }}%</div>
+				<div class="Grass col-xs-3 col-sm-3 ">Grass<br>{{ $type_defenses['Grass'] }}%</div>
+				<div class="Ice col-xs-3 col-sm-3">Ice<br>{{ $type_defenses['Ice'] }}%</div>
+				<div class="Fighting col-xs-3 col-sm-3">Fighting<br>{{ $type_defenses['Fighting'] }}%</div>
+				<div class="Poison col-xs-3 col-sm-3">Poison<br>{{ $type_defenses['Poison'] }}%</div>
+				<div class="Ground col-xs-3 col-sm-3">Ground<br>{{ $type_defenses['Ground'] }}%</div>
+				<div class="Flying col-xs-3 col-sm-3">Flying<br>{{ $type_defenses['Flying'] }}%</div>
+				<div class="Psychic col-xs-3 col-sm-3">Psychic<br>{{ $type_defenses['Psychic'] }}%</div>
+				<div class="Bug col-xs-3 col-sm-3">Bug<br>{{ $type_defenses['Bug'] }}%</div>
+				<div class="Rock col-xs-3 col-sm-3">Rock<br>{{ $type_defenses['Rock'] }}%</div>
+				<div class="Ghost col-xs-3 col-sm-3">Ghost<br>{{ $type_defenses['Ghost'] }}%</div>
+				<div class="Dragon col-xs-3 col-sm-3">Dragon<br>{{ $type_defenses['Dragon'] }}%</div>
+				<div class="Dark col-xs-3 col-sm-3">Dark<br>{{ $type_defenses['Dark'] }}%</div>
+				<div class="Steel col-xs-3 col-sm-3">Steel<br>{{ $type_defenses['Steel'] }}%</div>
+				<div class="Fairy col-xs-3 col-sm-3">Fairy<br>{{ $type_defenses['Fairy'] }}%</div>
+			</div>
+		</div>
 	</div>
 </div>
