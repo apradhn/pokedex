@@ -564,7 +564,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Mareep', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/mareep.png',
 			'hp'=>'55', 'attack'=>'40', 'defense'=>'40', 'sp_atk'=>'65', 'sp_def'=>'45', 'speed'=>'35'),
 
-			array('name'=>'Faafy', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/flaafy.png',
+			array('name'=>'Flaaffy', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/flaaffy.png',
 			'hp'=>'70', 'attack'=>'55', 'defense'=>'55', 'sp_atk'=>'80', 'sp_def'=>'60', 'speed'=>'45'),
 
 			array('name'=>'Ampharos', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/ampharos.png',
