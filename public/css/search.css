@@ -4,10 +4,10 @@
 .panel-default {
   border: none; }
 
-.panel {
+.panel.panel-default.content {
   border-radius: 0px;
   background: #eeeeee;
-  box-shadow: none; }
+  box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.24), 0px 17px 50px 0px rgba(0, 0, 0, 0.19); }
 
 .national-number {
   text-align: center;
@@ -58,7 +58,8 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   margin-bottom: 5px;
   line-height: 1.5;
   text-align: center;
-  padding: 2px; }
+  padding: 2px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .type-defenses div:last-child {
   margin-bottom: 15px; }
@@ -73,6 +74,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Normal {
   background: #EDD7B8;
   color: #8D6E63; }
+
+tr.Normal {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Normal.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Normal.total {
   background: #d39e52;
@@ -89,6 +96,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #ffa726;
   color: #e65100; }
 
+tr.Fire {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Fire.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Fire.total {
   background: #a56200;
   color: #FFFFFF; }
@@ -103,6 +116,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Water {
   background: #42a5f5;
   color: #0d47a1; }
+
+tr.Water {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Water.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .type > .Water {
   background: transparent;
@@ -119,6 +138,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #ffee58;
   color: #f57f17; }
 
+tr.Electric {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Electric.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Electric.total {
   background: #d8c200;
   color: #FFFFFF; }
@@ -133,6 +158,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Grass {
   background: #66bb6a;
   color: #1b5e20; }
+
+tr.Grass {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Grass.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Grass.total {
   background: #327035;
@@ -149,6 +180,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #26c6da;
   color: #006064; }
 
+tr.Ice {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Ice.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Ice.total {
   background: #13646e;
   color: #FFFFFF; }
@@ -163,6 +200,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Fighting {
   background: #ef5350;
   color: #ffcdd2; }
+
+tr.Fighting {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Fighting.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Fighting.total {
   background: #af1310;
@@ -179,6 +222,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #ab47bc;
   color: #e1bee7; }
 
+tr.Poison {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Poison.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Poison.total {
   background: #572360;
   color: #FFFFFF; }
@@ -193,6 +242,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Ground {
   background: #ffca28;
   color: #ff6f00; }
+
+tr.Ground {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Ground.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Ground.total {
   background: #a77e00;
@@ -209,6 +264,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #b388ff;
   color: #ede7f6; }
 
+tr.Flying {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Flying.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Flying.total {
   background: #6209ff;
   color: #FFFFFF; }
@@ -223,6 +284,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Psychic {
   background: #ec407a;
   color: #f8bbd0; }
+
+tr.Psychic {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Psychic.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Psychic.total {
   background: #9d103f;
@@ -239,6 +306,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #d4e157;
   color: #827717; }
 
+tr.Bug {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Bug.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Bug.total {
   background: #909d1c;
   color: #FFFFFF; }
@@ -253,6 +326,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Rock {
   background: #8d6e63;
   color: #d7ccc8; }
+
+tr.Rock {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Rock.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Rock.total {
   background: #42342e;
@@ -269,6 +348,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #7e57c2;
   color: #d1c4e9; }
 
+tr.Ghost {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Ghost.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Ghost.total {
   background: #432971;
   color: #FFFFFF; }
@@ -283,6 +368,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
+
+tr.Dragon {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Dragon.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Dragon.total {
   background: #2c3671;
@@ -299,6 +390,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #555555;
   color: #BABABA; }
 
+tr.Dark {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Dark.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Dark.total {
   background: #151515;
   color: #FFFFFF; }
@@ -314,6 +411,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   background: #78909c;
   color: #cfd8dc; }
 
+tr.Steel {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Steel.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
 .stats > table > tbody > tr.Steel.total {
   background: #3f4e56;
   color: #FFFFFF; }
@@ -328,6 +431,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .Fairy {
   background: #f48fb1;
   color: #ad1457; }
+
+tr.Fairy {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+
+tr.Fairy.total {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
 
 .stats > table > tbody > tr.Fairy.total {
   background: #e91b60;

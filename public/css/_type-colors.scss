@@ -23,6 +23,14 @@ $fairy: #f48fb1;
 	color: #8D6E63;
 }
 
+tr.Normal {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Normal.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Normal.total {
 	background: darken($normal, 25);
 	color: #FFFFFF;
@@ -40,6 +48,14 @@ $fairy: #f48fb1;
 .Fire {
 	background: $fire;
 	color: #e65100;
+}
+
+tr.Fire {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Fire.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Fire.total {
@@ -61,6 +77,14 @@ $fairy: #f48fb1;
 	color: #0d47a1;
 }
 
+tr.Water {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Water.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .type > .Water {
 	background: transparent;
 	color: darken($water, 25);
@@ -78,6 +102,14 @@ $fairy: #f48fb1;
 .Electric {
 	background: #ffee58;
 	color: #f57f17;
+}
+
+tr.Electric {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Electric.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Electric.total {
@@ -99,6 +131,14 @@ $fairy: #f48fb1;
 	color: #1b5e20;
 }
 
+tr.Grass {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Grass.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Grass.total {
 	background: darken($grass, 25);
 	color: #FFFFFF;
@@ -118,6 +158,14 @@ $fairy: #f48fb1;
 	color: #006064;
 }
 
+tr.Ice {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Ice.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Ice.total {
 	background: darken($ice, 25);
 	color: #FFFFFF;
@@ -134,6 +182,14 @@ $fairy: #f48fb1;
 .Fighting {
 	background: $fighting;
 	color: #ffcdd2;
+}
+
+tr.Fighting {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Fighting.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Fighting.total {
@@ -155,6 +211,14 @@ $fairy: #f48fb1;
 	color: #e1bee7;
 }
 
+tr.Poison {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Poison.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Poison.total {
 	background: darken($poison, 25);
 	color: #FFFFFF;
@@ -172,6 +236,15 @@ $fairy: #f48fb1;
 .Ground {
 	background: $ground;
 	color: #ff6f00;
+}
+
+
+tr.Ground {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Ground.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Ground.total {
@@ -193,6 +266,14 @@ $fairy: #f48fb1;
 	color: #ede7f6;
 }
 
+tr.Flying {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Flying.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Flying.total {
 	background: darken($flying, 25);
 	color: #FFFFFF;
@@ -210,6 +291,14 @@ $fairy: #f48fb1;
 .Psychic {
 	background: $psychic;
 	color: #f8bbd0;
+}
+
+tr.Psychic {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Psychic.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -232,6 +321,14 @@ $fairy: #f48fb1;
 	color: #827717;
 }
 
+tr.Bug {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Bug.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Bug.total {
 	background: darken($bug, 25);
 	color: #FFFFFF;
@@ -249,6 +346,14 @@ $fairy: #f48fb1;
 .Rock {
 	background: $rock;
 	color: #d7ccc8;
+}
+
+tr.Rock {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Rock.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Rock.total {
@@ -270,6 +375,14 @@ $fairy: #f48fb1;
 	color: #d1c4e9;
 }
 
+tr.Ghost {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Ghost.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Ghost.total {
 	background: darken($ghost, 25);
 	color: #FFFFFF;
@@ -287,6 +400,14 @@ $fairy: #f48fb1;
 .Dragon {
 	background: $dragon;
 	color: #c5cae9;
+}
+
+tr.Dragon {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Dragon.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Dragon.total {
@@ -308,6 +429,14 @@ $fairy: #f48fb1;
 	color: #BABABA;
 }
 
+tr.Dark {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Dark.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Dark.total {
 	background: darken($dark, 25);
 	color: #FFFFFF;
@@ -327,6 +456,14 @@ $fairy: #f48fb1;
 	color: #cfd8dc;
 }
 
+tr.Steel {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Steel.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 .stats > table > tbody > tr.Steel.total {
 	background: darken($steel, 25);
 	color: #FFFFFF;
@@ -344,6 +481,14 @@ $fairy: #f48fb1;
 .Fairy {
 	background: $fairy;
 	color: #ad1457;
+}
+
+tr.Fairy {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+tr.Fairy.total {
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .stats > table > tbody > tr.Fairy.total {

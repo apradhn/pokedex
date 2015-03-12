@@ -1,6 +1,6 @@
 <div class="row search-results">
 
-	<div class="panel panel-default col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
+	<div class="panel panel-default content col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
 		<div class="row name {{ $pm['type_a'] }}">
 			<h3 class="pokemon-name">{{ $pm['name'] }}</h3>
 		</div>
