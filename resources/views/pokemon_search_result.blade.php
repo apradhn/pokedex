@@ -8,12 +8,12 @@
 
 		<div class="row">
 
-			<div class="col-sm-4">
+			<div class="col-sm-6">
 				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
 				<div class="type"><div class="{{ $pm['type_a'] }}">{{ $pm['type_a'] }}</div><div class="{{ $pm['type_b'] }}">{{ $pm ['type_b'] }}</div></div>
 			</div>
 
-			<div class="col-sm-8">
+			<div class="col-sm-6">
 
 				<div class="captions">
 					<div>HP</div>
