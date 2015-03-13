@@ -1,8 +1,9 @@
 @extends('_master')
 
 @section('content')
+<div class="container-fluid content">
 	<div class="row">
-		<div class="col-sm-offset-2 col-lg-6 col-lg-offset-4">
+		<div class="col-lg-6">
 			<h3>Search by Name</h3>
 
 			<!-- <label for='query'>Search:</label> -->
@@ -19,9 +20,11 @@
 
 		</div>
 	</div>
+
 	<div class="row loading-row">
 		<div class="loading center-block"></div>
 	</div>
+</div>
 	<div id='results'></div>
 @stop
 

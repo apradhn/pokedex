@@ -1,18 +1,19 @@
-<div class="search-results">
-
+<div class="container-fluid">
 	<div class="panel panel-default content col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
-		
+
 		<div class="row name {{ $pm['type_a'] }}">
 			<h2 class="pokemon-name">{{ $pm['name'] }}</h2>
 			<h3 class="national-number">{{ $national_number }}</h3>
 		</div>
 
 		<div class="row">
-			<div class="col-sm-6">
+
+			<div class="col-sm-4">
 				<img class="sprite" src="{{ $pm['sprite_url'] }}" alt="{{ $pm['name'] }}">
 				<div class="type"><div class="{{ $pm['type_a'] }}">{{ $pm['type_a'] }}</div><div class="{{ $pm['type_b'] }}">{{ $pm ['type_b'] }}</div></div>
 			</div>
-			<div class="col-sm-6">
+
+			<div class="col-sm-8">
 
 				<div class="captions">
 					<div>HP</div>
@@ -23,6 +24,7 @@
 					<div>Speed</div>
 					<div>Total: {{ $total }}</div>
 				</div>	
+
 				<div class="chart {{ $pm['type_a'] }}">
 					<div style="width: {{ $pm['hp'] }}px;">{{ $pm['hp'] }}</div>
 					<div style="width: {{ $pm['attack'] }}px;">{{ $pm['attack'] }}</div>
@@ -31,13 +33,16 @@
 					<div style="width: {{ $pm['sp_def'] }}px;">{{ $pm['sp_def'] }}</div>
 					<div style="width: {{ $pm['speed'] }}px;">{{ $pm['speed'] }}</div>
 				</div>	
+
 			</div>
-		</div>
-		<div class="row section">
-			<div class="td-heading"><h3>Type Defenses</h3></div>
+
 		</div>
 
-		<div class="row section">
+		<div class="row">
+			<div class="col-sm-6 td-heading"><h3>Type Defenses</h3></div>
+		</div>
+
+		<div class="row">
 			<div class="type-defenses col-xs-offset-2 col-sm-offset-2">
 				<div class="Normal col-xs-3 col-sm-3">Normal<br>{{ $type_defenses['Normal'] }}%</div>
 				<div class="Fire col-xs-3 col-sm-3">Fire<br>{{ $type_defenses['Fire'] }}%</div>
@@ -59,5 +64,7 @@
 				<div class="Fairy col-xs-3 col-sm-3">Fairy<br>{{ $type_defenses['Fairy'] }}%</div>
 			</div>
 		</div>
+
 	</div>
+
 </div>

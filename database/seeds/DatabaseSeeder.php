@@ -1381,7 +1381,7 @@ class PokemonTableSeeder extends Seeder {
 			'hp'=>'70', 'attack'=>'90', 'defense'=>'110', 'sp_atk'=>'60', 'sp_def'=>'75', 'speed'=>'95'),
 
 			array('name'=>'Croagunk', 'type_a'=>'Poison', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/croagunk.png',
-			'hp'=>'48', 'attack'=>'10616', 'defense'=>'40', 'sp_atk'=>'61', 'sp_def'=>'40', 'speed'=>'50'),
+			'hp'=>'48', 'attack'=>'61', 'defense'=>'40', 'sp_atk'=>'61', 'sp_def'=>'40', 'speed'=>'50'),
 
 			array('name'=>'Toxicroak', 'type_a'=>'Poison', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/toxicroak.png',
 			'hp'=>'83', 'attack'=>'106', 'defense'=>'65', 'sp_atk'=>'86', 'sp_def'=>'65', 'speed'=>'85'),
