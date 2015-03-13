@@ -41,11 +41,14 @@ class PokemonController extends Controller {
 
 					$type_defenses = Pokemon::type_defenses($type_a, $type_b);
 
+					$type_defense_class = Pokemon::get_type_defense_class($type_defenses);
+
 					$results .= View::make('pokemon_search_result')
 					->with('pm', $pm)
 					->with('total', $total)
 					->with('national_number', $national_number)
 					->with('type_defenses', $type_defenses)
+					->with('type_defense_class', $type_defense_class)
 					->render();      		
 	        	}
 

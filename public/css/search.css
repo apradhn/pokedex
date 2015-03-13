@@ -1,6 +1,3 @@
-.row.search-results {
-  margin-top: 20px; }
-
 .panel-default {
   border: none; }
 
@@ -13,8 +10,7 @@
   text-align: left;
   margin-left: 20px;
   margin-bottom: 5px;
-  padding-bottom: 5px;
-  width: 95%; }
+  padding-bottom: 5px; }
 
 .national-number {
   text-align: left;
@@ -39,41 +35,10 @@
   margin: 0 auto;
   height: 150px; }
 
-.stats {
-  margin-top: 15px; }
-
-.stats > table {
-  border-spacing: 0px 5px;
-  border-collapse: separate;
-  background: #eeeeee; }
-
-.stats > table > tbody > tr > th, .stats > table > tbody > tr > td {
-  border-top: none; }
-
-.panel.stats > .table:last-child {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px; }
-
-.panel.stats > .table:first-child {
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px; }
-
-table > thead > tr > th {
-  font-weight: normal; }
-
-table > tbody > tr > th {
-  font-weight: normal; }
-
-table > tbody > tr > th.total, table > tbody > tr > td.total {
-  background: #616161; }
-
 .type-defenses div {
-  margin-right: 5px;
-  margin-bottom: 5px;
   line-height: 1.5;
   text-align: center;
-  padding: 2px;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12); }
+  padding: 2px; }
 
 .type-defenses div:last-child {
   margin-bottom: 15px; }
@@ -114,7 +79,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Normal
 *
 ***************************/
-.Normal, .chart.Normal div, .type > .Normal {
+.chart.Normal div, .type > .Normal {
   background: #EDD7B8;
   color: #8D6E63; }
 
@@ -130,7 +95,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Fire
 *
 *************************/
-.Fire, .chart.Fire div, .type > .Fire {
+.chart.Fire div, .type > .Fire {
   background: #ffa726;
   color: #e65100; }
 
@@ -146,7 +111,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Water
 *
 **************************/
-.Water, .chart.Water div, .type > .Water {
+.chart.Water div, .type > .Water {
   background: #42a5f5;
   color: #0d47a1; }
 
@@ -162,7 +127,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Electric
 *
 *****************************/
-.Electric, .chart.Electric div, .type > .Electric {
+.chart.Electric div, .type > .Electric {
   background: #ffee58;
   color: #f57f17; }
 
@@ -178,7 +143,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Grass
 *
 **************************/
-.Grass, .chart.Grass div, .type > .Grass {
+.chart.Grass div, .type > .Grass {
   background: #66bb6a;
   color: #1b5e20; }
 
@@ -194,7 +159,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Ice
 *
 **********************/
-.Ice, .chart.Ice div, .type > .Ice {
+.chart.Ice div, .type > .Ice {
   background: #26c6da;
   color: #006064; }
 
@@ -210,7 +175,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Fighting
 *
 ***************************/
-.Fighting, .chart.Fighting div, .type > .Fighting {
+.chart.Fighting div, .type > .Fighting {
   background: #ef5350;
   color: #ffcdd2; }
 
@@ -226,7 +191,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Poison
 *
 **********************/
-.Poison, .chart.Poison div, .type > .Poison {
+.chart.Poison div, .type > .Poison {
   background: #ab47bc;
   color: #e1bee7; }
 
@@ -242,7 +207,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Ground
 *
 ********************/
-.Ground, .chart.Ground div, .type > .Ground {
+.chart.Ground div, .type > .Ground {
   background: #ffca28;
   color: #ff6f00; }
 
@@ -258,7 +223,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Flying
 *
 **********************/
-.Flying, .chart.Flying div, .type > .Flying {
+.chart.Flying div, .type > .Flying {
   background: #b388ff;
   color: #ede7f6; }
 
@@ -274,7 +239,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Psychic
 *
 *********************/
-.Psychic, .chart.Psychic div, .type > .Psychic {
+.chart.Psychic div, .type > .Psychic {
   background: #ec407a;
   color: #f8bbd0; }
 
@@ -290,7 +255,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Bug
 *
 ***********************/
-.Bug, .chart.Bug div, .type > .Bug {
+.chart.Bug div, .type > .Bug {
   background: #d4e157;
   color: #827717; }
 
@@ -306,7 +271,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Rock
 *
 ***********************/
-.Rock, .chart.Rock div, .row.name.Rock {
+.chart.Rock div, .row.name.Rock, .type > .Rock {
   background: #8d6e63;
   color: #d7ccc8; }
 
@@ -322,7 +287,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Ghost
 *
 **************************/
-.Ghost, .chart.Ghost div, .type > .Ghost {
+.chart.Ghost div, .type > .Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
 
@@ -338,7 +303,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Dragon
 *
 *********************/
-.Dragon, .chart.Dragon div, .type > .Dragon {
+.chart.Dragon div, .type > .Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
 
@@ -354,7 +319,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Dark
 *
 ***********************/
-.Dark, .chart.Dark div, .type > .Dark {
+.chart.Dark div, .type > .Dark {
   background: #555555;
   color: #BABABA; }
 
@@ -370,7 +335,7 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 * Steel
 *
 ***************************/
-.Steel, .chart.Steel div, .type > .Steel {
+.chart.Steel div, .type > .Steel {
   background: #78909c;
   color: #cfd8dc; }
 
@@ -381,12 +346,12 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
   color: #555;
   background: transparent; }
 
-/*
+/**********************
 *
 * Fairy
 *
-*/
-.Fairy, .chart.Fairy div, .type > .Fairy {
+***********************/
+.chart.Fairy div, .type > .Fairy {
   background: #f48fb1;
   color: #ad1457; }
 
@@ -396,5 +361,25 @@ table > tbody > tr > th.total, table > tbody > tr > td.total {
 .row.name.Fairy {
   color: #555;
   background: transparent; }
+
+.whole {
+  background: #ffff8d; }
+
+.half {
+  background: #ff5252; }
+
+.quarter {
+  background: #d50000;
+  color: #fff; }
+
+.double {
+  background: #69f0ae; }
+
+.quadruple {
+  background: #00c853; }
+
+.zero {
+  background: #555;
+  color: #fff; }
 
 /*# sourceMappingURL=search.css.map */

@@ -106,6 +106,8 @@ class Pokemon extends Model {
 			$type_defenses['Water'] *= 0.5;
 			$type_defenses['Ground'] *= 0.5;
 			$type_defenses['Rock'] *= 0.5;
+			$type_defenses['Electric'] *= 0.5;
+			$type_defenses['Grass'] *= 0.5;
 		}
 
 		if ($type_a == 'Ice') 
@@ -153,7 +155,7 @@ class Pokemon extends Model {
 			$type_defenses['Electric'] *= 2;
 			$type_defenses['Grass'] *= 0.5;
 			$type_defenses['Ice'] *= 2;
-			$type_defenses['Fighting'] *= 2;
+			$type_defenses['Fighting'] *= 0.5;
 			$type_defenses['Ground'] *= 0;
 			$type_defenses['Bug'] *= 0.5;
 			$type_defenses['Rock'] *= 2;
@@ -298,6 +300,8 @@ class Pokemon extends Model {
 				$type_defenses['Water'] *= 0.5;
 				$type_defenses['Ground'] *= 0.5;
 				$type_defenses['Rock'] *= 0.5;
+				$type_defenses['Electric'] *= 0.5;
+				$type_defenses['Grass'] *= 0.5;
 			}
 
 			if ($type_b == 'Ice') 
@@ -345,7 +349,7 @@ class Pokemon extends Model {
 				$type_defenses['Electric'] *= 2;
 				$type_defenses['Grass'] *= 0.5;
 				$type_defenses['Ice'] *= 2;
-				$type_defenses['Fighting'] *= 2;
+				$type_defenses['Fighting'] *= 0.5;
 				$type_defenses['Ground'] *= 0;
 				$type_defenses['Bug'] *= 0.5;
 				$type_defenses['Rock'] *= 2;
@@ -459,6 +463,57 @@ class Pokemon extends Model {
 		}
 
 		return $national_number;
+	}
+
+	public static function get_type_defense_class($type_defenses) {
+		$class_names = [
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",			
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		"whole",
+		];
+
+		$i = 0; 
+
+		foreach ($type_defenses as $key => $value) {
+			if ($value == 100) {
+				$class_names[$i] = "whole";
+			}
+			if ($value == 50) {
+				$class_names[$i] = "half";
+			}
+			if ($value == 25) {
+				$class_names[$i] = "quarter";
+			}
+			if ($value == 200) {
+				$class_names[$i] = "double";
+			}	
+			if ($value == 400) {
+				$class_names[$i] = "quadruple";
+			}		
+
+			if ($value == 0) {
+				$class_names[$i] = "zero";
+			}								
+			$i++;
+		}
+
+		return $class_names;
 	}
 
 }

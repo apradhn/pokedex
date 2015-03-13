@@ -1,7 +1,7 @@
 $('#search-html').click(function() {
 	var image = "img/pokeball.gif"
-	$('.loading').show();
-	$('.loading').html("<img src="+image+" />");
+	/*$('.loading').show();
+	$('.loading').html("<img src="+image+" />");*/
     $.ajax({
         type: 'POST',
         url: '/pokemon/search',
@@ -9,7 +9,7 @@ $('#search-html').click(function() {
         	console.log(data);
         },
         success: function(response) { 
-        	$('.loading').html("").hide();
+        	/*$('.loading').html("").hide();*/
         	console.log("success-html");
             $('#results').html(response);
         },
