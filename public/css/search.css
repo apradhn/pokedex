@@ -1,3 +1,6 @@
+.search-results {
+  margin-top: 20px; }
+
 .panel-default {
   border: none; }
 
@@ -9,7 +12,6 @@
 .pokemon-name {
   text-align: left;
   margin-left: 20px;
-  margin-bottom: 5px;
   padding-bottom: 5px; }
 
 .national-number {
@@ -34,6 +36,9 @@
   display: block;
   margin: 0 auto;
   height: 150px; }
+
+.type-defenses {
+  margin-bottom: 10px; }
 
 .type-defenses div {
   line-height: 1.5;

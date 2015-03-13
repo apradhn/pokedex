@@ -15,7 +15,6 @@
 .pokemon-name {
 	text-align: left;
 	margin-left: 20px;
-	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
 
@@ -44,6 +43,10 @@
 	display: block;
 	margin: 0 auto;
 	height: 150px;
+}
+
+.type-defenses {
+	margin-bottom: 10px;
 }
 
 .type-defenses div {
