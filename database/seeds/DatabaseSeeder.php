@@ -1929,7 +1929,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Larvesta', 'type_a'=>'Bug', 'type_b'=>'Fire', 'sprite_url'=>'/sprites/larvesta.png',
 			'hp'=>'120', 'attack'=>'120', 'defense'=>'50', 'sp_atk'=>'120', 'sp_def'=>'120', 'speed'=>'120'),
 
-			array('name'=>'Volcorona', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/volcorona.png',
+			array('name'=>'Volcarona', 'type_a'=>'Bug', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/volcarona.png',
 			'hp'=>'85', 'attack'=>'60', 'defense'=>'65', 'sp_atk'=>'135', 'sp_def'=>'105', 'speed'=>'100'),
 
 			array('name'=>'Cobalion', 'type_a'=>'Steel', 'type_b'=>'Fighting', 'sprite_url'=>'/sprites/cobalion.png',
