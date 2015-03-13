@@ -18,448 +18,375 @@ $dark: #555555;
 $steel: #78909c;
 $fairy: #f48fb1;
 
-.Normal {
+/**************************
+*
+* Normal
+*
+***************************/
+
+.Normal, .chart.Normal div, .type > .Normal {
 	background: $normal;
 	color: #8D6E63;
 }
 
+.chart.Normal {
+	background: transparent;
+}
+
 .row.name.Normal {
-	color: darken($normal, 25);
+	color: #555555;
 	background: transparent;
 }
 
-.Normal .pokemon-name {
-	border-bottom: 2px solid darken($normal, 25);
-}
 
-.stats > table > tbody > tr.Normal.total {
-	background: darken($normal, 25);
-	color: #FFFFFF;
-}
+/************************
+*
+* Fire
+*
+*************************/
 
-.type > .Normal {
-	background: transparent;
-	color: darken($normal, 25);
-}
-
-.Fire {
+.Fire, .chart.Fire div, .type > .Fire {
 	background: $fire;
 	color: #e65100;
 }
 
+.chart.Fire {
+	background: transparent;
+}
+
 .row.name.Fire {
-	color: darken($fire, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Fire .pokemon-name {
-	border-bottom: 2px solid darken($fire, 25);
-}
 
-.stats > table > tbody > tr.Fire.total {
-	background: darken($fire, 25);
-	color: #FFFFFF;
-}
-
-.type > .Fire {
-	background: transparent;
-	color: #E65100;
-}
+/*************************
+*
+* Water
+*
+**************************/
 	
-.Water {
+.Water, .chart.Water div, .type > .Water {
 	background: $water;
 	color: #0d47a1;
 }
 
+.chart.Water {
+	background: transparent;
+}
+
 .row.name.Water {
-	color: darken($water, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Water .pokemon-name {
-	border-bottom: 2px solid darken($water, 25);
-}
 
-.type > .Water {
-	background: transparent;
-	color: darken($water, 25);
-}
-
-.stats > table > tbody > tr.Water.total {
-	background: darken($water, 25);
-	color: #FFFFFF;
-}
-
-.Electric {
+/****************************
+*
+* Electric
+*
+*****************************/
+	
+.Electric, .chart.Electric div, .type > .Electric {
 	background: #ffee58;
 	color: #f57f17;
 }
 
+.chart.Electric {
+	background: transparent;
+}
+
 .row.name.Electric {
-	color: darken($electric, 25);
+	color: #555555;
 	background: transparent;
 }
 
-.Electric .pokemon-name {
-	border-bottom: 2px solid darken($electric, 25);
-}
 
-.stats > table > tbody > tr.Electric.total {
-	background: darken($electric, 25);
-	color: #FFFFFF;
-}
+/*************************
+*
+* Grass
+*
+**************************/
 
-.type > .Electric {
-	background: transparent;
-	color: darken($electric, 25);
-}
-
-.Grass {
+.Grass, .chart.Grass div, .type > .Grass {
 	background: $grass;
 	color: #1b5e20;
 }
 
+.chart.Grass {
+	background: transparent;
+}
+
 .row.name.Grass {
-	color: darken($grass, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Grass .pokemon-name {
-	border-bottom: 2px solid darken($grass, 25);
-}
 
-.stats > table > tbody > tr.Grass.total {
-	background: darken($grass, 25);
-	color: #FFFFFF;
-}
+/*********************
+*
+* Ice
+*
+**********************/
 
-.type > .Grass {
-	background: transparent;
-	color: $grass;
-}
-
-.row.section.Grass {
-	background: lighten($grass, 25);
-}
-
-.Ice {
+.Ice, .chart.Ice div, .type > .Ice {
 	background: $ice;
 	color: #006064;
 }
 
+.chart.Ice {
+	background: transparent;
+}
+
 .row.name.Ice {
-	color: darken($ice, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Ice .pokemon-name {
-	border-bottom: 2px solid darken($ice, 25);
-}
 
-.stats > table > tbody > tr.Ice.total {
-	background: darken($ice, 25);
-	color: #FFFFFF;
-}
+/**************************
+*
+* Fighting
+*
+***************************/
 
-.type > .Ice {
-	background: transparent;
-	color: darken($ice, 25);
-}
-
-
-.Fighting {
+.Fighting, .chart.Fighting div, .type > .Fighting {
 	background: $fighting;
 	color: #ffcdd2;
 }
 
+.chart.Fighting {
+	background: transparent;
+}
+
 .row.name.Fighting {
-	color: $fighting;
+	color: #555;
 	background: transparent;
 }
 
-.Fighting .pokemon-name {
-	border-bottom: 2px solid $fighting;
-}
 
-.stats > table > tbody > tr.Fighting.total {
-	background: darken($fighting, 25);
-	color: #FFFFFF;
-}
 
-.type > .Fighting {
-	background: transparent;
-	color: $fighting;
-}
+/**********************
+*
+* Poison
+*
+**********************/
 
-.Poison {
+.Poison, .chart.Poison div, .type > .Poison {
 	background: $poison;
 	color: #e1bee7;
 }
 
+.chart.Poison {
+	background: transparent;
+}
+
 .row.name.Poison {
-	color: $poison;
+	color: #555;
 	background: transparent;
 }
 
-.Poison .pokemon-name {
-	border-bottom: 2px solid $poison;
-}
 
-.stats > table > tbody > tr.Poison.total {
-	background: darken($poison, 25);
-	color: #FFFFFF;
-}
+/********************
+*
+* Ground
+*
+********************/
 
-.type > .Poison {
-	background: transparent;
-	color: $poison;
-}
-
-.Ground {
+.Ground, .chart.Ground div, .type > .Ground {
 	background: $ground;
 	color: #ff6f00;
 }
 
+.chart.Ground {
+	background: transparent;
+}
+
 .row.name.Ground {
-	color: darken($ground, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Ground .pokemon-name {
-	border-bottom: 2px solid darken($ground, 25);
-}
 
-.stats > table > tbody > tr.Ground.total {
-	background: darken($ground, 25);
-	color: #FFFFFF;
-}
 
-.type > .Ground {
-	background: transparent;
-	color: $ground;
-}
+/*********************
+*
+* Flying
+*
+**********************/
 
-.Flying {
+.Flying, .chart.Flying div, .type > .Flying  {
 	background: $flying;
 	color: #ede7f6;
 }
 
+.chart.Flying {
+	background: transparent;
+}
+
 .row.name.Flying {
-	color: darken($flying, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Flying .pokemon-name {
-	border-bottom: 2px solid darken($flying, 25);
-}
 
-.stats > table > tbody > tr.Flying.total {
-	background: darken($flying, 25);
-	color: #FFFFFF;
-}
-
-.type > .Flying {
-	background: transparent;
-	color: $flying;
-}
-
-.Psychic {
+/********************
+*
+* Psychic
+*
+*********************/
+.Psychic, .chart.Psychic div, .type > .Psychic {
 	background: $psychic;
 	color: #f8bbd0;
 }
 
+.chart.Psychic {
+	background: transparent;
+}
+
 .row.name.Psychic {
-	color: $psychic;
+	color: #555;
 	background: transparent;
 }
 
-.Psychic .pokemon-name {
-	border-bottom: 2px solid $psychic;
-}
 
-.stats > table > tbody > tr.Psychic.total {
-	background: darken($psychic, 25);
-	color: #FFFFFF;
-}
-
-.type > .Psychic {
-	background: transparent;
-	color: $psychic;
-}
-
-.Bug {
+/**********************
+*
+* Bug
+*
+***********************/
+.Bug, .chart.Bug div, .type > .Bug  {
 	background: $bug;
 	color: #827717;
 }
 
+.chart.Bug {
+	background: transparent;
+}
+
 .row.name.Bug {
-	color: darken($bug, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Bug .pokemon-name {
-	border-bottom: 2px solid darken($bug, 25);
-}
-
-.stats > table > tbody > tr.Bug.total {
-	background: darken($bug, 25);
-	color: #FFFFFF;
-}
-
-.type > .Bug {
-	background: transparent;
-	color: darken($bug, 25);
-}
-
-.Rock {
+/***********************
+*
+* Rock
+*
+***********************/
+.Rock, .chart.Rock div, .row.name.Rock {
 	background: $rock;
 	color: #d7ccc8;
 }
 
+.chart.Rock {
+	background: transparent;
+}
+
 .row.name.Rock {
-	color:$rock;
+	color: #555;
 	background: transparent;
 }
 
-.Rock .pokemon-name {
-	border-bottom: 2px solid $rock;
-}
 
-.stats > table > tbody > tr.Rock.total {
-	background: darken($rock, 25);
-	color: #FFFFFF;
-}
-
-.type > .Rock {
-	background: transparent;
-	color: $rock;
-}
-
-.Ghost {
+/*************************
+*
+* Ghost
+*
+**************************/
+.Ghost, .chart.Ghost div, .type > .Ghost {
 	background: $ghost;
 	color: #d1c4e9;
 }
 
+.chart.Ghost {
+	background: transparent;
+}
+
 .row.name.Ghost {
-	color: $ghost;
+	color: #555;
 	background: transparent;
 }
 
-.Ghost .pokemon-name {
-	border-bottom: 2px solid $ghost;
-}
 
-.stats > table > tbody > tr.Ghost.total {
-	background: darken($ghost, 25);
-	color: #FFFFFF;
-}
-
-.type > .Ghost {
-	background: transparent;
-	color: $ghost;
-}
-
-.Dragon {
+/********************
+*
+* Dragon
+*
+*********************/
+.Dragon, .chart.Dragon div, .type > .Dragon {
 	background: $dragon;
 	color: #c5cae9;
 }
 
+.chart.Dragon {
+	background: transparent;
+}
+
 .row.name.Dragon {
-	color: $dragon;
+	color: #555;
 	background: transparent;
 }
 
-.Dragon .pokemon-name {
-	border-bottom: 2px solid $dragon;
-}
 
-.stats > table > tbody > tr.Dragon.total {
-	background: darken($dragon, 25);
-	color: #FFFFFF;
-}
-
-.type > .Dragon {
-	background: transparent;
-	color: $dragon;
-}
-
-.Dark {
+/***********************
+*
+* Dark
+*
+***********************/
+.Dark, .chart.Dark div, .type > .Dark {
 	background: $dark;
 	color: #BABABA;
 }
 
+.chart.Dark {
+	background: transparent;
+}
+
 .row.name.Dark {
-	color: darken($dark, 25);
+	color: #555;
 	background: transparent;
 }
 
-.Dark .pokemon-name {
-	border-bottom: 2px solid darken($dark, 25);
-}
 
-.stats > table > tbody > tr.Dark.total {
-	background: darken($dark, 25);
-	color: #FFFFFF;
-}
 
-.type > .Dark {
-	background: transparent;
-	color: $dark;
-}
-
-.Steel {
+/**************************
+*
+* Steel
+*
+***************************/
+.Steel, .chart.Steel div, .type > .Steel {
 	background: $steel;
 	color: #cfd8dc;
 }
 
-.row.name.Steel {
-	color: darken($steel, 25);
+.chart.Steel {
 	background: transparent;
-}
-
-.Stel .pokemon-name {
-	border-bottom: 2px solid darken($steel, 25);
 }
 
 .row.name.Steel {
-	color: $steel;
+	color: #555;
 	background: transparent;
 }
 
-.Steel .pokemon-name {
-	border-bottom: 2px solid $steel;
-}
 
-.stats > table > tbody > tr.Steel.total {
-	background: darken($steel, 25);
-	color: #FFFFFF;
-}
 
-.type > .Steel {
-	background: transparent;
-	color: $steel;
-}
-
-.Fairy {
+/*
+*
+* Fairy
+*
+*/
+.Fairy, .chart.Fairy div, .type > .Fairy {
 	background: $fairy;
 	color: #ad1457;
 }
 
+.chart.Fairy {
+	background: transparent;
+}
+
 .row.name.Fairy {
-	color: $fairy;
+	color: #555;
 	background: transparent;
 }
 
-.Fairy .pokemon-name {
-	border-bottom: 2px solid $fairy;
-}
-
-.stats > table > tbody > tr.Fairy.total {
-	background: darken($fairy, 25);
-	color: #FFFFFF;
-}
-
-.type > .Fairy {
-	background: transparent;
-	color: $fairy;
-}
