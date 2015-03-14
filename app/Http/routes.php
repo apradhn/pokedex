@@ -46,6 +46,13 @@ Route::get('/', function()
 
 Route::post('/pokemon/search', 'PokemonController@postSearch'); # Process the search
 
+/**
+*Routes for types
+*
+**/
+
+Route::get('/types/{type_id}', 'TypeController@show');
+
 # /app/routes.php
 Route::get('/debug', function() {
 
