@@ -1239,7 +1239,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Luxio', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/luxio.png',
 			'hp'=>'60', 'attack'=>'85', 'defense'=>'49', 'sp_atk'=>'60', 'sp_def'=>'49', 'speed'=>'60'),
 
-			array('name'=>'Luxray', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/luxio.png',
+			array('name'=>'Luxray', 'type_a'=>'Electric', 'type_b'=>'', 'sprite_url'=>'/sprites/luxray.png',
 			'hp'=>'60', 'attack'=>'85', 'defense'=>'49', 'sp_atk'=>'60', 'sp_def'=>'49', 'speed'=>'60'),
 
 			array('name'=>'Budew', 'type_a'=>'Grass', 'type_b'=>'Poison', 'sprite_url'=>'/sprites/budew.png',
