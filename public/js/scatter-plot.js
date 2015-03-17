@@ -91,7 +91,7 @@ var y = d3.scale.linear()
 var line = d3.svg.line()
 	.x(function(d) { return x(d.x); })
 	.y(function(d) { return y(d.y); })
-	.interpolate("linear");
+	.interpolate("monotone");
 
 // Initialize axes
 var xAxis = d3.svg.axis()
@@ -166,7 +166,7 @@ svg.append("g")
 	.append("path")
 	.attr("d", function(d) { return line(d); })	
 	.attr("stroke-width", 2)
-	.attr("stroke", "rgba(244, 67, 54, .2)")
+	.attr("stroke", "rgba(0, 0, 0, .2)")
 	.attr("fill", "none")
 	.on("mouseover", tip2.show)
 	.on("mouseout", tip2.hide);		
