@@ -1,5 +1,12 @@
 @import 'type-colors';
 
+@mixin avg {
+	path.average:hover {
+		stroke: #00796B;
+
+	}
+}
+
 div.bar {
     display: inline-block;
     width: 20px;
@@ -25,10 +32,26 @@ div.bar {
 }
 
 path:hover {
-	stroke: rgb(145, 39, 31);
+	stroke: rgb(211, 47, 47);
 	stroke-width: 4;
+
 }
 
 circle:hover {
-	fill: rgb(145, 39, 31);
+	fill: rgb(211, 47, 47);
 }
+
+circle.average:hover {
+	fill: #00796B;
+	path.average:hover {
+		stroke: #00796B;
+		stroke-width: 4;
+	}
+}
+
+path.average:hover {
+	stroke: #00796B;
+	stroke-width: 4;
+}
+
+
