@@ -2097,7 +2097,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Skrelp', 'type_a'=>'Poison', 'type_b'=>'Water', 'sprite_url'=>'/sprites/skrelp.png',
 			'hp'=>'50', 'attack'=>'60', 'defense'=>'60', 'sp_atk'=>'60', 'sp_def'=>'60', 'speed'=>'30'),
 
-			array('name'=>'Dragalge', 'type_a'=>'Poison', 'type_b'=>'Water', 'sprite_url'=>'/sprites/dragalge.png',
+			array('name'=>'Dragalge', 'type_a'=>'Poison', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/dragalge.png',
 			'hp'=>'65', 'attack'=>'75', 'defense'=>'90', 'sp_atk'=>'97', 'sp_def'=>'123', 'speed'=>'44'),
 
 			array('name'=>'Clauncher', 'type_a'=>'Water', 'type_b'=>'', 'sprite_url'=>'/sprites/clauncher.png',
@@ -2137,7 +2137,7 @@ class PokemonTableSeeder extends Seeder {
 			'hp'=>'50', 'attack'=>'50', 'defense'=>'150', 'sp_atk'=>'50', 'sp_def'=>'150', 'speed'=>'50'),
 
 			array('name'=>'Goomy', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/goomy.png',
-			'hp'=>'45', 'attack'=>'50', 'defense'=>'150', 'sp_atk'=>'50', 'sp_def'=>'150', 'speed'=>'50'),
+			'hp'=>'45', 'attack'=>'50', 'defense'=>'35', 'sp_atk'=>'55', 'sp_def'=>'75', 'speed'=>'40'),
 
 			array('name'=>'Sliggoo', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/sliggoo.png',
 			'hp'=>'68', 'attack'=>'75', 'defense'=>'53', 'sp_atk'=>'83', 'sp_def'=>'113', 'speed'=>'60'),

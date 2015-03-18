@@ -14,23 +14,31 @@
 		<div class="col-sm-2">
 			<script>
 			var data = [];
-			</script>		
+			</script>
+			<?php $count = 0; ?>		
 		@foreach ($pokemon as $pm)
 			<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
 			<div>
 				{{ $pm->name }}: {{ $pm->type_a }}, {{ $pm->type_b }}
 			</div>
+
 			<div class="total">{{ $pm->attack }} {{ $pm->defense }} {{ $pm->sp_atk }} {{ $pm->sp_def }} {{ $pm->speed }}</div>
+			
+			<?php $count++ ?>
+
 			<script>
 			data.push(<?php echo json_encode($pm) ?>);
 			</script>
 			
 		@endforeach
 		</div>
+
 		<div class="col-sm-10">
-			<div id="data">
-			
-			</div>
+			<div id="data"></div>
+		</div>
+
+		<div class="row">
+			<div>{{ $count }} {{ $type }} Pokémon</div>
 		</div>
 	</div>
 </div>

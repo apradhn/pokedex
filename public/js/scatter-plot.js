@@ -207,7 +207,6 @@ svg.append("g")
 	.attr("stroke-width", 2)
 	.attr("stroke", "rgba(244, 67, 54, 1)")
 	.attr("fill", "none")
-	.attr("class", "type")
 	.on("mouseover", tip2.show)
 	.on("mouseout", tip2.hide);		
 

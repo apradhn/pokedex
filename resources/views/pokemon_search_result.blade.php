@@ -28,7 +28,7 @@
 				<div>Sp. Atk</div>
 				<div>Sp. Def</div>
 				<div>Speed</div>
-				<div>Total: {{ $total }}</div>
+				<div>Total</div>
 			</div>	
 
 			<div class="chart {{ $pm['type_a'] }}">
@@ -38,6 +38,7 @@
 				<div style="width: {{ $pm['sp_atk'] }}px;">{{ $pm['sp_atk'] }}</div>
 				<div style="width: {{ $pm['sp_def'] }}px;">{{ $pm['sp_def'] }}</div>
 				<div style="width: {{ $pm['speed'] }}px;">{{ $pm['speed'] }}</div>
+				<div>{{ $total }}</div>
 			</div>	
 
 		</div>
@@ -45,7 +46,10 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6 td-heading"><h3>Type Defenses</h3></div>
+		<div class="td-heading">
+			<h3>Type Defenses</h3>
+			<p>The effectiveness of each type on {{ $pm->name }}</p>
+		</div>
 	</div>
 
 	<div class="row">

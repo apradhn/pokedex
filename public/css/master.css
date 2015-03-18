@@ -1,6 +1,6 @@
 body {
 	background: #DADFE1;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
@@ -10,6 +10,7 @@ body {
 
 .jumbotron h1 {
 	color: #FFFFFF;
+
 }
 
 .jumbotron h1 small {
