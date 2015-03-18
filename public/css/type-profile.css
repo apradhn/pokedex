@@ -325,4 +325,11 @@ path.average:hover {
   stroke: #00796B;
   stroke-width: 4; }
 
+.d3-tip {
+  text-align: center; }
+
+path.domain:hover {
+  stroke-width: 1;
+  stroke: "black"; }
+
 /*# sourceMappingURL=type-profile.css.map */

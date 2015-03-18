@@ -54,4 +54,11 @@ path.average:hover {
 	stroke-width: 4;
 }
 
+.d3-tip {
+	text-align: center;
+}
 
+path.domain:hover {
+	stroke-width: 1;
+	stroke: "black";
+}
