@@ -1143,7 +1143,7 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Shelgon', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/shelgon.png',
 			'hp'=>'65', 'attack'=>'95', 'defense'=>'100', 'sp_atk'=>'60', 'sp_def'=>'50', 'speed'=>'50'),
 
-			array('name'=>'Salamence', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/salamence.png',
+			array('name'=>'Salamence', 'type_a'=>'Dragon', 'type_b'=>'Flying', 'sprite_url'=>'/sprites/salamence.png',
 			'hp'=>'95', 'attack'=>'135', 'defense'=>'80', 'sp_atk'=>'110', 'sp_def'=>'80', 'speed'=>'110'),
 
 			array('name'=>'Beldum', 'type_a'=>'Steel', 'type_b'=>'Psychic', 'sprite_url'=>'/sprites/beldum.png',
@@ -1923,13 +1923,13 @@ class PokemonTableSeeder extends Seeder {
 			array('name'=>'Durant', 'type_a'=>'Bug', 'type_b'=>'Steel', 'sprite_url'=>'/sprites/durant.png',
 			'hp'=>'58', 'attack'=>'109', 'defense'=>'112', 'sp_atk'=>'48', 'sp_def'=>'48', 'speed'=>'109'),
 
-			array('name'=>'Deino', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/deino.png',
+			array('name'=>'Deino', 'type_a'=>'Dark', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/deino.png',
 			'hp'=>'52', 'attack'=>'65', 'defense'=>'50', 'sp_atk'=>'45', 'sp_def'=>'50', 'speed'=>'38'),
 
-			array('name'=>'Zweilous', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/zweilous.png',
+			array('name'=>'Zweilous', 'type_a'=>'Dark', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/zweilous.png',
 			'hp'=>'72', 'attack'=>'85', 'defense'=>'70', 'sp_atk'=>'65', 'sp_def'=>'70', 'speed'=>'58'),
 
-			array('name'=>'Hydreigon', 'type_a'=>'Dragon', 'type_b'=>'', 'sprite_url'=>'/sprites/hydreigon.png',
+			array('name'=>'Hydreigon', 'type_a'=>'Dark', 'type_b'=>'Dragon', 'sprite_url'=>'/sprites/hydreigon.png',
 			'hp'=>'92', 'attack'=>'105', 'defense'=>'90', 'sp_atk'=>'125', 'sp_def'=>'90', 'speed'=>'98'),
 
 			array('name'=>'Larvesta', 'type_a'=>'Bug', 'type_b'=>'Fire', 'sprite_url'=>'/sprites/larvesta.png',

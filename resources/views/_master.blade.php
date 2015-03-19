@@ -16,8 +16,14 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/master.css') }}">
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
-		<!--<script src="js/Chart.js"></script>-->
-		<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>	
+	    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.svg.css') }}">
+	   <!--  <script type="text/javascript" src="{{ asset('js/jquery.svg.js') }}"></script>
+	    <script type="text/javascript" src="{{ asset('js/jquery.svgdom.js') }}"></script> -->
+	    <script type="text/javascript" src="{{ asset('js/snap.svg.js') }}"></script>
 		@yield('head')
 	</head>
 
@@ -31,7 +37,7 @@
 	</nav>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Minimal Pokédex</h1>			
+			<h1>Minimal Pokédex</h1>		
 		</div>
 	</div>
 
@@ -40,10 +46,7 @@
 	
 
 	
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>	
+
 
     @yield('footer') 
 	</body>

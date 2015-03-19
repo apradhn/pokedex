@@ -4,7 +4,7 @@
 * Normal
 *
 ***************************/
-.chart.Normal div, .type > .Normal {
+.chart.Normal div, .type > .Normal, .poke-cell .Normal {
   background: #EDD7B8;
   color: #8D6E63; }
 
@@ -15,12 +15,15 @@
   color: #555555;
   background: transparent; }
 
+.poke-cell .Normal {
+  padding: 2px; }
+
 /************************
 *
 * Fire
 *
 *************************/
-.chart.Fire div, .type > .Fire {
+.chart.Fire div, .type > .Fire, .poke-cell .Fire {
   background: #ffa726;
   color: #e65100; }
 
@@ -31,12 +34,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Fire {
+  padding: 2px; }
+
 /*************************
 *
 * Water
 *
 **************************/
-.chart.Water div, .type > .Water {
+.chart.Water div, .type > .Water, .poke-cell .Water {
   background: #42a5f5;
   color: #0d47a1; }
 
@@ -47,12 +53,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Water {
+  padding: 2px; }
+
 /****************************
 *
 * Electric
 *
 *****************************/
-.chart.Electric div, .type > .Electric {
+.chart.Electric div, .type > .Electric, .poke-cell .Electric {
   background: #ffee58;
   color: #f57f17; }
 
@@ -63,12 +72,15 @@
   color: #555555;
   background: transparent; }
 
+.poke-cell .Electric {
+  padding: 2px; }
+
 /*************************
 *
 * Grass
 *
 **************************/
-.chart.Grass div, .type > .Grass {
+.chart.Grass div, .type > .Grass, .poke-cell .Grass {
   background: #66bb6a;
   color: #1b5e20; }
 
@@ -79,12 +91,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Grass {
+  padding: 2px; }
+
 /*********************
 *
 * Ice
 *
 **********************/
-.chart.Ice div, .type > .Ice {
+.chart.Ice div, .type > .Ice, .poke-cell .Ice {
   background: #26c6da;
   color: #006064; }
 
@@ -95,12 +110,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Ice {
+  padding: 2px; }
+
 /**************************
 *
 * Fighting
 *
 ***************************/
-.chart.Fighting div, .type > .Fighting {
+.chart.Fighting div, .type > .Fighting, .poke-cell .Fighting {
   background: #ef5350;
   color: #ffcdd2; }
 
@@ -111,12 +129,15 @@
   color: #555;
   background: transparent; }
 
+.type > .Fighting, .poke-cell .Fighting {
+  padding: 2px; }
+
 /**********************
 *
 * Poison
 *
 **********************/
-.chart.Poison div, .type > .Poison {
+.chart.Poison div, .type > .Poison, .poke-cell .Poison {
   background: #ab47bc;
   color: #e1bee7; }
 
@@ -127,12 +148,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Poison {
+  padding: 2px; }
+
 /********************
 *
 * Ground
 *
 ********************/
-.chart.Ground div, .type > .Ground {
+.chart.Ground div, .type > .Ground, .poke-cell .Ground {
   background: #ffca28;
   color: #ff6f00; }
 
@@ -143,12 +167,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Ground {
+  padding: 2px; }
+
 /*********************
 *
 * Flying
 *
 **********************/
-.chart.Flying div, .type > .Flying {
+.chart.Flying div, .type > .Flying, .poke-cell .Flying {
   background: #b388ff;
   color: #ede7f6; }
 
@@ -159,12 +186,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Flying {
+  padding: 2px; }
+
 /********************
 *
 * Psychic
 *
 *********************/
-.chart.Psychic div, .type > .Psychic {
+.chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
   background: #ec407a;
   color: #f8bbd0; }
 
@@ -175,12 +205,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Psychic {
+  padding: 2px; }
+
 /**********************
 *
 * Bug
 *
 ***********************/
-.chart.Bug div, .type > .Bug {
+.chart.Bug div, .type > .Bug, .poke-cell .Bug {
   background: #d4e157;
   color: #827717; }
 
@@ -191,12 +224,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Bug {
+  padding: 2px; }
+
 /***********************
 *
 * Rock
 *
 ***********************/
-.chart.Rock div, .row.name.Rock, .type > .Rock {
+.chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
   background: #8d6e63;
   color: #d7ccc8; }
 
@@ -207,12 +243,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Rock {
+  padding: 2px; }
+
 /*************************
 *
 * Ghost
 *
 **************************/
-.chart.Ghost div, .type > .Ghost {
+.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
 
@@ -223,12 +262,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Ghost {
+  padding: 2px; }
+
 /********************
 *
 * Dragon
 *
 *********************/
-.chart.Dragon div, .type > .Dragon {
+.chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
 
@@ -239,12 +281,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Dragon {
+  padding: 2px; }
+
 /***********************
 *
 * Dark
 *
 ***********************/
-.chart.Dark div, .type > .Dark {
+.chart.Dark div, .type > .Dark, .poke-cell .Dark {
   background: #555555;
   color: #BABABA; }
 
@@ -255,12 +300,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Dark {
+  padding: 2px; }
+
 /**************************
 *
 * Steel
 *
 ***************************/
-.chart.Steel div, .type > .Steel {
+.chart.Steel div, .type > .Steel, .poke-cell .Steel {
   background: #78909c;
   color: #cfd8dc; }
 
@@ -271,12 +319,15 @@
   color: #555;
   background: transparent; }
 
+.poke-cell .Steel {
+  padding: 2px; }
+
 /**********************
 *
 * Fairy
 *
 ***********************/
-.chart.Fairy div, .type > .Fairy {
+.chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
   background: #f48fb1;
   color: #ad1457; }
 
@@ -287,13 +338,22 @@
   color: #555;
   background: transparent; }
 
-div.bar {
-  display: inline-block;
-  width: 20px;
-  height: 75px;
-  /* We'll override this later */
-  background-color: teal;
-  margin-right: 5px; }
+.poke-cell .Fairy {
+  padding: 2px; }
+
+.poke-cell {
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #999; }
+
+.name {
+  font-size: 16px;
+  color: #333; }
+
+.total {
+  margin-top: 5px; }
 
 .axis path,
 .axis line {
@@ -308,12 +368,29 @@ div.bar {
 .pokemon {
   display: none; }
 
+.path-transparent {
+  stroke: rgba(244, 67, 54, 0.25); }
+
+.circle-transparent {
+  fill: rgba(244, 67, 54, 0.25); }
+
+.highlight {
+  stroke: #03a9f4;
+  stroke-width: 4; }
+
+.highlight-circle {
+  stroke: #03a9f4;
+  stroke-width: 10; }
+
+.selected {
+  background: #f2f2f2; }
+
 path:hover {
-  stroke: #d32f2f;
+  stroke: #ffc107;
   stroke-width: 4; }
 
 circle:hover {
-  fill: #d32f2f; }
+  fill: #ffc107; }
 
 circle.average:hover {
   fill: #00796B; }
@@ -332,10 +409,50 @@ path.domain:hover {
   stroke-width: 1;
   stroke: "black"; }
 
-path.Regice {
-  stroke: black; }
+.statistic {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px; }
 
-circle.Regice {
+.number {
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #555;
+  color: #555;
+  margin: 0 auto; }
+
+.statistic div:last-child {
+  margin-top: 10px;
+  text-align: center; }
+
+.average .number {
+  height: 75px;
+  width: 75px;
+  font-size: 24px;
+  padding-top: 15px;
+  border: 5px solid #009688;
+  color: #009688; }
+
+.test {
   fill: black; }
+
+.test1 {
+  fill: brown; }
+
+.test2 {
+  fill: green; }
+
+.test3 {
+  fill: blue; }
+
+.test4 {
+  fill: purple; }
+
+.test5 {
+  fill: pink; }
 
 /*# sourceMappingURL=type-profile.css.map */
