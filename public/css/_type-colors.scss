@@ -42,6 +42,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Normal.selected {
+	border-top: 3px solid $normal;
+}
+
 /************************
 *
 * Fire
@@ -64,6 +68,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Fire {
 	padding: 2px;
+}
+
+.Fire.selected {
+	border-top: 3px solid $fire;
 }
 
 /*************************
@@ -90,6 +98,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Water.selected {
+	border-top: 3px solid $water;
+}
+
 /****************************
 *
 * Electric
@@ -112,6 +124,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Electric {
 	padding: 2px;
+}
+
+.Electric.selected {
+	border-top: 3px solid $electric;
 }
 
 /*************************
@@ -138,6 +154,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Grass.selected {
+	border-top: 3px solid $grass;
+}
+
 /*********************
 *
 * Ice
@@ -160,6 +180,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Ice {
 	padding: 2px;
+}
+
+.Ice.selected {
+	border-top: 3px solid $ice;
 }
 
 /**************************
@@ -186,6 +210,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Fighting.selected {
+	border-top: 3px solid $fighting;
+}
+
 /**********************
 *
 * Poison
@@ -208,6 +236,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Poison {
 	padding: 2px;
+}
+
+.Poison.selected {
+	border-top: 3px solid $poison;
 }
 
 /********************
@@ -234,6 +266,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Ground.selected {
+	border-top: 3px solid $ground;
+}
+
 /*********************
 *
 * Flying
@@ -256,6 +292,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Flying {
 	padding: 2px;
+}
+
+.Flying.selected {
+	border-top: 3px solid $flying;
 }
 
 /********************
@@ -281,6 +321,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Psychic.selected {
+	border-top: 3px solid $psychic;
+}
+
 /**********************
 *
 * Bug
@@ -302,6 +346,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Bug {
 	padding: 2px;
+}
+
+.Bug.selected {
+	border-top: 3px solid $bug;
 }
 
 /***********************
@@ -327,6 +375,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Rock.selected {
+	border-top: 3px solid $rock;
+}
+
 /*************************
 *
 * Ghost
@@ -348,6 +400,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Ghost {
 	padding: 2px;
+}
+
+.Ghost.selected {
+	border-top: 3px solid $ghost;
 }
 
 /********************
@@ -372,6 +428,11 @@ $fairy: #f48fb1;
 .poke-cell .Dragon {
 	padding: 2px;	
 }
+
+.Dragon.selected {
+	border-top: 3px solid $dragon;
+}
+
 /***********************
 *
 * Dark
@@ -393,6 +454,10 @@ $fairy: #f48fb1;
 
 .poke-cell .Dark {
 	padding: 2px;
+}
+
+.Dark.selected {
+	border-top: 3px solid $dark;
 }
 
 /**************************
@@ -418,6 +483,10 @@ $fairy: #f48fb1;
 	padding: 2px;
 }
 
+.Steel.selected {
+	border-top: 3px solid $steel;
+}
+
 /**********************
 *
 * Fairy
@@ -439,4 +508,8 @@ $fairy: #f48fb1;
 
 .poke-cell .Fairy {
 	padding: 2px;
+}
+
+.Fairy.selected {
+	border-top: 3px solid $fairy;
 }

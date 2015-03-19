@@ -23,15 +23,12 @@
 			?>		
 
 			@foreach ($pokemon as $pm)
-			<div class="poke-cell {{ $pm->name }}">
+			<div class="poke-cell {{ $pm->name }} {{ $type }}">
 				<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
 				<div>
 					<span class="name">{{ $pm->name }}</span><br>
 					<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
-				</div>
-
-				<div class="total">{{ $pm->attack }} {{ $pm->defense }} {{ $pm->sp_atk }} {{ $pm->sp_def }} {{ $pm->speed }}</div>
-			
+				</div>			
 
 				@if ($pm->type_b == "")
 					<?php $single_type++; ?>
@@ -108,66 +105,10 @@
 				<div>Dual Types</div>
 			</div>
 		</div>	
-		<div class="col-sm-10">
-			<svg id="test" version="1.1" xmlns="http://www.w3.org/2000/svg" width="500" height="500"></svg>
-		</div>
 	</div>
 </div>
 <script src="{{ asset('js/d3.v3.min.js') }}"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script src="{{ asset('js/scatter-plot.js') }}"></script>
-<script>
-$(document).ready(function() {
-	var pokemon = [];
-
-	for(var i = 0; i < data.length; i++) {
-		pokemon[i] = data[i]["name"];
-	}
-
-	console.log(pokemon);
-
-	var s = Snap("#test");
-	var rect = s.rect(10, 10, 100, 100); 
-	$('.Parasect').click(function() {
-		rect.toggleClass('test');
-	});
-
-	var test = Snap('#svg');
-
-	var paths = test.selectAll("g.pm path");
-
-	var circles = test.selectAll("circle");
-
-	for (var i=0, j=0; i < circles.length; i+=6, j++) {
-		circles[i].addClass(pokemon[j]);
-		circles[i+1].addClass(pokemon[j]);
-		circles[i+2].addClass(pokemon[j]);
-		circles[i+3].addClass(pokemon[j]);
-		circles[i+4].addClass(pokemon[j]);
-		circles[i+5].addClass(pokemon[j]);
-	}
-
-	for (var i = 0; i < pokemon.length; i++) {
-		highlight(pokemon[i]);
-	}
-
-	function highlight(pm) {
-		$("div."+pm).click(function() {
-			$(this).toggleClass("selected");
-			var path = test.select("path."+pm);
-			path.toggleClass("highlight");
-			var circles = test.selectAll("circle."+pm);
-			console.log(circles);
-			for(var i=0; i< circles.length; i++) {
-				circles[i].toggleClass("highlight-circle");
-			}
-			//circle.toggleClass("highlight-circle");
-
-		});
-	}
-
-});
-
-
-</script>
+<script src="{{ asset('js/graph-interaction.js') }}"></script>
 @stop
