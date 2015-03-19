@@ -18,6 +18,15 @@ body {
 	font-size: 40%;
 }
 
+.jumbotron p {
+	color: #FFFFFF;
+}
+
+.jumbotron a, .jumbotron a:hover, .jumbotron a:focus {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0px;
@@ -34,6 +43,33 @@ body {
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #FFCDD2;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	background: #D32F2F;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover  {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background: #F44336;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: #FFFFFF;
 }
 
 .loading-row div {

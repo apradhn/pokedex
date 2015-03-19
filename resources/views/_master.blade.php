@@ -18,26 +18,39 @@
 		<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
 	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	    <script src="js/bootstrap.min.js"></script>	
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->	
 	    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.svg.css') }}">
-	   <!--  <script type="text/javascript" src="{{ asset('js/jquery.svg.js') }}"></script>
-	    <script type="text/javascript" src="{{ asset('js/jquery.svgdom.js') }}"></script> -->
 	    <script type="text/javascript" src="{{ asset('js/snap.svg.js') }}"></script>
 		@yield('head')
 	</head>
 
 	<body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="http://apradhan.me/">Abhijit Pradhan</a>
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="http://www.apradhan.me/">Abhijit Pradhan</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/">Search Pokédex<span class="sr-only">(current)</span></a></li>
+				    <li><a href="/data-visualizations">Data Visualizations</a></li>
+				</ul>
 			</div>
 		</div>
 	</nav>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Minimal Pokédex</h1>		
+			<h1>Minimal Pokédex</h1>
+			<p>Pokémon <a href="/data-visualizations">data visualizations</a> and a fast &amp; simple search UI</p>		
 		</div>
 	</div>
 
@@ -49,5 +62,6 @@
 
 
     @yield('footer') 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</body>
 </html>
