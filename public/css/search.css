@@ -95,7 +95,7 @@
 * Normal
 *
 ***************************/
-.chart.Normal div, .type > .Normal, .poke-cell .Normal {
+.chart.Normal div, .type > .Normal, .poke-cell .Normal, h3 a.Normal {
   background: #EDD7B8;
   color: #8D6E63; }
 
@@ -117,7 +117,7 @@
 * Fire
 *
 *************************/
-.chart.Fire div, .type > .Fire, .poke-cell .Fire {
+.chart.Fire div, .type > .Fire, .poke-cell .Fire, h3 a.Fire {
   background: #ffa726;
   color: #e65100; }
 
@@ -139,7 +139,7 @@
 * Water
 *
 **************************/
-.chart.Water div, .type > .Water, .poke-cell .Water {
+.chart.Water div, .type > .Water, .poke-cell .Water, h3 a.Water {
   background: #42a5f5;
   color: #0d47a1; }
 
@@ -161,7 +161,7 @@
 * Electric
 *
 *****************************/
-.chart.Electric div, .type > .Electric, .poke-cell .Electric {
+.chart.Electric div, .type > .Electric, .poke-cell .Electric, h3 a.Electric {
   background: #ffee58;
   color: #f57f17; }
 
@@ -183,7 +183,7 @@
 * Grass
 *
 **************************/
-.chart.Grass div, .type > .Grass, .poke-cell .Grass {
+.chart.Grass div, .type > .Grass, .poke-cell .Grass, h3 a.Grass {
   background: #66bb6a;
   color: #1b5e20; }
 
@@ -205,7 +205,7 @@
 * Ice
 *
 **********************/
-.chart.Ice div, .type > .Ice, .poke-cell .Ice {
+.chart.Ice div, .type > .Ice, .poke-cell .Ice, h3 a.Ice {
   background: #26c6da;
   color: #006064; }
 
@@ -227,7 +227,7 @@
 * Fighting
 *
 ***************************/
-.chart.Fighting div, .type > .Fighting, .poke-cell .Fighting {
+.chart.Fighting div, .type > .Fighting, .poke-cell .Fighting, h3 a.Fighting {
   background: #ef5350;
   color: #ffcdd2; }
 
@@ -249,7 +249,7 @@
 * Poison
 *
 **********************/
-.chart.Poison div, .type > .Poison, .poke-cell .Poison {
+.chart.Poison div, .type > .Poison, .poke-cell .Poison, h3 a.Poison {
   background: #ab47bc;
   color: #e1bee7; }
 
@@ -271,7 +271,7 @@
 * Ground
 *
 ********************/
-.chart.Ground div, .type > .Ground, .poke-cell .Ground {
+.chart.Ground div, .type > .Ground, .poke-cell .Ground, h3 a.Ground {
   background: #ffca28;
   color: #ff6f00; }
 
@@ -293,7 +293,7 @@
 * Flying
 *
 **********************/
-.chart.Flying div, .type > .Flying, .poke-cell .Flying {
+.chart.Flying div, .type > .Flying, .poke-cell .Flying, h3 a.Flying {
   background: #b388ff;
   color: #ede7f6; }
 
@@ -315,7 +315,7 @@
 * Psychic
 *
 *********************/
-.chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
+.chart.Psychic div, .type > .Psychic, .poke-cell .Psychic, h3 a.Psychic {
   background: #ec407a;
   color: #f8bbd0; }
 
@@ -337,7 +337,7 @@
 * Bug
 *
 ***********************/
-.chart.Bug div, .type > .Bug, .poke-cell .Bug {
+.chart.Bug div, .type > .Bug, .poke-cell .Bug, h3 a.Bug {
   background: #d4e157;
   color: #827717; }
 
@@ -359,7 +359,7 @@
 * Rock
 *
 ***********************/
-.chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
+.chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock, h3 a.Rock {
   background: #8d6e63;
   color: #d7ccc8; }
 
@@ -381,7 +381,7 @@
 * Ghost
 *
 **************************/
-.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
+.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost, h3 a.Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
 
@@ -403,7 +403,7 @@
 * Dragon
 *
 *********************/
-.chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
+.chart.Dragon div, .type > .Dragon, .poke-cell .Dragon, h3 a.Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
 
@@ -425,7 +425,7 @@
 * Dark
 *
 ***********************/
-.chart.Dark div, .type > .Dark, .poke-cell .Dark {
+.chart.Dark div, .type > .Dark, .poke-cell .Dark, h3 a.Dark {
   background: #555555;
   color: #BABABA; }
 
@@ -447,7 +447,7 @@
 * Steel
 *
 ***************************/
-.chart.Steel div, .type > .Steel, .poke-cell .Steel {
+.chart.Steel div, .type > .Steel, .poke-cell .Steel, h3 a.Steel {
   background: #78909c;
   color: #cfd8dc; }
 
@@ -469,7 +469,7 @@
 * Fairy
 *
 ***********************/
-.chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
+.chart.Fairy div, .type > .Fairy, .poke-cell .Fairy, h3 a.Fairy {
   background: #f48fb1;
   color: #ad1457; }
 

@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
 
 <div class="container-fluid">
-	<div class="col-sm-offset-1"><a href="/">Back to Pokédex</a></div>
-	<div class="panel panel-default col-xs-10 col-xs-offset-1"> 
+	<div class="panel panel-default col-sm-12 col-lg-10 col-lg-offset-1"> 
 		<h2>{{ $type }}</h2>
-		<div class="col-sm-2">
+		<p>Select a Pokémon to highlight their stats on the graph.</p>
+		<div class="col-sm-2 sidebar">
 			<script>
 			var data = [];
 			</script>

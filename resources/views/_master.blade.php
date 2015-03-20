@@ -9,8 +9,7 @@
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">		
 		<!-- Google Fonts --> 
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-		<!-- Bootstrap --> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat' rel='stylesheet' type='text/css'>		<!-- Bootstrap --> 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<!-- Font Awesome icons --> 
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">

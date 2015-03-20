@@ -1,0 +1,27 @@
+@import 'type-colors';
+
+.panel {
+	color: #555555;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h3 a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.row > h2 {
+	width: 40%;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+
+.viz-list p {
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+

@@ -53,6 +53,8 @@ Route::post('/pokemon/search', 'PokemonController@postSearch'); # Process the se
 
 Route::get('/types/{type_id}', 'TypeController@show');
 
+Route::get('/data-visualizations', 'VisualizationsController@show');
+
 # /app/routes.php
 Route::get('/debug', function() {
 
