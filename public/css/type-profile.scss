@@ -7,12 +7,32 @@
 	}
 }
 
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.chart-nav {
+	padding: 10px 10px 0px 10px;
+	background: #f2f2f2;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.chart-nav div {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
 .sidebar {
 
 }
 
 .sidebar:hover {
 
+}
+
+.statistic div:last-child {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .poke-cell:hover {
@@ -25,11 +45,12 @@
 	padding: 5px 5px 10px 5px;
 	font-size: 12px;
 	color: #999;
+	background: #FFFFFF;
 }
 
 .selected {
 	border-top: none;
-	background: #ECEFF0;
+	background: #ececec;
 	border-bottom: none;
 }
 

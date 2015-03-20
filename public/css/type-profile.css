@@ -4,7 +4,8 @@
 * Normal
 *
 ***************************/
-.chart.Normal div, .type > .Normal, .poke-cell .Normal, h3 a.Normal {
+.Normal, .Normal a, .Normal a:hover, .chart.Normal div, .type > .Normal,
+.poke-cell .Normal, .chart-nav .Normal {
   background: #EDD7B8;
   color: #8D6E63; }
 
@@ -19,14 +20,14 @@
   padding: 2px; }
 
 .Normal.selected {
-  border-top: 3px solid #EDD7B8; }
+  border-bottom: 3px solid #EDD7B8; }
 
 /************************
 *
 * Fire
 *
 *************************/
-.chart.Fire div, .type > .Fire, .poke-cell .Fire, h3 a.Fire {
+.Fire, .Fire a, .Fire a:hover .chart.Fire div, .type > .Fire, .poke-cell .Fire {
   background: #ffa726;
   color: #e65100; }
 
@@ -41,14 +42,14 @@
   padding: 2px; }
 
 .Fire.selected {
-  border-top: 3px solid #ffa726; }
+  border-bottom: 3px solid #ffa726; }
 
 /*************************
 *
 * Water
 *
 **************************/
-.chart.Water div, .type > .Water, .poke-cell .Water, h3 a.Water {
+.Water, .Water a, .Water a:hover, .chart.Water div, .type > .Water, .poke-cell .Water {
   background: #42a5f5;
   color: #0d47a1; }
 
@@ -63,14 +64,14 @@
   padding: 2px; }
 
 .Water.selected {
-  border-top: 3px solid #42a5f5; }
+  border-bottom: 3px solid #42a5f5; }
 
 /****************************
 *
 * Electric
 *
 *****************************/
-.chart.Electric div, .type > .Electric, .poke-cell .Electric, h3 a.Electric {
+.Electric, .Electric a, .Electric a:hover, .chart.Electric div, .type > .Electric, .poke-cell .Electric {
   background: #ffee58;
   color: #f57f17; }
 
@@ -85,14 +86,14 @@
   padding: 2px; }
 
 .Electric.selected {
-  border-top: 3px solid #ffee58; }
+  border-bottom: 3px solid #ffee58; }
 
 /*************************
 *
 * Grass
 *
 **************************/
-.chart.Grass div, .type > .Grass, .poke-cell .Grass, h3 a.Grass {
+.Grass, .Grass a, .Grass a:hover, .chart.Grass div, .type > .Grass, .poke-cell .Grass {
   background: #66bb6a;
   color: #1b5e20; }
 
@@ -107,14 +108,14 @@
   padding: 2px; }
 
 .Grass.selected {
-  border-top: 3px solid #66bb6a; }
+  border-bottom: 3px solid #66bb6a; }
 
 /*********************
 *
 * Ice
 *
 **********************/
-.chart.Ice div, .type > .Ice, .poke-cell .Ice, h3 a.Ice {
+.Ice, .Ice a, .Ice a:hover, .chart.Ice div, .type > .Ice, .poke-cell .Ice {
   background: #26c6da;
   color: #006064; }
 
@@ -129,14 +130,14 @@
   padding: 2px; }
 
 .Ice.selected {
-  border-top: 3px solid #26c6da; }
+  border-bottom: 3px solid #26c6da; }
 
 /**************************
 *
 * Fighting
 *
 ***************************/
-.chart.Fighting div, .type > .Fighting, .poke-cell .Fighting, h3 a.Fighting {
+.Fighting, .Fighting a, .Fighting a:hover, .chart.Fighting div, .type > .Fighting, .poke-cell .Fighting {
   background: #ef5350;
   color: #ffcdd2; }
 
@@ -151,14 +152,14 @@
   padding: 2px; }
 
 .Fighting.selected {
-  border-top: 3px solid #ef5350; }
+  border-bottom: 3px solid #ef5350; }
 
 /**********************
 *
 * Poison
 *
 **********************/
-.chart.Poison div, .type > .Poison, .poke-cell .Poison, h3 a.Poison {
+.Poison, .Poison a, .Poison a:hover, .chart.Poison div, .type > .Poison, .poke-cell .Poison {
   background: #ab47bc;
   color: #e1bee7; }
 
@@ -173,14 +174,14 @@
   padding: 2px; }
 
 .Poison.selected {
-  border-top: 3px solid #ab47bc; }
+  border-bottom: 3px solid #ab47bc; }
 
 /********************
 *
 * Ground
 *
 ********************/
-.chart.Ground div, .type > .Ground, .poke-cell .Ground, h3 a.Ground {
+.Ground, .Ground a, .Ground a:hover, .chart.Ground div, .type > .Ground, .poke-cell .Ground {
   background: #ffca28;
   color: #ff6f00; }
 
@@ -195,14 +196,14 @@
   padding: 2px; }
 
 .Ground.selected {
-  border-top: 3px solid #ffca28; }
+  border-bottom: 3px solid #ffca28; }
 
 /*********************
 *
 * Flying
 *
 **********************/
-.chart.Flying div, .type > .Flying, .poke-cell .Flying, h3 a.Flying {
+.Flying, .Flying a, .Flying a:hover, .chart.Flying div, .type > .Flying, .poke-cell .Flying {
   background: #b388ff;
   color: #ede7f6; }
 
@@ -217,14 +218,14 @@
   padding: 2px; }
 
 .Flying.selected {
-  border-top: 3px solid #b388ff; }
+  border-bottom: 3px solid #b388ff; }
 
 /********************
 *
 * Psychic
 *
 *********************/
-.chart.Psychic div, .type > .Psychic, .poke-cell .Psychic, h3 a.Psychic {
+.Psychic, .Psychic a, .Psychic a:hover, .chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
   background: #ec407a;
   color: #f8bbd0; }
 
@@ -239,14 +240,14 @@
   padding: 2px; }
 
 .Psychic.selected {
-  border-top: 3px solid #ec407a; }
+  border-bottom: 3px solid #ec407a; }
 
 /**********************
 *
 * Bug
 *
 ***********************/
-.chart.Bug div, .type > .Bug, .poke-cell .Bug, h3 a.Bug {
+.Bug, .Bug a, .Bug a:hover, .chart.Bug div, .type > .Bug, .poke-cell .Bug {
   background: #d4e157;
   color: #827717; }
 
@@ -261,14 +262,14 @@
   padding: 2px; }
 
 .Bug.selected {
-  border-top: 3px solid #d4e157; }
+  border-bottom: 3px solid #d4e157; }
 
 /***********************
 *
 * Rock
 *
 ***********************/
-.chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock, h3 a.Rock {
+.Rock, .Rock a, .Rock a:hover, .chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
   background: #8d6e63;
   color: #d7ccc8; }
 
@@ -283,14 +284,14 @@
   padding: 2px; }
 
 .Rock.selected {
-  border-top: 3px solid #8d6e63; }
+  border-bottom: 3px solid #8d6e63; }
 
 /*************************
 *
 * Ghost
 *
 **************************/
-.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost, h3 a.Ghost {
+.Ghost, .Ghost a, .Ghost a:hover, .chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
 
@@ -305,14 +306,14 @@
   padding: 2px; }
 
 .Ghost.selected {
-  border-top: 3px solid #7e57c2; }
+  border-bottom: 3px solid #7e57c2; }
 
 /********************
 *
 * Dragon
 *
 *********************/
-.chart.Dragon div, .type > .Dragon, .poke-cell .Dragon, h3 a.Dragon {
+.Dragon, .Dragon a, .Dragon a:hover, .chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
   background: #5c6bc0;
   color: #c5cae9; }
 
@@ -327,14 +328,14 @@
   padding: 2px; }
 
 .Dragon.selected {
-  border-top: 3px solid #5c6bc0; }
+  border-bottom: 3px solid #5c6bc0; }
 
 /***********************
 *
 * Dark
 *
 ***********************/
-.chart.Dark div, .type > .Dark, .poke-cell .Dark, h3 a.Dark {
+.Dark, .Dark a, .Dark a:hover, .chart.Dark div, .type > .Dark, .poke-cell .Dark {
   background: #555555;
   color: #BABABA; }
 
@@ -349,14 +350,14 @@
   padding: 2px; }
 
 .Dark.selected {
-  border-top: 3px solid #555555; }
+  border-bottom: 3px solid #555555; }
 
 /**************************
 *
 * Steel
 *
 ***************************/
-.chart.Steel div, .type > .Steel, .poke-cell .Steel, h3 a.Steel {
+.Steel, .Steel a, .Steel a:hover, .chart.Steel div, .type > .Steel, .poke-cell .Steel {
   background: #78909c;
   color: #cfd8dc; }
 
@@ -371,14 +372,14 @@
   padding: 2px; }
 
 .Steel.selected {
-  border-top: 3px solid #78909c; }
+  border-bottom: 3px solid #78909c; }
 
 /**********************
 *
 * Fairy
 *
 ***********************/
-.chart.Fairy div, .type > .Fairy, .poke-cell .Fairy, h3 a.Fairy {
+.Fairy, .Fairy a, .Fairy a:hover, .chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
   background: #f48fb1;
   color: #ad1457; }
 
@@ -395,6 +396,22 @@
 .Fairy.selected {
   border-top: 3px solid #f48fb1; }
 
+.jumbotron {
+  margin-bottom: 0px; }
+
+.chart-nav {
+  padding: 10px 10px 0px 10px;
+  background: #f2f2f2;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.chart-nav div {
+  margin-left: 5px;
+  margin-bottom: 5px; }
+
+.statistic div:last-child {
+  font-family: 'Open Sans', sans-serif; }
+
 .poke-cell:hover {
   cursor: pointer; }
 
@@ -403,11 +420,12 @@
   border-bottom: 1px solid #666666;
   padding: 5px 5px 10px 5px;
   font-size: 12px;
-  color: #999; }
+  color: #999;
+  background: #FFFFFF; }
 
 .selected {
   border-top: none;
-  background: #ECEFF0;
+  background: #ececec;
   border-bottom: none; }
 
 .name {

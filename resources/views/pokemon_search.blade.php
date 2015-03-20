@@ -1,5 +1,9 @@
 @extends('_master')
 
+@section('head')
+<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
+@stop
+
 @section('navigation')
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">

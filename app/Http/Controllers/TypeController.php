@@ -19,7 +19,6 @@ class TypeController extends Controller {
 		$pokemon = Pokemon::where('type_a', '=', $type)
 		->orWhere('type_b', '=', $type)
 		->get();
-
 		
 		return View::make('type-profile')
 			->with('type', $type)

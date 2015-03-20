@@ -33,6 +33,28 @@
 <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
 
 <div class="container-fluid">
+	<div class="row chart-nav">
+		<div class="col-sm-10 col-sm-offset-1">
+			<div class="col-sm-1 Normal"><a href="types/Normal">Normal</a></div>
+			<div class="col-sm-1 Fire"><a href="types/Fire">Fire</a></div>
+			<div class="col-sm-1 Water"><a href="types/Water">Water</a></div>
+			<div class="col-sm-1 Electric"><a href="types/Electric">Electric</a></div>
+			<div class="col-sm-1 Grass"><a href="types/Grass">Grass</a></div>
+			<div class="col-sm-1 Ice"><a href="types/Ice">Ice</a></div>
+			<div class="col-sm-1 Fighting"><a href="types/Fighting">Fighting</a></div>
+			<div class="col-sm-1 Poison"><a href="types/Poison">Poison</a></div>
+			<div class="col-sm-1 Ground"><a href="types/Ground">Ground</a></div>
+			<div class="col-sm-1 Flying"><a href="types/Flying">Flying</a></div>
+			<div class="col-sm-1 Psychic"><a href="types/Psychic">Psychic</a></div>
+			<div class="col-sm-1 Bug"><a href="types/Bug">Bug</a></div>
+			<div class="col-sm-1 Rock"><a href="types/Rock">Rock</a></div>
+			<div class="col-sm-1 Ghost"><a href="types/Ghost">Ghost</a></div>
+			<div class="col-sm-1 Dragon"><a href="types/Dragon">Dragon</a></div>
+			<div class="col-sm-1 Dark"><a href="types/Dark">Dark</a></div>
+			<div class="col-sm-1 Steel"><a href="types/Steel">Steel</a></div>
+			<div class="col-sm-1 Fairy"><a href="types/Fairy">Fairy</a></div>
+		</div>
+	</div>
 	<div class="panel panel-default col-sm-12 col-lg-10 col-lg-offset-1"> 
 		<h2>{{ $type }}</h2>
 		<p>Select a Pokémon to highlight their stats on the graph.</p>

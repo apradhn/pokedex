@@ -24,7 +24,8 @@ $fairy: #f48fb1;
 *
 ***************************/
 
-.chart.Normal div, .type > .Normal, .poke-cell .Normal, h3 a.Normal {
+.Normal, .Normal a, .Normal a:hover, .chart.Normal div, .type > .Normal, 
+.poke-cell .Normal, .chart-nav .Normal {
 	background: $normal;
 	color: #8D6E63;
 }
@@ -43,7 +44,7 @@ $fairy: #f48fb1;
 }
 
 .Normal.selected {
-	border-top: 3px solid $normal;
+	border-bottom: 3px solid $normal;
 }
 
 /************************
@@ -52,7 +53,7 @@ $fairy: #f48fb1;
 *
 *************************/
 
-.chart.Fire div, .type > .Fire, .poke-cell .Fire, h3 a.Fire {
+.Fire, .Fire a, .Fire a:hover .chart.Fire div, .type > .Fire, .poke-cell .Fire {
 	background: $fire;
 	color: #e65100;
 }
@@ -71,7 +72,7 @@ $fairy: #f48fb1;
 }
 
 .Fire.selected {
-	border-top: 3px solid $fire;
+	border-bottom: 3px solid $fire;
 }
 
 /*************************
@@ -80,7 +81,7 @@ $fairy: #f48fb1;
 *
 **************************/
 	
-.chart.Water div, .type > .Water, .poke-cell .Water, h3 a.Water {
+.Water, .Water a, .Water a:hover, .chart.Water div, .type > .Water, .poke-cell .Water {
 	background: $water;
 	color: #0d47a1;
 }
@@ -99,7 +100,7 @@ $fairy: #f48fb1;
 }
 
 .Water.selected {
-	border-top: 3px solid $water;
+	border-bottom: 3px solid $water;
 }
 
 /****************************
@@ -108,7 +109,7 @@ $fairy: #f48fb1;
 *
 *****************************/
 	
-.chart.Electric div, .type > .Electric, .poke-cell .Electric, h3 a.Electric {
+.Electric, .Electric a, .Electric a:hover, .chart.Electric div, .type > .Electric, .poke-cell .Electric {
 	background: #ffee58;
 	color: #f57f17;
 }
@@ -127,7 +128,7 @@ $fairy: #f48fb1;
 }
 
 .Electric.selected {
-	border-top: 3px solid $electric;
+	border-bottom: 3px solid $electric;
 }
 
 /*************************
@@ -136,7 +137,7 @@ $fairy: #f48fb1;
 *
 **************************/
 
-.chart.Grass div, .type > .Grass, .poke-cell .Grass, h3 a.Grass {
+.Grass, .Grass a, .Grass a:hover, .chart.Grass div, .type > .Grass, .poke-cell .Grass {
 	background: $grass;
 	color: #1b5e20;
 }
@@ -155,7 +156,7 @@ $fairy: #f48fb1;
 }
 
 .Grass.selected {
-	border-top: 3px solid $grass;
+	border-bottom: 3px solid $grass;
 }
 
 /*********************
@@ -164,7 +165,7 @@ $fairy: #f48fb1;
 *
 **********************/
 
-.chart.Ice div, .type > .Ice, .poke-cell .Ice, h3 a.Ice {
+.Ice, .Ice a, .Ice a:hover, .chart.Ice div, .type > .Ice, .poke-cell .Ice {
 	background: $ice;
 	color: #006064;
 }
@@ -183,7 +184,7 @@ $fairy: #f48fb1;
 }
 
 .Ice.selected {
-	border-top: 3px solid $ice;
+	border-bottom: 3px solid $ice;
 }
 
 /**************************
@@ -192,7 +193,7 @@ $fairy: #f48fb1;
 *
 ***************************/
 
-.chart.Fighting div, .type > .Fighting, .poke-cell .Fighting, h3 a.Fighting {
+.Fighting, .Fighting a, .Fighting a:hover, .chart.Fighting div, .type > .Fighting, .poke-cell .Fighting {
 	background: $fighting;
 	color: #ffcdd2;
 }
@@ -211,7 +212,7 @@ $fairy: #f48fb1;
 }
 
 .Fighting.selected {
-	border-top: 3px solid $fighting;
+	border-bottom: 3px solid $fighting;
 }
 
 /**********************
@@ -220,7 +221,7 @@ $fairy: #f48fb1;
 *
 **********************/
 
-.chart.Poison div, .type > .Poison, .poke-cell .Poison, h3 a.Poison {
+.Poison, .Poison a, .Poison a:hover, .chart.Poison div, .type > .Poison, .poke-cell .Poison {
 	background: $poison;
 	color: #e1bee7;
 }
@@ -239,7 +240,7 @@ $fairy: #f48fb1;
 }
 
 .Poison.selected {
-	border-top: 3px solid $poison;
+	border-bottom: 3px solid $poison;
 }
 
 /********************
@@ -248,7 +249,7 @@ $fairy: #f48fb1;
 *
 ********************/
 
-.chart.Ground div, .type > .Ground, .poke-cell .Ground, h3 a.Ground {
+.Ground, .Ground a, .Ground a:hover, .chart.Ground div, .type > .Ground, .poke-cell .Ground  {
 	background: $ground;
 	color: #ff6f00;
 }
@@ -267,7 +268,7 @@ $fairy: #f48fb1;
 }
 
 .Ground.selected {
-	border-top: 3px solid $ground;
+	border-bottom: 3px solid $ground;
 }
 
 /*********************
@@ -276,7 +277,7 @@ $fairy: #f48fb1;
 *
 **********************/
 
-.chart.Flying div, .type > .Flying, .poke-cell .Flying, h3 a.Flying  {
+.Flying, .Flying a, .Flying a:hover, .chart.Flying div, .type > .Flying, .poke-cell .Flying   {
 	background: $flying;
 	color: #ede7f6;
 }
@@ -295,7 +296,7 @@ $fairy: #f48fb1;
 }
 
 .Flying.selected {
-	border-top: 3px solid $flying;
+	border-bottom: 3px solid $flying;
 }
 
 /********************
@@ -303,7 +304,7 @@ $fairy: #f48fb1;
 * Psychic
 *
 *********************/
-.chart.Psychic div, .type > .Psychic, .poke-cell .Psychic, h3 a.Psychic {
+.Psychic, .Psychic a, .Psychic a:hover, .chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
 	background: $psychic;
 	color: #f8bbd0;
 }
@@ -322,15 +323,16 @@ $fairy: #f48fb1;
 }
 
 .Psychic.selected {
-	border-top: 3px solid $psychic;
+	border-bottom: 3px solid $psychic;
 }
+
 
 /**********************
 *
 * Bug
 *
 ***********************/
-.chart.Bug div, .type > .Bug, .poke-cell .Bug, h3 a.Bug  {
+.Bug, .Bug a, .Bug a:hover, .chart.Bug div, .type > .Bug, .poke-cell .Bug  {
 	background: $bug;
 	color: #827717;
 }
@@ -349,7 +351,7 @@ $fairy: #f48fb1;
 }
 
 .Bug.selected {
-	border-top: 3px solid $bug;
+	border-bottom: 3px solid $bug;
 }
 
 /***********************
@@ -357,7 +359,7 @@ $fairy: #f48fb1;
 * Rock
 *
 ***********************/
-.chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock, h3 a.Rock {
+.Rock, .Rock a, .Rock a:hover, .chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
 	background: $rock;
 	color: #d7ccc8;
 }
@@ -376,7 +378,7 @@ $fairy: #f48fb1;
 }
 
 .Rock.selected {
-	border-top: 3px solid $rock;
+	border-bottom: 3px solid $rock;
 }
 
 /*************************
@@ -384,7 +386,7 @@ $fairy: #f48fb1;
 * Ghost
 *
 **************************/
-.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost, h3 a.Ghost {
+.Ghost, .Ghost a, .Ghost a:hover,.chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
 	background: $ghost;
 	color: #d1c4e9;
 }
@@ -403,7 +405,7 @@ $fairy: #f48fb1;
 }
 
 .Ghost.selected {
-	border-top: 3px solid $ghost;
+	border-bottom: 3px solid $ghost;
 }
 
 /********************
@@ -411,7 +413,7 @@ $fairy: #f48fb1;
 * Dragon
 *
 *********************/
-.chart.Dragon div, .type > .Dragon, .poke-cell .Dragon, h3 a.Dragon {
+.Dragon, .Dragon a, .Dragon a:hover, .chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
 	background: $dragon;
 	color: #c5cae9;
 }
@@ -430,7 +432,7 @@ $fairy: #f48fb1;
 }
 
 .Dragon.selected {
-	border-top: 3px solid $dragon;
+	border-bottom: 3px solid $dragon;
 }
 
 /***********************
@@ -438,7 +440,7 @@ $fairy: #f48fb1;
 * Dark
 *
 ***********************/
-.chart.Dark div, .type > .Dark, .poke-cell .Dark, h3 a.Dark {
+.Dark, .Dark a, .Dark a:hover, .chart.Dark div, .type > .Dark, .poke-cell .Dark {
 	background: $dark;
 	color: #BABABA;
 }
@@ -457,7 +459,7 @@ $fairy: #f48fb1;
 }
 
 .Dark.selected {
-	border-top: 3px solid $dark;
+	border-bottom: 3px solid $dark;
 }
 
 /**************************
@@ -465,7 +467,7 @@ $fairy: #f48fb1;
 * Steel
 *
 ***************************/
-.chart.Steel div, .type > .Steel, .poke-cell .Steel, h3 a.Steel {
+.Steel, .Steel a, .Steel a:hover, .chart.Steel div, .type > .Steel, .poke-cell .Steel {
 	background: $steel;
 	color: #cfd8dc;
 }
@@ -484,7 +486,7 @@ $fairy: #f48fb1;
 }
 
 .Steel.selected {
-	border-top: 3px solid $steel;
+	border-bottom: 3px solid $steel;
 }
 
 /**********************
@@ -492,7 +494,7 @@ $fairy: #f48fb1;
 * Fairy
 *
 ***********************/
-.chart.Fairy div, .type > .Fairy, .poke-cell .Fairy, h3 a.Fairy {
+.Fairy, .Fairy a, .Fairy a:hover, .chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
 	background: $fairy;
 	color: #ad1457;
 }
@@ -513,3 +515,4 @@ $fairy: #f48fb1;
 .Fairy.selected {
 	border-top: 3px solid $fairy;
 }
+

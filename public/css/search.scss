@@ -14,19 +14,18 @@
 
 .pokemon-name {
 	text-align: left;
-	margin-left: 20px;
-	margin-bottom: 10px;
 	color: #333;
 }
 
+.captions, p, .type-defenses {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .national-number {
-	text-align: left;
-	width: 50%;
-	margin-left: 20px;
-	margin-top: 0px;
-	border-top: 2px solid #333;
-	padding-top: 10px;
-	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #888888;
 }
 
 .type {
@@ -35,7 +34,6 @@
 }
 
 .type div {
-	width: 70px;
 	margin: 5px auto;
 	padding: 5px;
 }
@@ -44,14 +42,28 @@
 	color: inherit;
 }
 
+.type a {
+	text-decoration: none;
+}
+
 .sprite {
 	display: block;
 	margin: 0 auto;
-	height: 150px;
+	width: 150px;
+}
+
+.stats-heading  h3 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 10px;
+}
+
+.base-stat {
+	text-align: left;
 }
 
 .type-defenses {
 	margin-bottom: 10px;
+	font-size: 11px;
 }
 
 .type-defenses div {
@@ -67,7 +79,6 @@
 
 .td-heading {
 	background: transparent;
-	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
@@ -77,18 +88,20 @@
 
 .td-heading p {
 	border-top: 2px solid #333;
-	width: 50%;
 	padding-top: 10px;
 }
 
 .captions {
 	float:left;
+	
 }
 .captions div {
 	font-size: 12px;
 	padding: 5px;
+	padding-right: 0px;
 	margin: 5px;
-	text-align: right;
+	margin-right: 2px;
+	text-align: left;
 }
 .chart {
 	float: left;
@@ -99,7 +112,6 @@
   text-align: right;
   padding: 5px 5px 5px 2px;
   margin: 5px;
-  color: white;
 }
 
 .captions div:last-child {
