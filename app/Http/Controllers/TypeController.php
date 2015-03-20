@@ -19,6 +19,14 @@ class TypeController extends Controller {
 		$pokemon = Pokemon::where('type_a', '=', $type)
 		->orWhere('type_b', '=', $type)
 		->get();
+
+		$names = [];
+
+		foreach ($pokemon as $pm) {
+			array_push($names, $pm['name']);
+		}
+
+		$pm_class = Pokemon::get_name_class($names);
 		
 		return View::make('type-profile')
 			->with('type', $type)

@@ -212,7 +212,7 @@
 		.attr("stroke-width", 2)
 		.attr("stroke", "rgba(244, 67, 54, .225)")
 		.attr("fill", "none")
-		.attr("class", function(d, i) { return pokemon[i]; })
+		.attr("class", function(d, i) { return nameData[i]; })
 		.on("mouseover", tip2.show)
 		.on("mouseout", tip2.hide);		
 	/*

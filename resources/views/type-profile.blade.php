@@ -35,32 +35,34 @@
 <div class="container-fluid">
 	<div class="row chart-nav">
 		<div class="col-sm-10 col-sm-offset-1">
-			<div class="col-sm-1 Normal"><a href="types/Normal">Normal</a></div>
-			<div class="col-sm-1 Fire"><a href="types/Fire">Fire</a></div>
-			<div class="col-sm-1 Water"><a href="types/Water">Water</a></div>
-			<div class="col-sm-1 Electric"><a href="types/Electric">Electric</a></div>
-			<div class="col-sm-1 Grass"><a href="types/Grass">Grass</a></div>
-			<div class="col-sm-1 Ice"><a href="types/Ice">Ice</a></div>
-			<div class="col-sm-1 Fighting"><a href="types/Fighting">Fighting</a></div>
-			<div class="col-sm-1 Poison"><a href="types/Poison">Poison</a></div>
-			<div class="col-sm-1 Ground"><a href="types/Ground">Ground</a></div>
-			<div class="col-sm-1 Flying"><a href="types/Flying">Flying</a></div>
-			<div class="col-sm-1 Psychic"><a href="types/Psychic">Psychic</a></div>
-			<div class="col-sm-1 Bug"><a href="types/Bug">Bug</a></div>
-			<div class="col-sm-1 Rock"><a href="types/Rock">Rock</a></div>
-			<div class="col-sm-1 Ghost"><a href="types/Ghost">Ghost</a></div>
-			<div class="col-sm-1 Dragon"><a href="types/Dragon">Dragon</a></div>
-			<div class="col-sm-1 Dark"><a href="types/Dark">Dark</a></div>
-			<div class="col-sm-1 Steel"><a href="types/Steel">Steel</a></div>
-			<div class="col-sm-1 Fairy"><a href="types/Fairy">Fairy</a></div>
+			<div class="col-sm-1 Normal"><a href="Normal">Normal</a></div>
+			<div class="col-sm-1 Fire"><a href="Fire">Fire</a></div>
+			<div class="col-sm-1 Water"><a href="Water">Water</a></div>
+			<div class="col-sm-1 Electric"><a href="Electric">Electric</a></div>
+			<div class="col-sm-1 Grass"><a href="Grass">Grass</a></div>
+			<div class="col-sm-1 Ice"><a href="Ice">Ice</a></div>
+			<div class="col-sm-1 Fighting"><a href="Fighting">Fighting</a></div>
+			<div class="col-sm-1 Poison"><a href="Poison">Poison</a></div>
+			<div class="col-sm-1 Ground"><a href="Ground">Ground</a></div>
+			<div class="col-sm-1 Flying"><a href="Flying">Flying</a></div>
+			<div class="col-sm-1 Psychic"><a href="Psychic">Psychic</a></div>
+			<div class="col-sm-1 Bug"><a href="Bug">Bug</a></div>
+			<div class="col-sm-1 Rock"><a href="Rock">Rock</a></div>
+			<div class="col-sm-1 Ghost"><a href="Ghost">Ghost</a></div>
+			<div class="col-sm-1 Dragon"><a href="Dragon">Dragon</a></div>
+			<div class="col-sm-1 Dark"><a href="Dark">Dark</a></div>
+			<div class="col-sm-1 Steel"><a href="Steel">Steel</a></div>
+			<div class="col-sm-1 Fairy"><a href="Fairy">Fairy</a></div>
 		</div>
 	</div>
+
 	<div class="panel panel-default col-sm-12 col-lg-10 col-lg-offset-1"> 
 		<h2>{{ $type }}</h2>
 		<p>Select a Pokémon to highlight their stats on the graph.</p>
 		<div class="col-sm-2 sidebar">
 			<script>
 			var data = [];
+			var nameData = [];
 			</script>
 
 			<?php $count = 0; $single_type = 0; $dual_type = 0; $hp_total = 0; 
@@ -69,7 +71,23 @@
 			?>		
 
 			@foreach ($pokemon as $pm)
-			<div class="poke-cell {{ $pm->name }} {{ $type }}">
+
+				<?php $name_class = $pm->name ?>
+				@if ($pm->name == "Farfetch'd") 
+					<?php $name_class = "Farfetchd"; ?>
+				@elseif ($pm->name == "Mr. Mime") 
+					<?php $name_class = "MrMime"; ?>
+				@elseif ($pm->name == "Nidoran (male)") 
+					<?php $name_class = "Nidoran-m"; ?>
+				@elseif ($pm->name == "Nidoran (female)") 
+					<?php $name_class = "Nidoran-f"; ?>
+				@elseif ($pm->name == "Mime Jr.") 
+					<?php $name_class = "MimeJr"; ?>
+				@else 
+					<?php $name_class = $pm->name; ?>
+				@endif
+
+			<div class="poke-cell {{ $name_class }} {{ $type }}">
 				<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
 				<div>
 					<span class="name">{{ $pm->name }}</span><br>
@@ -91,12 +109,16 @@
 				$speed_total += $pm->speed;
 				$count++; 
 				?>
+
 				<script>
 				data.push(<?php echo json_encode($pm) ?>);
+				nameData.push(<?php echo json_encode($name_class) ?>)
 				</script>
+
 			</div>
 			@endforeach
 		</div>		
+
 		<?php
 		$hp_avg = round($hp_total / $count);
 		$attack_avg = round($attack_total / $count);
@@ -105,6 +127,7 @@
 		$sp_def_avg = round($sp_def_total / $count);
 		$speed_avg = round($speed_total / $count);
 		?>
+
 		<div class="col-sm-10 average">
 			<div class="statistic">
 				<div class="number">{{ $hp_avg }}</div>

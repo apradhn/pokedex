@@ -516,4 +516,26 @@ class Pokemon extends Model {
 		return $class_names;
 	}
 
+	public static function get_name_class($names) {
+		foreach ($names as $name) {
+			if ($name == "Farfetch'd") {
+				$name = "Farfetchd";
+			}
+			if ($name == "Mr. Mime") {
+				$name = "MrMime";
+			}
+			if ($name == "Nidoran (male)") {
+				$name = "Nidoran-m"; 
+			}
+			if ($name == "Nidoran (female)") {
+				$name = "Nidoran-f";
+			}
+			if ($name == "Mime Jr.") {
+				$name = "MimeJr";
+			}
+		}
+
+		return $names;
+	}
+
 }

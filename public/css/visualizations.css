@@ -9,6 +9,9 @@
   background: #EDD7B8;
   color: #8D6E63; }
 
+a .Normal:hover {
+  background: #f7eee1; }
+
 .chart.Normal {
   background: transparent; }
 
@@ -30,6 +33,9 @@
 .Fire, .Fire a, .Fire a:hover .chart.Fire div, .type > .Fire, .poke-cell .Fire {
   background: #ffa726;
   color: #e65100; }
+
+a .Fire:hover {
+  background: #ffbc59; }
 
 .chart.Fire {
   background: transparent; }
@@ -53,6 +59,9 @@
   background: #42a5f5;
   color: #0d47a1; }
 
+a .Water:hover {
+  background: #72bcf8; }
+
 .chart.Water {
   background: transparent; }
 
@@ -74,6 +83,9 @@
 .Electric, .Electric a, .Electric a:hover, .chart.Electric div, .type > .Electric, .poke-cell .Electric {
   background: #ffee58;
   color: #f57f17; }
+
+a .Electric:hover {
+  background: #fff38b; }
 
 .chart.Electric {
   background: transparent; }
@@ -97,6 +109,9 @@
   background: #66bb6a;
   color: #1b5e20; }
 
+a .Grass:hover {
+  background: #89cb8c; }
+
 .chart.Grass {
   background: transparent; }
 
@@ -118,6 +133,9 @@
 .Ice, .Ice a, .Ice a:hover, .chart.Ice div, .type > .Ice, .poke-cell .Ice {
   background: #26c6da;
   color: #006064; }
+
+a .Ice:hover {
+  background: #52d1e1; }
 
 .chart.Ice {
   background: transparent; }
@@ -141,6 +159,9 @@
   background: #ef5350;
   color: #ffcdd2; }
 
+a .Fighting:hover {
+  background: #f3817f; }
+
 .chart.Fighting {
   background: transparent; }
 
@@ -162,6 +183,9 @@
 .Poison, .Poison a, .Poison a:hover, .chart.Poison div, .type > .Poison, .poke-cell .Poison {
   background: #ab47bc;
   color: #e1bee7; }
+
+a .Poison:hover {
+  background: #bc6cca; }
 
 .chart.Poison {
   background: transparent; }
@@ -185,6 +209,9 @@
   background: #ffca28;
   color: #ff6f00; }
 
+a .Ground:hover {
+  background: #ffd75b; }
+
 .chart.Ground {
   background: transparent; }
 
@@ -206,6 +233,9 @@
 .Flying, .Flying a, .Flying a:hover, .chart.Flying div, .type > .Flying, .poke-cell .Flying {
   background: #b388ff;
   color: #ede7f6; }
+
+a .Flying:hover {
+  background: #d4bbff; }
 
 .chart.Flying {
   background: transparent; }
@@ -229,6 +259,9 @@
   background: #ec407a;
   color: #f8bbd0; }
 
+a .Psychic:hover {
+  background: #f16e9a; }
+
 .chart.Psychic {
   background: transparent; }
 
@@ -250,6 +283,9 @@
 .Bug, .Bug a, .Bug a:hover, .chart.Bug div, .type > .Bug, .poke-cell .Bug {
   background: #d4e157;
   color: #827717; }
+
+a .Bug:hover {
+  background: #dfe982; }
 
 .chart.Bug {
   background: transparent; }
@@ -273,6 +309,9 @@
   background: #8d6e63;
   color: #d7ccc8; }
 
+a .Rock:hover {
+  background: #a5887e; }
+
 .chart.Rock {
   background: transparent; }
 
@@ -294,6 +333,9 @@
 .Ghost, .Ghost a, .Ghost a:hover, .chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
   background: #7e57c2;
   color: #d1c4e9; }
+
+a .Ghost:hover {
+  background: #9b7cd0; }
 
 .chart.Ghost {
   background: transparent; }
@@ -317,6 +359,9 @@
   background: #5c6bc0;
   color: #c5cae9; }
 
+a .Dragon:hover {
+  background: #818cce; }
+
 .chart.Dragon {
   background: transparent; }
 
@@ -338,6 +383,9 @@
 .Dark, .Dark a, .Dark a:hover, .chart.Dark div, .type > .Dark, .poke-cell .Dark {
   background: #555555;
   color: #BABABA; }
+
+a .Dark:hover {
+  background: #6e6e6e; }
 
 .chart.Dark {
   background: transparent; }
@@ -361,6 +409,9 @@
   background: #78909c;
   color: #cfd8dc; }
 
+a .Steel:hover {
+  background: #95a8b2; }
+
 .chart.Steel {
   background: transparent; }
 
@@ -382,6 +433,9 @@
 .Fairy, .Fairy a, .Fairy a:hover, .chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
   background: #f48fb1;
   color: #ad1457; }
+
+a .Fairy:hover {
+  background: #f9bdd1; }
 
 .chart.Fairy {
   background: transparent; }

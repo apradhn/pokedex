@@ -2,7 +2,7 @@ $(document).ready(function() {
 	var pokemon = [];
 
 	for(var i = 0; i < data.length; i++) {
-		pokemon[i] = data[i]["name"];
+		pokemon[i] = nameData[i];
 	}
 
 	console.log(pokemon);

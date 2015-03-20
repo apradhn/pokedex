@@ -30,6 +30,10 @@ $fairy: #f48fb1;
 	color: #8D6E63;
 }
 
+a .Normal:hover {
+	background: lighten($normal, 10);
+}
+
 .chart.Normal {
 	background: transparent;
 }
@@ -56,6 +60,10 @@ $fairy: #f48fb1;
 .Fire, .Fire a, .Fire a:hover .chart.Fire div, .type > .Fire, .poke-cell .Fire {
 	background: $fire;
 	color: #e65100;
+}
+
+a .Fire:hover {
+	background: lighten($fire, 10);
 }
 
 .chart.Fire {
@@ -86,6 +94,10 @@ $fairy: #f48fb1;
 	color: #0d47a1;
 }
 
+a .Water:hover {
+	background: lighten($water, 10);
+}
+
 .chart.Water {
 	background: transparent;
 }
@@ -112,6 +124,10 @@ $fairy: #f48fb1;
 .Electric, .Electric a, .Electric a:hover, .chart.Electric div, .type > .Electric, .poke-cell .Electric {
 	background: #ffee58;
 	color: #f57f17;
+}
+
+a .Electric:hover {
+	background: lighten($electric, 10);
 }
 
 .chart.Electric {
@@ -142,6 +158,10 @@ $fairy: #f48fb1;
 	color: #1b5e20;
 }
 
+a .Grass:hover {
+	background: lighten($grass, 10);
+}
+
 .chart.Grass {
 	background: transparent;
 }
@@ -168,6 +188,10 @@ $fairy: #f48fb1;
 .Ice, .Ice a, .Ice a:hover, .chart.Ice div, .type > .Ice, .poke-cell .Ice {
 	background: $ice;
 	color: #006064;
+}
+
+a .Ice:hover {
+	background: lighten($ice, 10);
 }
 
 .chart.Ice {
@@ -198,6 +222,10 @@ $fairy: #f48fb1;
 	color: #ffcdd2;
 }
 
+a .Fighting:hover {
+	background: lighten($fighting, 10);
+}
+
 .chart.Fighting {
 	background: transparent;
 }
@@ -224,6 +252,10 @@ $fairy: #f48fb1;
 .Poison, .Poison a, .Poison a:hover, .chart.Poison div, .type > .Poison, .poke-cell .Poison {
 	background: $poison;
 	color: #e1bee7;
+}
+
+a .Poison:hover {
+	background: lighten($poison, 10);
 }
 
 .chart.Poison {
@@ -254,6 +286,10 @@ $fairy: #f48fb1;
 	color: #ff6f00;
 }
 
+a .Ground:hover {
+	background: lighten($ground, 10);
+}
+
 .chart.Ground {
 	background: transparent;
 }
@@ -282,6 +318,10 @@ $fairy: #f48fb1;
 	color: #ede7f6;
 }
 
+a .Flying:hover {
+	background: lighten($flying, 10);
+}
+
 .chart.Flying {
 	background: transparent;
 }
@@ -307,6 +347,10 @@ $fairy: #f48fb1;
 .Psychic, .Psychic a, .Psychic a:hover, .chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
 	background: $psychic;
 	color: #f8bbd0;
+}
+
+a .Psychic:hover {
+	background: lighten($psychic, 10);
 }
 
 .chart.Psychic {
@@ -337,6 +381,10 @@ $fairy: #f48fb1;
 	color: #827717;
 }
 
+a .Bug:hover {
+	background: lighten($bug, 10);
+}
+
 .chart.Bug {
 	background: transparent;
 }
@@ -362,6 +410,10 @@ $fairy: #f48fb1;
 .Rock, .Rock a, .Rock a:hover, .chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
 	background: $rock;
 	color: #d7ccc8;
+}
+
+a .Rock:hover {
+	background: lighten($rock, 10);
 }
 
 .chart.Rock {
@@ -391,6 +443,10 @@ $fairy: #f48fb1;
 	color: #d1c4e9;
 }
 
+a .Ghost:hover {
+	background: lighten($ghost, 10);
+}
+
 .chart.Ghost {
 	background: transparent;
 }
@@ -416,6 +472,10 @@ $fairy: #f48fb1;
 .Dragon, .Dragon a, .Dragon a:hover, .chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
 	background: $dragon;
 	color: #c5cae9;
+}
+
+a .Dragon:hover {
+	background: lighten($dragon, 10);
 }
 
 .chart.Dragon {
@@ -445,6 +505,10 @@ $fairy: #f48fb1;
 	color: #BABABA;
 }
 
+a .Dark:hover {
+	background: lighten($dark, 10);
+}
+
 .chart.Dark {
 	background: transparent;
 }
@@ -472,6 +536,10 @@ $fairy: #f48fb1;
 	color: #cfd8dc;
 }
 
+a .Steel:hover {
+	background: lighten($steel, 10);
+}
+
 .chart.Steel {
 	background: transparent;
 }
@@ -497,6 +565,10 @@ $fairy: #f48fb1;
 .Fairy, .Fairy a, .Fairy a:hover, .chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
 	background: $fairy;
 	color: #ad1457;
+}
+
+a .Fairy:hover {
+	background: lighten($fairy, 10);
 }
 
 .chart.Fairy {
