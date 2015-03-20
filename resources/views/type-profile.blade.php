@@ -35,24 +35,24 @@
 <div class="container-fluid">
 	<div class="row chart-nav">
 		<div class="col-sm-10 col-sm-offset-1">
-			<div class="col-sm-1 Normal"><a href="Normal">Normal</a></div>
-			<div class="col-sm-1 Fire"><a href="Fire">Fire</a></div>
-			<div class="col-sm-1 Water"><a href="Water">Water</a></div>
-			<div class="col-sm-1 Electric"><a href="Electric">Electric</a></div>
-			<div class="col-sm-1 Grass"><a href="Grass">Grass</a></div>
-			<div class="col-sm-1 Ice"><a href="Ice">Ice</a></div>
-			<div class="col-sm-1 Fighting"><a href="Fighting">Fighting</a></div>
-			<div class="col-sm-1 Poison"><a href="Poison">Poison</a></div>
-			<div class="col-sm-1 Ground"><a href="Ground">Ground</a></div>
-			<div class="col-sm-1 Flying"><a href="Flying">Flying</a></div>
-			<div class="col-sm-1 Psychic"><a href="Psychic">Psychic</a></div>
-			<div class="col-sm-1 Bug"><a href="Bug">Bug</a></div>
-			<div class="col-sm-1 Rock"><a href="Rock">Rock</a></div>
-			<div class="col-sm-1 Ghost"><a href="Ghost">Ghost</a></div>
-			<div class="col-sm-1 Dragon"><a href="Dragon">Dragon</a></div>
-			<div class="col-sm-1 Dark"><a href="Dark">Dark</a></div>
-			<div class="col-sm-1 Steel"><a href="Steel">Steel</a></div>
-			<div class="col-sm-1 Fairy"><a href="Fairy">Fairy</a></div>
+			<a href="Normal"><div class="col-sm-1 Normal">Normal</div></a>
+			<a href="Fire"><div class="col-sm-1 Fire">Fire</div></a>
+			<a href="Water"><div class="col-sm-1 Water">Water</div></a>
+			<a href="Electric"><div class="col-sm-1 Electric">Electric</div></a>
+			<a href="Grass"><div class="col-sm-1 Grass">Grass</div></a>
+			<a href="Ice"><div class="col-sm-1 Ice">Ice</div></a>
+			<a href="Fighting"><div class="col-sm-1 Fighting">Fighting</div></a>
+			<a href="Poison"><div class="col-sm-1 Poison">Poison</div></a>
+			<a href="Ground"><div class="col-sm-1 Ground">Ground</div></a>
+			<a href="Flying"><div class="col-sm-1 Flying">Flying</div></a>
+			<a href="Psychic"><div class="col-sm-1 Psychic">Psychic</div></a>
+			<a href="Bug"><div class="col-sm-1 Bug">Bug</div></a>
+			<a href="Rock"><div class="col-sm-1 Rock">Rock</div></a>
+			<a href="Ghost"><div class="col-sm-1 Ghost">Ghost</div></a>
+			<a href="Dragon"><div class="col-sm-1 Dragon">Dragon</div></a>
+			<a href="Dark"><div class="col-sm-1 Dark">Dark</div></a>
+			<a href="Steel"><div class="col-sm-1 Steel">Steel</div></a>
+			<a href="Fairy"><div class="col-sm-1 Fairy">Fairy</div></a>
 		</div>
 	</div>
 
