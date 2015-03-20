@@ -9,7 +9,8 @@
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <button type="button" class="navbar-toggle collapsed" 
+		      data-toggle="collapse" data-target="#navbar-pokedex">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -19,7 +20,7 @@
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse">
+			<div class="collapse navbar-collapse" id="navbar-pokedex">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/">Search Pokédex<span class="sr-only">(current)</span></a></li>
 				    <li><a href="/data-visualizations">Data Visualizations</a></li>

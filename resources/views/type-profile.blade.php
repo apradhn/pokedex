@@ -9,7 +9,7 @@
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-pokedex">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -19,7 +19,7 @@
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse">
+			<div class="collapse navbar-collapse" id="#navbar-pokedex">
 				<ul class="nav navbar-nav">
 					<li><a href="/">Search Pokédex</a></li>
 				    <li class="active"><a href="/data-visualizations">Data Visualizations<span class="sr-only">(current)</span></a></li>
@@ -35,24 +35,24 @@
 <div class="container-fluid">
 	<div class="row chart-nav">
 		<div class="col-sm-10 col-sm-offset-1">
-			<a href="Normal"><div class="col-sm-1 Normal">Normal</div></a>
-			<a href="Fire"><div class="col-sm-1 Fire">Fire</div></a>
-			<a href="Water"><div class="col-sm-1 Water">Water</div></a>
-			<a href="Electric"><div class="col-sm-1 Electric">Electric</div></a>
-			<a href="Grass"><div class="col-sm-1 Grass">Grass</div></a>
-			<a href="Ice"><div class="col-sm-1 Ice">Ice</div></a>
-			<a href="Fighting"><div class="col-sm-1 Fighting">Fighting</div></a>
-			<a href="Poison"><div class="col-sm-1 Poison">Poison</div></a>
-			<a href="Ground"><div class="col-sm-1 Ground">Ground</div></a>
-			<a href="Flying"><div class="col-sm-1 Flying">Flying</div></a>
-			<a href="Psychic"><div class="col-sm-1 Psychic">Psychic</div></a>
-			<a href="Bug"><div class="col-sm-1 Bug">Bug</div></a>
-			<a href="Rock"><div class="col-sm-1 Rock">Rock</div></a>
-			<a href="Ghost"><div class="col-sm-1 Ghost">Ghost</div></a>
-			<a href="Dragon"><div class="col-sm-1 Dragon">Dragon</div></a>
-			<a href="Dark"><div class="col-sm-1 Dark">Dark</div></a>
-			<a href="Steel"><div class="col-sm-1 Steel">Steel</div></a>
-			<a href="Fairy"><div class="col-sm-1 Fairy">Fairy</div></a>
+			<a href="Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
+			<a href="Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
+			<a href="Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
+			<a href="Electric"><div class="col-xs-2 col-sm-2 Electric">Electric</div></a>
+			<a href="Grass"><div class="col-xs-2 col-sm-2 Grass">Grass</div></a>
+			<a href="Ice"><div class="col-xs-2 col-sm-2 Ice">Ice</div></a>
+			<a href="Fighting"><div class="col-xs-2 col-sm-2 Fighting">Fighting</div></a>
+			<a href="Poison"><div class="col-xs-2 col-sm-2 Poison">Poison</div></a>
+			<a href="Ground"><div class="col-xs-2 col-sm-2 Ground">Ground</div></a>
+			<a href="Flying"><div class="col-xs-2 col-sm-2 Flying">Flying</div></a>
+			<a href="Psychic"><div class="col-xs-2 col-sm-2 Psychic">Psychic</div></a>
+			<a href="Bug"><div class="col-xs-2 col-sm-2 Bug">Bug</div></a>
+			<a href="Rock"><div class="col-xs-2 col-sm-2 Rock">Rock</div></a>
+			<a href="Ghost"><div class="col-xs-2 col-sm-2 Ghost">Ghost</div></a>
+			<a href="Dragon"><div class="col-xs-2 col-sm-2 Dragon">Dragon</div></a>
+			<a href="Dark"><div class="col-xs-2 col-sm-2 Dark">Dark</div></a>
+			<a href="Steel"><div class="col-xs-2 col-sm-2 Steel">Steel</div></a>
+			<a href="Fairy"><div class="col-xs-2 col-sm-2 Fairy">Fairy</div></a>
 		</div>
 	</div>
 
