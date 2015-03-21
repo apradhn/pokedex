@@ -104,7 +104,7 @@
 				<div class="poke-cell {{ $type }} col-sm-4">
 					<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
 					<div class="type {{ $name_class }}">
-						<span class="name">{{ $pm->name }}</span><br>
+						<div class="name">{{ $pm->name }}</div>
 						<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
 					</div>			
 
@@ -155,7 +155,7 @@
 					<div class="number">{{ $dual_type }}</div>
 					<div>Dual Types</div>
 				</div>
-							
+
 				<div class="average">
 					<div class="statistic">
 						<div class="number">{{ $hp_avg }}</div>

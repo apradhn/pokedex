@@ -7,6 +7,10 @@
 	}
 }
 
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .jumbotron {
 	margin-bottom: 0px;
 	border-bottom: 0px;
@@ -44,15 +48,14 @@
 }
 
 .selected {
-	border-top: none;
-	background: #ececec;
-	border-bottom: none;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12)
 }
 
 
 .name {
 	font-size: 16px;
 	color: #333;
+	padding-bottom: 5px;
 }
 
 .total {
@@ -92,7 +95,6 @@
 	stroke: #03a9f4;
 	stroke-width: 10;
 }
-
 
 path:hover {
 	stroke: #03a9f4;

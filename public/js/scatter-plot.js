@@ -177,7 +177,7 @@
 		.attr("y", 0)
 		.attr("width", 740)
 		.attr("height", h - padding * 2)
-		.attr("fill", "rgba(218, 223, 225, .5)");
+		.attr("fill", "#F5F5F5");
 
 	var count = 0;
 	var index = 0;

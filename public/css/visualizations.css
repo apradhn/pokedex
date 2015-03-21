@@ -48,7 +48,8 @@ a .Fire:hover {
 .poke-cell .Fire {
   padding: 2px; }
 
-.Fire.selected {
+.poke-cell.Fire > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ffa726; }
 
 /*************************
@@ -73,7 +74,8 @@ a .Water:hover {
 .poke-cell .Water {
   padding: 2px; }
 
-.Water.selected {
+.poke-cell.Water > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #42a5f5; }
 
 /****************************
@@ -98,7 +100,8 @@ a .Electric:hover {
 .poke-cell .Electric {
   padding: 2px; }
 
-.Electric.selected {
+.poke-cell.Electric > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ffee58; }
 
 /*************************
@@ -123,7 +126,8 @@ a .Grass:hover {
 .poke-cell .Grass {
   padding: 2px; }
 
-.Grass.selected {
+.poke-cell.Grass > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #66bb6a; }
 
 /*********************
@@ -148,7 +152,8 @@ a .Ice:hover {
 .poke-cell .Ice {
   padding: 2px; }
 
-.Ice.selected {
+.poke-cell.Ice > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #26c6da; }
 
 /**************************
@@ -173,7 +178,8 @@ a .Fighting:hover {
 .type > .Fighting, .poke-cell .Fighting {
   padding: 2px; }
 
-.Fighting.selected {
+.poke-cell.Fighting > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ef5350; }
 
 /**********************
@@ -198,7 +204,8 @@ a .Poison:hover {
 .poke-cell .Poison {
   padding: 2px; }
 
-.Poison.selected {
+.poke-cell.Poison > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ab47bc; }
 
 /********************
@@ -223,7 +230,8 @@ a .Ground:hover {
 .poke-cell .Ground {
   padding: 2px; }
 
-.Ground.selected {
+.poke-cell.Ground > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ffca28; }
 
 /*********************
@@ -248,7 +256,8 @@ a .Flying:hover {
 .poke-cell .Flying {
   padding: 2px; }
 
-.Flying.selected {
+.poke-cell.Flying > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #b388ff; }
 
 /********************
@@ -273,7 +282,8 @@ a .Psychic:hover {
 .poke-cell .Psychic {
   padding: 2px; }
 
-.Psychic.selected {
+.poke-cell.Psychic > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #ec407a; }
 
 /**********************
@@ -298,7 +308,8 @@ a .Bug:hover {
 .poke-cell .Bug {
   padding: 2px; }
 
-.Bug.selected {
+.poke-cell.Bug > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #d4e157; }
 
 /***********************
@@ -326,6 +337,10 @@ a .Rock:hover {
 .Rock.selected {
   border-bottom: 3px solid #8d6e63; }
 
+.poke-cell.Rock > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #8d6e63; }
+
 /*************************
 *
 * Ghost
@@ -348,7 +363,8 @@ a .Ghost:hover {
 .poke-cell .Ghost {
   padding: 2px; }
 
-.Ghost.selected {
+.poke-cell.Ghost > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #7e57c2; }
 
 /********************
@@ -376,6 +392,10 @@ a .Dragon:hover {
 .Dragon.selected {
   border-bottom: 3px solid #5c6bc0; }
 
+.poke-cell.Dragon > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #5c6bc0; }
+
 /***********************
 *
 * Dark
@@ -398,7 +418,8 @@ a .Dark:hover {
 .poke-cell .Dark {
   padding: 2px; }
 
-.Dark.selected {
+.poke-cell.Dark > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #555555; }
 
 /**************************
@@ -423,7 +444,8 @@ a .Steel:hover {
 .poke-cell .Steel {
   padding: 2px; }
 
-.Steel.selected {
+.poke-cell.Steel > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #78909c; }
 
 /**********************
@@ -448,8 +470,9 @@ a .Fairy:hover {
 .poke-cell .Fairy {
   padding: 2px; }
 
-.Fairy.selected {
-  border-top: 3px solid #f48fb1; }
+.poke-cell.Fairy > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #f48fb1; }
 
 .panel {
   color: #555555; }
