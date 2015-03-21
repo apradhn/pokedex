@@ -57,68 +57,82 @@
 	</div>
 
 	<div class="panel panel-default col-sm-12 col-lg-10 col-lg-offset-1"> 
-		<h2>{{ $type }}</h2>
-		<p>Select a Pokémon to highlight their stats on the graph.</p>
-		<div class="col-sm-2 sidebar">
-			<script>
-			var data = [];
-			var nameData = [];
-			</script>
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>{{ $type }}</h2>
+				<p>Select a Pokémon to highlight their stats on the graph.</p>
+			</div>
 
-			<?php $count = 0; $single_type = 0; $dual_type = 0; $hp_total = 0; 
-				  $attack_total = 0; $defense_total = 0; $sp_atk_total = 0; 
-				  $sp_def_total = 0; $speed_total = 0;
-			?>		
+		</div>	
 
-			@foreach ($pokemon as $pm)
 
-				<?php $name_class = $pm->name ?>
-				@if ($pm->name == "Farfetch'd") 
-					<?php $name_class = "Farfetchd"; ?>
-				@elseif ($pm->name == "Mr. Mime") 
-					<?php $name_class = "MrMime"; ?>
-				@elseif ($pm->name == "Nidoran (male)") 
-					<?php $name_class = "Nidoran-m"; ?>
-				@elseif ($pm->name == "Nidoran (female)") 
-					<?php $name_class = "Nidoran-f"; ?>
-				@elseif ($pm->name == "Mime Jr.") 
-					<?php $name_class = "MimeJr"; ?>
-				@else 
-					<?php $name_class = $pm->name; ?>
-				@endif
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="data"></div>
+			</div>
+		</div>
 
-			<div class="poke-cell {{ $name_class }} {{ $type }}">
-				<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
-				<div>
-					<span class="name">{{ $pm->name }}</span><br>
-					<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
-				</div>			
-
-				@if ($pm->type_b == "")
-					<?php $single_type++; ?>
-				@else 
-					<?php $dual_type++; ?>
-				@endif
-				
-				<?php 
-				$hp_total += $pm->hp;
-				$attack_total += $pm->attack;
-				$defense_total += $pm->defense;
-				$sp_atk_total += $pm->sp_atk;
-				$sp_def_total += $pm->sp_def;
-				$speed_total += $pm->speed;
-				$count++; 
-				?>
-
+		<div class="row">
+			<div class="col-sm-12 sidebar">
 				<script>
-				data.push(<?php echo json_encode($pm) ?>);
-				nameData.push(<?php echo json_encode($name_class) ?>)
+				var data = [];
+				var nameData = [];
 				</script>
 
-			</div>
-			@endforeach
-		</div>		
+				<?php $count = 0; $single_type = 0; $dual_type = 0; $hp_total = 0; 
+					  $attack_total = 0; $defense_total = 0; $sp_atk_total = 0; 
+					  $sp_def_total = 0; $speed_total = 0;
+				?>		
 
+				@foreach ($pokemon as $pm)
+
+					<?php $name_class = $pm->name ?>
+					@if ($pm->name == "Farfetch'd") 
+						<?php $name_class = "Farfetchd"; ?>
+					@elseif ($pm->name == "Mr. Mime") 
+						<?php $name_class = "MrMime"; ?>
+					@elseif ($pm->name == "Nidoran (male)") 
+						<?php $name_class = "Nidoran-m"; ?>
+					@elseif ($pm->name == "Nidoran (female)") 
+						<?php $name_class = "Nidoran-f"; ?>
+					@elseif ($pm->name == "Mime Jr.") 
+						<?php $name_class = "MimeJr"; ?>
+					@else 
+						<?php $name_class = $pm->name; ?>
+					@endif
+
+				<div class="poke-cell {{ $type }} col-sm-4">
+					<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
+					<div class="type {{ $name_class }}">
+						<span class="name">{{ $pm->name }}</span><br>
+						<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
+					</div>			
+
+					@if ($pm->type_b == "")
+						<?php $single_type++; ?>
+					@else 
+						<?php $dual_type++; ?>
+					@endif
+					
+					<?php 
+					$hp_total += $pm->hp;
+					$attack_total += $pm->attack;
+					$defense_total += $pm->defense;
+					$sp_atk_total += $pm->sp_atk;
+					$sp_def_total += $pm->sp_def;
+					$speed_total += $pm->speed;
+					$count++; 
+					?>
+
+					<script>
+					data.push(<?php echo json_encode($pm) ?>);
+					nameData.push(<?php echo json_encode($name_class) ?>)
+					</script>
+
+				</div>
+				@endforeach
+			</div>
+		</div>
 		<?php
 		$hp_avg = round($hp_total / $count);
 		$attack_avg = round($attack_total / $count);
@@ -126,54 +140,52 @@
 		$sp_atk_avg = round($sp_atk_total / $count);
 		$sp_def_avg = round($sp_def_total / $count);
 		$speed_avg = round($speed_total / $count);
-		?>
+		?>		
 
-		<div class="col-sm-10 average">
-			<div class="statistic">
-				<div class="number">{{ $hp_avg }}</div>
-				<div>Average HP</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $attack_avg }}</div>
-				<div>Average Attack</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $defense_avg }}</div>
-				<div>Average Defense</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $sp_atk_avg }}</div>
-				<div>Average Sp. Atk</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $sp_def_avg }}</div>
-				<div>Average Sp. Def</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $speed_avg }}</div>
-				<div>Average Speed</div>
-			</div>												
+		<div class="row">
+			<div class="col-sm-8 average">
+				<div class="statistic">
+					<div class="number">{{ $hp_avg }}</div>
+					<div>Average HP</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $attack_avg }}</div>
+					<div>Average Attack</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $defense_avg }}</div>
+					<div>Average Defense</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $sp_atk_avg }}</div>
+					<div>Average Sp. Atk</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $sp_def_avg }}</div>
+					<div>Average Sp. Def</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $speed_avg }}</div>
+					<div>Average Speed</div>
+				</div>												
+			</div>	
 		</div>	
-
-	
-		<div class="col-sm-10">
-			<div id="data"></div>
-		</div>
-
-		<div class="col-sm-10">
-			<div class="statistic">
-				<div class="number">{{ $count }}</div>
-				<div>{{ $type }} Pokémon</div>
+		<div class="row">
+			<div class="col-sm-10">
+				<div class="statistic">
+					<div class="number">{{ $count }}</div>
+					<div>{{ $type }} Pokémon</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $single_type }}</div>
+					<div>Single Types</div>
+				</div>
+				<div class="statistic">
+					<div class="number">{{ $dual_type }}</div>
+					<div>Dual Types</div>
+				</div>
 			</div>
-			<div class="statistic">
-				<div class="number">{{ $single_type }}</div>
-				<div>Single Types</div>
-			</div>
-			<div class="statistic">
-				<div class="number">{{ $dual_type }}</div>
-				<div>Dual Types</div>
-			</div>
-		</div>	
+		</div>			
 	</div>
 </div>
 <script src="{{ asset('js/d3.v3.min.js') }}"></script>

@@ -22,7 +22,8 @@ a .Normal:hover {
 .poke-cell .Normal {
   padding: 2px; }
 
-.Normal.selected {
+.poke-cell.Normal > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #EDD7B8; }
 
 /************************
@@ -471,12 +472,13 @@ a .Fairy:hover {
   cursor: pointer; }
 
 .poke-cell {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #666666;
-  padding: 5px 5px 10px 5px;
+  padding-bottom: 10px;
   font-size: 12px;
   color: #999;
   background: #FFFFFF; }
+
+.poke-cell > .type {
+  padding: 5px; }
 
 .selected {
   border-top: none;

@@ -22,7 +22,8 @@ a .Normal:hover {
 .poke-cell .Normal {
   padding: 2px; }
 
-.Normal.selected {
+.poke-cell.Normal > div {
+  padding-bottom: 10px;
   border-bottom: 3px solid #EDD7B8; }
 
 /************************

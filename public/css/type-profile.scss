@@ -41,12 +41,14 @@
 }
 
 .poke-cell {
-	margin-bottom: 10px;
-	border-bottom: 1px solid #666666;
-	padding: 5px 5px 10px 5px;
+	padding-bottom: 10px;
 	font-size: 12px;
 	color: #999;
 	background: #FFFFFF;
+}
+
+.poke-cell > .type {
+	padding: 5px;
 }
 
 .selected {
