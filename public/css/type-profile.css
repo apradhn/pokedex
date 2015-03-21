@@ -545,11 +545,6 @@ path.domain:hover {
   stroke-width: 1;
   stroke: "black"; }
 
-.statistic {
-  float: left;
-  margin-right: 25px;
-  margin-bottom: 25px; }
-
 .number {
   text-align: center;
   font-size: 36px;
@@ -562,8 +557,9 @@ path.domain:hover {
   margin: 0 auto; }
 
 .statistic div:last-child {
-  margin-top: 10px;
-  text-align: center; }
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 20px; }
 
 .average .number {
   height: 75px;

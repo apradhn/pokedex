@@ -34,7 +34,7 @@
 
 <div class="container-fluid">
 	<div class="row chart-nav">
-		<div class="col-sm-10 col-sm-offset-1">
+		<div class="col-sm-10">
 			<a href="Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
 			<a href="Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
 			<a href="Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 
-	<div class="panel panel-default col-sm-12 col-lg-10 col-lg-offset-1"> 
+	<div class="panel panel-default col-sm-10 col-sm-offset-1"> 
 		<div class="row">
 			<div class="col-sm-12">
 				<h2>{{ $type }}</h2>
@@ -73,7 +73,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-sm-12 sidebar">
+			<div class="col-sm-10">
 				<script>
 				var data = [];
 				var nameData = [];
@@ -132,46 +132,17 @@
 				</div>
 				@endforeach
 			</div>
-		</div>
-		<?php
-		$hp_avg = round($hp_total / $count);
-		$attack_avg = round($attack_total / $count);
-		$defense_avg = round($defense_total / $count);
-		$sp_atk_avg = round($sp_atk_total / $count);
-		$sp_def_avg = round($sp_def_total / $count);
-		$speed_avg = round($speed_total / $count);
-		?>		
+			<?php
+			$hp_avg = round($hp_total / $count);
+			$attack_avg = round($attack_total / $count);
+			$defense_avg = round($defense_total / $count);
+			$sp_atk_avg = round($sp_atk_total / $count);
+			$sp_def_avg = round($sp_def_total / $count);
+			$speed_avg = round($speed_total / $count);
+			?>		
 
-		<div class="row">
-			<div class="col-sm-8 average">
-				<div class="statistic">
-					<div class="number">{{ $hp_avg }}</div>
-					<div>Average HP</div>
-				</div>
-				<div class="statistic">
-					<div class="number">{{ $attack_avg }}</div>
-					<div>Average Attack</div>
-				</div>
-				<div class="statistic">
-					<div class="number">{{ $defense_avg }}</div>
-					<div>Average Defense</div>
-				</div>
-				<div class="statistic">
-					<div class="number">{{ $sp_atk_avg }}</div>
-					<div>Average Sp. Atk</div>
-				</div>
-				<div class="statistic">
-					<div class="number">{{ $sp_def_avg }}</div>
-					<div>Average Sp. Def</div>
-				</div>
-				<div class="statistic">
-					<div class="number">{{ $speed_avg }}</div>
-					<div>Average Speed</div>
-				</div>												
-			</div>	
-		</div>	
-		<div class="row">
-			<div class="col-sm-10">
+			<div class="col-sm-2">
+
 				<div class="statistic">
 					<div class="number">{{ $count }}</div>
 					<div>{{ $type }} Pokémon</div>
@@ -184,8 +155,38 @@
 					<div class="number">{{ $dual_type }}</div>
 					<div>Dual Types</div>
 				</div>
-			</div>
-		</div>			
+							
+				<div class="average">
+					<div class="statistic">
+						<div class="number">{{ $hp_avg }}</div>
+						<div>Average HP</div>
+					</div>
+					<div class="statistic">
+						<div class="number">{{ $attack_avg }}</div>
+						<div>Average Attack</div>
+					</div>
+					<div class="statistic">
+						<div class="number">{{ $defense_avg }}</div>
+						<div>Average Defense</div>
+					</div>
+					<div class="statistic">
+						<div class="number">{{ $sp_atk_avg }}</div>
+						<div>Average Sp. Atk</div>
+					</div>
+					<div class="statistic">
+						<div class="number">{{ $sp_def_avg }}</div>
+						<div>Average Sp. Def</div>
+					</div>
+					<div class="statistic">
+						<div class="number">{{ $speed_avg }}</div>
+						<div>Average Speed</div>
+					</div>												
+				</div>	
+
+
+			</div>					
+		</div>
+	
 	</div>
 </div>
 <script src="{{ asset('js/d3.v3.min.js') }}"></script>

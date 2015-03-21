@@ -24,14 +24,6 @@
 	margin-bottom: 5px;
 }
 
-.sidebar {
-
-}
-
-.sidebar:hover {
-
-}
-
 .statistic div:last-child {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -137,12 +129,6 @@ path.domain:hover {
 }
 
 
-.statistic {
-	float: left;
-	margin-right: 25px;
-	margin-bottom: 25px;
-}
-
 .number {
 	text-align: center;
 	font-size: 36px; 
@@ -156,8 +142,9 @@ path.domain:hover {
 }
 
 .statistic div:last-child {
-	margin-top: 10px;
+	padding-top: 5px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .average .number {
