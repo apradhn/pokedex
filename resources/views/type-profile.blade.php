@@ -35,24 +35,24 @@
 <div class="container-fluid">
 	<div class="row chart-nav">
 		<div class="col-sm-10">
-			<a href="Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
-			<a href="Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
-			<a href="Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
-			<a href="Electric"><div class="col-xs-2 col-sm-2 Electric">Electric</div></a>
-			<a href="Grass"><div class="col-xs-2 col-sm-2 Grass">Grass</div></a>
-			<a href="Ice"><div class="col-xs-2 col-sm-2 Ice">Ice</div></a>
-			<a href="Fighting"><div class="col-xs-2 col-sm-2 Fighting">Fighting</div></a>
-			<a href="Poison"><div class="col-xs-2 col-sm-2 Poison">Poison</div></a>
-			<a href="Ground"><div class="col-xs-2 col-sm-2 Ground">Ground</div></a>
-			<a href="Flying"><div class="col-xs-2 col-sm-2 Flying">Flying</div></a>
-			<a href="Psychic"><div class="col-xs-2 col-sm-2 Psychic">Psychic</div></a>
-			<a href="Bug"><div class="col-xs-2 col-sm-2 Bug">Bug</div></a>
-			<a href="Rock"><div class="col-xs-2 col-sm-2 Rock">Rock</div></a>
-			<a href="Ghost"><div class="col-xs-2 col-sm-2 Ghost">Ghost</div></a>
-			<a href="Dragon"><div class="col-xs-2 col-sm-2 Dragon">Dragon</div></a>
-			<a href="Dark"><div class="col-xs-2 col-sm-2 Dark">Dark</div></a>
-			<a href="Steel"><div class="col-xs-2 col-sm-2 Steel">Steel</div></a>
-			<a href="Fairy"><div class="col-xs-2 col-sm-2 Fairy">Fairy</div></a>
+			<a href="types/Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
+			<a href="types/Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
+			<a href="types/Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
+			<a href="types/Electric"><div class="col-xs-2 col-sm-2 Electric">Electric</div></a>
+			<a href="types/Grass"><div class="col-xs-2 col-sm-2 Grass">Grass</div></a>
+			<a href="types/Ice"><div class="col-xs-2 col-sm-2 Ice">Ice</div></a>
+			<a href="types/Fighting"><div class="col-xs-2 col-sm-2 Fighting">Fighting</div></a>
+			<a href="types/Poison"><div class="col-xs-2 col-sm-2 Poison">Poison</div></a>
+			<a href="types/Ground"><div class="col-xs-2 col-sm-2 Ground">Ground</div></a>
+			<a href="types/Flying"><div class="col-xs-2 col-sm-2 Flying">Flying</div></a>
+			<a href="types/Psychic"><div class="col-xs-2 col-sm-2 Psychic">Psychic</div></a>
+			<a href="types/Bug"><div class="col-xs-2 col-sm-2 Bug">Bug</div></a>
+			<a href="types/Rock"><div class="col-xs-2 col-sm-2 Rock">Rock</div></a>
+			<a href="types/Ghost"><div class="col-xs-2 col-sm-2 Ghost">Ghost</div></a>
+			<a href="types/Dragon"><div class="col-xs-2 col-sm-2 Dragon">Dragon</div></a>
+			<a href="types/Dark"><div class="col-xs-2 col-sm-2 Dark">Dark</div></a>
+			<a href="types/Steel"><div class="col-xs-2 col-sm-2 Steel">Steel</div></a>
+			<a href="types/Fairy"><div class="col-xs-2 col-sm-2 Fairy">Fairy</div></a>
 		</div>
 	</div>
 
@@ -61,6 +61,7 @@
 			<div class="col-sm-12">
 				<h2>{{ $type }}</h2>
 				<p>Select a Pokémon to highlight their stats on the graph.</p>
+				<div id="type-data">{{ $type }}</div>
 			</div>
 
 		</div>	

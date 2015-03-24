@@ -52,6 +52,15 @@ a .Normal:hover {
 	border-bottom: 3px solid $normal;
 }
 
+path.Normal, circle.Normal {
+	stroke: darken($normal, 25);
+	stroke-width: 4;
+}
+
+circle.Normal {
+	fill: darken($normal, 25);
+}
+
 /************************
 *
 * Fire

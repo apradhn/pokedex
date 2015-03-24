@@ -28,6 +28,10 @@ p {
 	margin-bottom: 5px;
 }
 
+#type-data { 
+	display: none;
+}
+
 .statistic div:last-child {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -96,13 +100,13 @@ p {
 	stroke-width: 10;
 }
 
-path:hover {
+path:hover, path.mouse-over {
 	stroke: #03a9f4;
 	stroke-width: 4;
 
 }
 
-circle:hover {
+circle:hover, circle.mouse-over {
 	fill: #03a9f4;
 	stroke: #03a9f4;
 	stroke-width: 10;

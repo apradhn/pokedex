@@ -1,3 +1,17 @@
+.jumbotron {
+  margin-bottom: 0px;
+  border-bottom: 0px; }
+
+.chart-nav {
+  padding: 10px 10px 0px 10px;
+  background: #f5f5f5;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.chart-nav div {
+  margin-left: 5px;
+  margin-bottom: 5px; }
+
 .search-results {
   margin-top: 20px; }
 
@@ -123,6 +137,13 @@ a .Normal:hover {
 .poke-cell.Normal > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #EDD7B8; }
+
+path.Normal, circle.Normal {
+  stroke: #d39e52;
+  stroke-width: 4; }
+
+circle.Normal {
+  fill: #d39e52; }
 
 /************************
 *

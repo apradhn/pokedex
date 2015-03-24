@@ -26,6 +26,13 @@ a .Normal:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #EDD7B8; }
 
+path.Normal, circle.Normal {
+  stroke: #d39e52;
+  stroke-width: 4; }
+
+circle.Normal {
+  fill: #d39e52; }
+
 /************************
 *
 * Fire
