@@ -35,32 +35,61 @@
 <div class="container-fluid">
 	<div class="row chart-nav">
 		<div class="col-sm-10">
-			<a href="types/Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
-			<a href="types/Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
-			<a href="types/Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
-			<a href="types/Electric"><div class="col-xs-2 col-sm-2 Electric">Electric</div></a>
-			<a href="types/Grass"><div class="col-xs-2 col-sm-2 Grass">Grass</div></a>
-			<a href="types/Ice"><div class="col-xs-2 col-sm-2 Ice">Ice</div></a>
-			<a href="types/Fighting"><div class="col-xs-2 col-sm-2 Fighting">Fighting</div></a>
-			<a href="types/Poison"><div class="col-xs-2 col-sm-2 Poison">Poison</div></a>
-			<a href="types/Ground"><div class="col-xs-2 col-sm-2 Ground">Ground</div></a>
-			<a href="types/Flying"><div class="col-xs-2 col-sm-2 Flying">Flying</div></a>
-			<a href="types/Psychic"><div class="col-xs-2 col-sm-2 Psychic">Psychic</div></a>
-			<a href="types/Bug"><div class="col-xs-2 col-sm-2 Bug">Bug</div></a>
-			<a href="types/Rock"><div class="col-xs-2 col-sm-2 Rock">Rock</div></a>
-			<a href="types/Ghost"><div class="col-xs-2 col-sm-2 Ghost">Ghost</div></a>
-			<a href="types/Dragon"><div class="col-xs-2 col-sm-2 Dragon">Dragon</div></a>
-			<a href="types/Dark"><div class="col-xs-2 col-sm-2 Dark">Dark</div></a>
-			<a href="types/Steel"><div class="col-xs-2 col-sm-2 Steel">Steel</div></a>
-			<a href="types/Fairy"><div class="col-xs-2 col-sm-2 Fairy">Fairy</div></a>
+			<a href="Normal"><div class="col-xs-2 col-sm-2 Normal">Normal</div></a>
+			<a href="Fire"><div class="col-xs-2 col-sm-2 Fire">Fire</div></a>
+			<a href="Water"><div class="col-xs-2 col-sm-2 Water">Water</div></a>
+			<a href="Electric"><div class="col-xs-2 col-sm-2 Electric">Electric</div></a>
+			<a href="Grass"><div class="col-xs-2 col-sm-2 Grass">Grass</div></a>
+			<a href="Ice"><div class="col-xs-2 col-sm-2 Ice">Ice</div></a>
+			<a href="Fighting"><div class="col-xs-2 col-sm-2 Fighting">Fighting</div></a>
+			<a href="Poison"><div class="col-xs-2 col-sm-2 Poison">Poison</div></a>
+			<a href="Ground"><div class="col-xs-2 col-sm-2 Ground">Ground</div></a>
+			<a href="Flying"><div class="col-xs-2 col-sm-2 Flying">Flying</div></a>
+			<a href="Psychic"><div class="col-xs-2 col-sm-2 Psychic">Psychic</div></a>
+			<a href="Bug"><div class="col-xs-2 col-sm-2 Bug">Bug</div></a>
+			<a href="Rock"><div class="col-xs-2 col-sm-2 Rock">Rock</div></a>
+			<a href="Ghost"><div class="col-xs-2 col-sm-2 Ghost">Ghost</div></a>
+			<a href="Dragon"><div class="col-xs-2 col-sm-2 Dragon">Dragon</div></a>
+			<a href="Dark"><div class="col-xs-2 col-sm-2 Dark">Dark</div></a>
+			<a href="Steel"><div class="col-xs-2 col-sm-2 Steel">Steel</div></a>
+			<a href="Fairy"><div class="col-xs-2 col-sm-2 Fairy">Fairy</div></a>
 		</div>
 	</div>
+
+	<?php $count = 0; $single_type = 0; $dual_type = 0; $hp_total = 0; 
+		  $attack_total = 0; $defense_total = 0; $sp_atk_total = 0; 
+		  $sp_def_total = 0; $speed_total = 0;
+	?>	
+	@foreach ($pokemon as $pm)
+		<?php 
+		$hp_total += $pm->hp;
+		$attack_total += $pm->attack;
+		$defense_total += $pm->defense;
+		$sp_atk_total += $pm->sp_atk;
+		$sp_def_total += $pm->sp_def;
+		$speed_total += $pm->speed;
+		$count++; 
+		?>
+			@if ($pm->type_b == "")
+				<?php $single_type++; ?>
+			@else 
+				<?php $dual_type++; ?>
+			@endif		
+	@endforeach
+		<?php
+		$hp_avg = round($hp_total / $count);
+		$attack_avg = round($attack_total / $count);
+		$defense_avg = round($defense_total / $count);
+		$sp_atk_avg = round($sp_atk_total / $count);
+		$sp_def_avg = round($sp_def_total / $count);
+		$speed_avg = round($speed_total / $count);
+		?>		
 
 	<div class="panel panel-default col-sm-10 col-sm-offset-1"> 
 		<div class="row">
 			<div class="col-sm-12">
 				<h2>{{ $type }}</h2>
-				<p>Select a Pokémon to highlight their stats on the graph.</p>
+				<p>Select a Pokémon from below to highlight their stats on the graph.</p>
 				<div id="type-data">{{ $type }}</div>
 			</div>
 
@@ -68,82 +97,11 @@
 
 
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-10">
 				<div id="data"></div>
 			</div>
-		</div>
 
-		<div class="row">
-			<div class="col-sm-10">
-				<script>
-				var data = [];
-				var nameData = [];
-				</script>
-
-				<?php $count = 0; $single_type = 0; $dual_type = 0; $hp_total = 0; 
-					  $attack_total = 0; $defense_total = 0; $sp_atk_total = 0; 
-					  $sp_def_total = 0; $speed_total = 0;
-				?>		
-
-				@foreach ($pokemon as $pm)
-
-					<?php $name_class = $pm->name ?>
-					@if ($pm->name == "Farfetch'd") 
-						<?php $name_class = "Farfetchd"; ?>
-					@elseif ($pm->name == "Mr. Mime") 
-						<?php $name_class = "MrMime"; ?>
-					@elseif ($pm->name == "Nidoran (male)") 
-						<?php $name_class = "Nidoran-m"; ?>
-					@elseif ($pm->name == "Nidoran (female)") 
-						<?php $name_class = "Nidoran-f"; ?>
-					@elseif ($pm->name == "Mime Jr.") 
-						<?php $name_class = "MimeJr"; ?>
-					@else 
-						<?php $name_class = $pm->name; ?>
-					@endif
-
-				<div class="poke-cell {{ $type }} col-sm-4">
-					<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
-					<div class="type {{ $name_class }}">
-						<div class="name">{{ $pm->name }}</div>
-						<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
-					</div>			
-
-					@if ($pm->type_b == "")
-						<?php $single_type++; ?>
-					@else 
-						<?php $dual_type++; ?>
-					@endif
-					
-					<?php 
-					$hp_total += $pm->hp;
-					$attack_total += $pm->attack;
-					$defense_total += $pm->defense;
-					$sp_atk_total += $pm->sp_atk;
-					$sp_def_total += $pm->sp_def;
-					$speed_total += $pm->speed;
-					$count++; 
-					?>
-
-					<script>
-					data.push(<?php echo json_encode($pm) ?>);
-					nameData.push(<?php echo json_encode($name_class) ?>)
-					</script>
-
-				</div>
-				@endforeach
-			</div>
-			<?php
-			$hp_avg = round($hp_total / $count);
-			$attack_avg = round($attack_total / $count);
-			$defense_avg = round($defense_total / $count);
-			$sp_atk_avg = round($sp_atk_total / $count);
-			$sp_def_avg = round($sp_def_total / $count);
-			$speed_avg = round($speed_total / $count);
-			?>		
-
-			<div class="col-sm-2">
-
+			<div class="col-sm-2 statistics">
 				<div class="statistic">
 					<div class="number">{{ $count }}</div>
 					<div>{{ $type }} Pokémon</div>
@@ -183,9 +141,50 @@
 						<div>Average Speed</div>
 					</div>												
 				</div>	
+			</div>				
 
+			<div class="col-sm-10">
+				<script>
+				var data = [];
+				var nameData = [];
+				</script>
 
-			</div>					
+	
+
+				@foreach ($pokemon as $pm)
+
+					<?php $name_class = $pm->name ?>
+					@if ($pm->name == "Farfetch'd") 
+						<?php $name_class = "Farfetchd"; ?>
+					@elseif ($pm->name == "Mr. Mime") 
+						<?php $name_class = "MrMime"; ?>
+					@elseif ($pm->name == "Nidoran (male)") 
+						<?php $name_class = "Nidoran-m"; ?>
+					@elseif ($pm->name == "Nidoran (female)") 
+						<?php $name_class = "Nidoran-f"; ?>
+					@elseif ($pm->name == "Mime Jr.") 
+						<?php $name_class = "MimeJr"; ?>
+					@else 
+						<?php $name_class = $pm->name; ?>
+					@endif
+
+				<div class="poke-cell {{ $type }} col-sm-4">
+					<?php $total = $pm->attack + $pm->defense + $pm->sp_atk + $pm->sp_def + $pm->speed ?>
+					<div class="type {{ $name_class }}">
+						<div class="national-number">#{{ $pm->id }}</div>
+						<div class="name">{{ $pm->name }}</div>
+
+						<span class="{{ $pm->type_a }}">{{ $pm->type_a }}</span> <span class="{{ $pm->type_b }}">{{ $pm->type_b }}</span>
+					</div>			
+
+					<script>
+					data.push(<?php echo json_encode($pm) ?>);
+					nameData.push(<?php echo json_encode($name_class) ?>)
+					</script>
+
+				</div>
+				@endforeach
+			</div>	
 		</div>
 	
 	</div>

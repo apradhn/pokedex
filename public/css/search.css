@@ -171,6 +171,13 @@ a .Fire:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #ffa726; }
 
+path.Fire, circle.Fire {
+  stroke: #ffa726;
+  stroke-width: 4; }
+
+circle.Fire {
+  fill: #ffa726; }
+
 /*************************
 *
 * Water
@@ -196,6 +203,13 @@ a .Water:hover {
 .poke-cell.Water > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #42a5f5; }
+
+path.Water, circle.Water {
+  stroke: #42a5f5;
+  stroke-width: 4; }
+
+circle.Water {
+  fill: #42a5f5; }
 
 /****************************
 *
@@ -223,6 +237,13 @@ a .Electric:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #ffee58; }
 
+path.Electric, circle.Electric {
+  stroke: #ffee58;
+  stroke-width: 4; }
+
+circle.Electric {
+  fill: #ffee58; }
+
 /*************************
 *
 * Grass
@@ -248,6 +269,13 @@ a .Grass:hover {
 .poke-cell.Grass > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #66bb6a; }
+
+path.Grass, circle.Grass {
+  stroke: #66bb6a;
+  stroke-width: 4; }
+
+circle.Grass {
+  fill: #66bb6a; }
 
 /*********************
 *
@@ -275,6 +303,13 @@ a .Ice:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #26c6da; }
 
+path.Ice, circle.Ice {
+  stroke: #26c6da;
+  stroke-width: 4; }
+
+circle.Ice {
+  fill: #26c6da; }
+
 /**************************
 *
 * Fighting
@@ -300,6 +335,13 @@ a .Fighting:hover {
 .poke-cell.Fighting > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #ef5350; }
+
+path.Fighting, circle.Fighting {
+  stroke: #ef5350;
+  stroke-width: 4; }
+
+circle.Fighting {
+  fill: #ef5350; }
 
 /**********************
 *
@@ -327,6 +369,13 @@ a .Poison:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #ab47bc; }
 
+path.Poison, circle.Poison {
+  stroke: #ab47bc;
+  stroke-width: 4; }
+
+circle.Poison {
+  fill: #ab47bc; }
+
 /********************
 *
 * Ground
@@ -352,6 +401,13 @@ a .Ground:hover {
 .poke-cell.Ground > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #ffca28; }
+
+path.Ground, circle.Ground {
+  stroke: #ffca28;
+  stroke-width: 4; }
+
+circle.Ground {
+  fill: #ffca28; }
 
 /*********************
 *
@@ -379,6 +435,13 @@ a .Flying:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #b388ff; }
 
+path.Flying, circle.Flying {
+  stroke: #b388ff;
+  stroke-width: 4; }
+
+circle.Flying {
+  fill: #b388ff; }
+
 /********************
 *
 * Psychic
@@ -405,6 +468,13 @@ a .Psychic:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #ec407a; }
 
+path.Psychic, circle.Psychic {
+  stroke: #ec407a;
+  stroke-width: 4; }
+
+circle.Psychic {
+  fill: #ec407a; }
+
 /**********************
 *
 * Bug
@@ -430,6 +500,13 @@ a .Bug:hover {
 .poke-cell.Bug > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #d4e157; }
+
+path.Bug, circle.Bug {
+  stroke: #d4e157;
+  stroke-width: 4; }
+
+circle.Bug {
+  fill: #d4e157; }
 
 /***********************
 *
@@ -460,6 +537,13 @@ a .Rock:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #8d6e63; }
 
+path.Rock, circle.Rock {
+  stroke: #8d6e63;
+  stroke-width: 4; }
+
+circle.Rock {
+  fill: #8d6e63; }
+
 /*************************
 *
 * Ghost
@@ -485,6 +569,13 @@ a .Ghost:hover {
 .poke-cell.Ghost > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #7e57c2; }
+
+path.Ghost, circle.Ghost {
+  stroke: #7e57c2;
+  stroke-width: 4; }
+
+circle.Ghost {
+  fill: #7e57c2; }
 
 /********************
 *
@@ -515,6 +606,13 @@ a .Dragon:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #5c6bc0; }
 
+path.Dragon, circle.Dragon {
+  stroke: #5c6bc0;
+  stroke-width: 4; }
+
+circle.Dragon {
+  fill: #5c6bc0; }
+
 /***********************
 *
 * Dark
@@ -540,6 +638,13 @@ a .Dark:hover {
 .poke-cell.Dark > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #555555; }
+
+path.Dark, circle.Dark {
+  stroke: #555555;
+  stroke-width: 4; }
+
+circle.Dark {
+  fill: #555555; }
 
 /**************************
 *
@@ -567,6 +672,13 @@ a .Steel:hover {
   padding-bottom: 10px;
   border-bottom: 3px solid #78909c; }
 
+path.Steel, circle.Steel {
+  stroke: #78909c;
+  stroke-width: 4; }
+
+circle.Steel {
+  fill: #78909c; }
+
 /**********************
 *
 * Fairy
@@ -592,6 +704,13 @@ a .Fairy:hover {
 .poke-cell.Fairy > div {
   padding-bottom: 10px;
   border-bottom: 3px solid #f48fb1; }
+
+path.Fairy, circle.Fairy {
+  stroke: #f48fb1;
+  stroke-width: 4; }
+
+circle.Fairy {
+  fill: #f48fb1; }
 
 .chart div:last-child {
   background: white;

@@ -49,7 +49,6 @@ $(document).ready(function() {
 			path.toggleClass("highlight");
 			path.toggleClass(type);
 			var circles = test.selectAll("circle."+pm);
-			console.log(circles);
 			for(var i=0; i< circles.length; i++) {
 				circles[i].toggleClass("highlight-circle");
 				circles[i].toggleClass(type);
@@ -66,6 +65,16 @@ $(document).ready(function() {
 			}
 			$("div."+pm).toggleClass("selected");
 		});
+
+		$("circle."+pm).click(function() {
+			var path = test.select("path."+pm);
+			path.toggleClass(type);
+			var circles = test.selectAll("circle."+pm);
+			for(var i=0; i< circles.length; i++) {
+				circles[i].toggleClass(type);
+			}
+			$("div."+pm).toggleClass("selected");			
+		})	
 
 		$("path."+pm).hover(
 			function() {

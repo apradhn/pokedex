@@ -23,13 +23,17 @@ class TypeController extends Controller {
 		$names = [];
 
 		foreach ($pokemon as $pm) {
-			array_push($names, $pm['name']);
+			array_push($names, $pm['name']);		
 		}
+		$id = $pm['id'];
+
+		$national_number = Pokemon::get_national_number($id);			
 
 		$pm_class = Pokemon::get_name_class($names);
 		
 		return View::make('type-profile')
 			->with('type', $type)
-			->with('pokemon', $pokemon);
+			->with('pokemon', $pokemon)
+			->with('national_number', $national_number);
 	}
 }

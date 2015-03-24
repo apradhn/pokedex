@@ -94,6 +94,14 @@ a .Fire:hover {
 	border-bottom: 3px solid $fire;
 }
 
+path.Fire, circle.Fire {
+	stroke: $fire;
+	stroke-width: 4;
+}
+
+circle.Fire {
+	fill: $fire;
+}
 /*************************
 *
 * Water
@@ -127,6 +135,14 @@ a .Water:hover {
 	border-bottom: 3px solid $water;
 }
 
+path.Water, circle.Water {
+	stroke: $water;
+	stroke-width: 4;
+}
+
+circle.Water {
+	fill: $water;
+}
 /****************************
 *
 * Electric
@@ -158,6 +174,15 @@ a .Electric:hover {
 .poke-cell.Electric > div {
 	padding-bottom: 10px;
 	border-bottom: 3px solid $electric;
+}
+
+path.Electric, circle.Electric {
+	stroke: $electric;
+	stroke-width: 4;
+}
+
+circle.Electric {
+	fill: $electric;
 }
 /*************************
 *
@@ -192,6 +217,14 @@ a .Grass:hover {
 	border-bottom: 3px solid $grass;
 }
 
+path.Grass, circle.Grass {
+	stroke: $grass;
+	stroke-width: 4;
+}
+
+circle.Grass {
+	fill: $grass;
+}
 /*********************
 *
 * Ice
@@ -223,6 +256,15 @@ a .Ice:hover {
 .poke-cell.Ice > div {
 	padding-bottom: 10px;
 	border-bottom: 3px solid $ice;
+}
+
+path.Ice, circle.Ice {
+	stroke: $ice;
+	stroke-width: 4;
+}
+
+circle.Ice {
+	fill: $ice;
 }
 
 /**************************
@@ -258,6 +300,15 @@ a .Fighting:hover {
 	border-bottom: 3px solid $fighting;
 }
 
+path.Fighting, circle.Fighting {
+	stroke: $fighting;
+	stroke-width: 4;
+}
+
+circle.Fighting {
+	fill: $fighting;
+}
+
 /**********************
 *
 * Poison
@@ -291,6 +342,14 @@ a .Poison:hover {
 	border-bottom: 3px solid $poison;
 }
 
+path.Poison, circle.Poison {
+	stroke: $poison;
+	stroke-width: 4;
+}
+
+circle.Poison {
+	fill: $poison;
+}
 /********************
 *
 * Ground
@@ -324,6 +383,14 @@ a .Ground:hover {
 	border-bottom: 3px solid $ground;
 }
 
+path.Ground, circle.Ground {
+	stroke: $ground;
+	stroke-width: 4;
+}
+
+circle.Ground {
+	fill: $ground;
+}
 /*********************
 *
 * Flying
@@ -355,6 +422,15 @@ a .Flying:hover {
 .poke-cell.Flying > div {
 	padding-bottom: 10px;
 	border-bottom: 3px solid $flying;
+}
+
+path.Flying, circle.Flying {
+	stroke: $flying;
+	stroke-width: 4;
+}
+
+circle.Flying {
+	fill: $flying;
 }
 /********************
 *
@@ -388,7 +464,14 @@ a .Psychic:hover {
 	border-bottom: 3px solid $psychic;
 }
 
+path.Psychic, circle.Psychic {
+	stroke: $psychic;
+	stroke-width: 4;
+}
 
+circle.Psychic {
+	fill: $psychic;
+}
 /**********************
 *
 * Bug
@@ -421,7 +504,14 @@ a .Bug:hover {
 	border-bottom: 3px solid $bug;
 }
 
+path.Bug, circle.Bug {
+	stroke: $bug;
+	stroke-width: 4;
+}
 
+circle.Bug {
+	fill: $bug;
+}
 /***********************
 *
 * Rock
@@ -458,6 +548,15 @@ a .Rock:hover {
 	border-bottom: 3px solid $rock;
 }
 
+path.Rock, circle.Rock {
+	stroke: $rock;
+	stroke-width: 4;
+}
+
+circle.Rock {
+	fill: $rock;
+}
+
 /*************************
 *
 * Ghost
@@ -490,6 +589,14 @@ a .Ghost:hover {
 	border-bottom: 3px solid $ghost;
 }
 
+path.Ghost, circle.Ghost {
+	stroke: $ghost;
+	stroke-width: 4;
+}
+
+circle.Ghost {
+	fill: $ghost;
+}
 /********************
 *
 * Dragon
@@ -525,6 +632,15 @@ a .Dragon:hover {
 	padding-bottom: 10px;
 	border-bottom: 3px solid $dragon;
 }
+
+path.Dragon, circle.Dragon {
+	stroke: $dragon;
+	stroke-width: 4;
+}
+
+circle.Dragon {
+	fill: $dragon;
+}
 /***********************
 *
 * Dark
@@ -557,6 +673,14 @@ a .Dark:hover {
 	border-bottom: 3px solid $dark;
 }
 
+path.Dark, circle.Dark {
+	stroke: $dark;
+	stroke-width: 4;
+}
+
+circle.Dark {
+	fill: $dark;
+}
 /**************************
 *
 * Steel
@@ -589,6 +713,14 @@ a .Steel:hover {
 	border-bottom: 3px solid $steel;
 }
 
+path.Steel, circle.Steel {
+	stroke: $steel;
+	stroke-width: 4;
+}
+
+circle.Steel {
+	fill: $steel;
+}
 /**********************
 *
 * Fairy
@@ -621,3 +753,11 @@ a .Fairy:hover {
 	border-bottom: 3px solid $fairy;
 }
 
+path.Fairy, circle.Fairy {
+	stroke: $fairy;
+	stroke-width: 4;
+}
+
+circle.Fairy {
+	fill: $fairy;
+}

@@ -55,11 +55,15 @@ p {
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12)
 }
 
-
 .name {
 	font-size: 16px;
 	color: #333;
 	padding-bottom: 5px;
+}
+
+.national-number {
+	float: right;
+	font-size: 16px;
 }
 
 .total {
@@ -145,6 +149,10 @@ path.domain:hover {
 	border: 5px solid #555;
 	color: #555;
 	margin: 0 auto;
+}
+
+.col-sm-2.statistics {
+	float: right;
 }
 
 .statistic div:last-child {
