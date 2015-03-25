@@ -55,33 +55,36 @@
 					<div>{{ $total }}</div>
 				</div>	
 			-->
-			<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" class="base-stats">
-				<g transform="translate(-25 -25)">
+			<svg width="250" height="300" xmlns="http://www.w3.org/2000/svg" class="base-stats">
+				<g transform="translate(25 -25)">
 					<g transform="translate(100 350) rotate(180 50 50)">
-						<rect x="150" y="200" width="20" height="{{ $pm['hp'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="120" y="200" width="20" height="{{ $pm['attack'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="90" y="200" width="20" height="{{ $pm['defense'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="60" y="200" width="20" height="{{ $pm['sp_atk'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="30" y="200" width="20" height="{{ $pm['sp_def'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="0" y="200" width="20" height="{{ $pm['speed'] }}" fill="black" class="{{ $pm['type_a'] }}"/>			
+						<rect x="180" y="200" width="20" height="{{ $pm['hp'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="150" y="200" width="20" height="{{ $pm['attack'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="120" y="200" width="20" height="{{ $pm['defense'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="90" y="200" width="20" height="{{ $pm['sp_atk'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="60" y="200" width="20" height="{{ $pm['sp_def'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="30" y="200" width="20" height="{{ $pm['speed'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="0" y="200" width="20" height="{{ $total / 4 }}" fill="black" class="{{ $pm['type_a'] }} total"/>				
 					</g>
 					
-					<g transform="translate(20 275) rotate(-90 25 25)">
+					<g transform="translate(-10 275) rotate(-90 25 25)">
 						<text x="50" y="25">HP</text>
 						<text x="35" y="55">Attack</text>
 						<text x="25" y="85">Defense</text>
 						<text x="30" y="115">Sp. Def</text>
 						<text x="30" y="145">Sp. Atk</text>
 						<text x="35" y="175">Speed</text>
+						<text x="35" y="205" class="total">Total</text>
 					</g>
 					
-					<g transform = "translate(7)">
+					<g transform = "translate(-22)">
 						<text x="25" y="{{ 245 - $pm['hp'] }}">{{ $pm['hp'] }}</text>
 						<text x="55" y="{{ 245 - $pm['attack'] }}">{{ $pm['attack'] }}</text>
 						<text x="85" y="{{ 245 - $pm['defense'] }}">{{ $pm['defense'] }}</text>
 						<text x="115" y="{{ 245 - $pm['sp_atk'] }}">{{ $pm['sp_atk'] }}</text>
 						<text x="145" y="{{ 245 - $pm['sp_def'] }}">{{ $pm['sp_def'] }}</text>
 						<text x="175" y="{{ 245 - $pm['speed'] }}">{{ $pm['speed'] }}</text>
+						<text x="205" y="{{ 245 - $total / 4 }}" transform="translate(-2)" class="total">{{ $total }}</text>
 					</g>
 				</g>
 <!--
@@ -115,10 +118,12 @@
 				</g>
 -->				
 			</svg>	
+			<!--
 			<div class="total-bubble">
 				<div class="total">{{ $total }}</div>
 				<div>Total</div>
 			</div>
+			-->
 			</div>
 		</div>
 	</div>

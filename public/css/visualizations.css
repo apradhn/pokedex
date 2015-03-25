@@ -36,6 +36,9 @@ circle.Normal {
 svg.base-stats rect.Normal {
   fill: #EDD7B8; }
 
+svg.base-stats rect.Normal.total {
+  fill: #d39e52; }
+
 /************************
 *
 * Fire
@@ -71,6 +74,9 @@ circle.Fire {
 
 svg.base-stats rect.Fire {
   fill: #ffa726; }
+
+svg.base-stats rect.Fire.total {
+  fill: #a56200; }
 
 /*************************
 *
@@ -108,6 +114,9 @@ circle.Water {
 svg.base-stats rect.Water {
   fill: #42a5f5; }
 
+svg.base-stats rect.Water.total {
+  fill: #0965ae; }
+
 /****************************
 *
 * Electric
@@ -143,6 +152,9 @@ circle.Electric {
 
 svg.base-stats rect.Electric {
   fill: #ffee58; }
+
+svg.base-stats rect.Electric.total {
+  fill: #d8c200; }
 
 /*************************
 *
@@ -180,6 +192,9 @@ circle.Grass {
 svg.base-stats rect.Grass {
   fill: #66bb6a; }
 
+svg.base-stats rect.Grass.total {
+  fill: #327035; }
+
 /*********************
 *
 * Ice
@@ -215,6 +230,9 @@ circle.Ice {
 
 svg.base-stats rect.Ice {
   fill: #26c6da; }
+
+svg.base-stats rect.Ice.total {
+  fill: #13646e; }
 
 /**************************
 *
@@ -252,6 +270,9 @@ circle.Fighting {
 svg.base-stats rect.Fighting {
   fill: #ef5350; }
 
+svg.base-stats rect.Fighting.total {
+  fill: #af1310; }
+
 /**********************
 *
 * Poison
@@ -287,6 +308,9 @@ circle.Poison {
 
 svg.base-stats rect.Poison {
   fill: #ab47bc; }
+
+svg.base-stats rect.Poison.total {
+  fill: #572360; }
 
 /********************
 *
@@ -324,6 +348,9 @@ circle.Ground {
 svg.base-stats rect.Ground {
   fill: #ffca28; }
 
+svg.base-stats rect.Ground.total {
+  fill: #a77e00; }
+
 /*********************
 *
 * Flying
@@ -359,6 +386,9 @@ circle.Flying {
 
 svg.base-stats rect.Flying {
   fill: #b388ff; }
+
+svg.base-stats rect.Flying.total {
+  fill: #6209ff; }
 
 /********************
 *
@@ -396,6 +426,9 @@ circle.Psychic {
 svg.base-stats rect.Psychic {
   fill: #ec407a; }
 
+svg.base-stats rect.Psychic.total {
+  fill: #9d103f; }
+
 /**********************
 *
 * Bug
@@ -431,6 +464,9 @@ circle.Bug {
 
 svg.base-stats rect.Bug {
   fill: #d4e157; }
+
+svg.base-stats rect.Bug.total {
+  fill: #909d1c; }
 
 /***********************
 *
@@ -471,6 +507,9 @@ circle.Rock {
 svg.base-stats rect.Rock {
   fill: #8d6e63; }
 
+svg.base-stats rect.Rock.total {
+  fill: #6f574e; }
+
 /*************************
 *
 * Ghost
@@ -506,6 +545,9 @@ circle.Ghost {
 
 svg.base-stats rect.Ghost {
   fill: #7e57c2; }
+
+svg.base-stats rect.Ghost.total {
+  fill: #432971; }
 
 /********************
 *
@@ -546,6 +588,9 @@ circle.Dragon {
 svg.base-stats rect.Dragon {
   fill: #5c6bc0; }
 
+svg.base-stats rect.Dragon.total {
+  fill: #2c3671; }
+
 /***********************
 *
 * Dark
@@ -581,6 +626,9 @@ circle.Dark {
 
 svg.base-stats rect.Dark {
   fill: #555555; }
+
+svg.base-stats rect.Dark.total {
+  fill: #151515; }
 
 /**************************
 *
@@ -618,6 +666,9 @@ circle.Steel {
 svg.base-stats rect.Steel {
   fill: #78909c; }
 
+svg.base-stats rect.Steel.total {
+  fill: #3f4e56; }
+
 /**********************
 *
 * Fairy
@@ -653,6 +704,9 @@ circle.Fairy {
 
 svg.base-stats rect.Fairy {
   fill: #f48fb1; }
+
+svg.base-stats rect.Fairy.total {
+  fill: #e91b60; }
 
 .panel {
   color: #555555; }
