@@ -61,6 +61,9 @@ circle.Normal {
 	fill: darken($normal, 25);
 }
 
+svg.base-stats rect.Normal {
+	fill: $normal;
+}
 /************************
 *
 * Fire
@@ -100,6 +103,10 @@ path.Fire, circle.Fire {
 }
 
 circle.Fire {
+	fill: $fire;
+}
+
+svg.base-stats rect.Fire {
 	fill: $fire;
 }
 /*************************
@@ -143,6 +150,10 @@ path.Water, circle.Water {
 circle.Water {
 	fill: $water;
 }
+
+svg.base-stats rect.Water {
+	fill: $water;
+}
 /****************************
 *
 * Electric
@@ -184,6 +195,10 @@ path.Electric, circle.Electric {
 circle.Electric {
 	fill: $electric;
 }
+
+svg.base-stats rect.Electric {
+	fill: $electric;
+}
 /*************************
 *
 * Grass
@@ -223,6 +238,10 @@ path.Grass, circle.Grass {
 }
 
 circle.Grass {
+	fill: $grass;
+}
+
+svg.base-stats rect.Grass {
 	fill: $grass;
 }
 /*********************
@@ -267,6 +286,9 @@ circle.Ice {
 	fill: $ice;
 }
 
+svg.base-stats rect.Ice {
+	fill: $ice;
+}
 /**************************
 *
 * Fighting
@@ -309,6 +331,9 @@ circle.Fighting {
 	fill: $fighting;
 }
 
+svg.base-stats rect.Fighting {
+	fill: $fighting;
+}
 /**********************
 *
 * Poison
@@ -348,6 +373,10 @@ path.Poison, circle.Poison {
 }
 
 circle.Poison {
+	fill: $poison;
+}
+
+svg.base-stats rect.Poison {
 	fill: $poison;
 }
 /********************
@@ -391,6 +420,10 @@ path.Ground, circle.Ground {
 circle.Ground {
 	fill: $ground;
 }
+
+svg.base-stats rect.Ground {
+	fill: $ground;
+}
 /*********************
 *
 * Flying
@@ -430,6 +463,10 @@ path.Flying, circle.Flying {
 }
 
 circle.Flying {
+	fill: $flying;
+}
+
+svg.base-stats rect.Flying {
 	fill: $flying;
 }
 /********************
@@ -472,6 +509,10 @@ path.Psychic, circle.Psychic {
 circle.Psychic {
 	fill: $psychic;
 }
+
+svg.base-stats rect.Psychic {
+	fill: $psychic;
+}
 /**********************
 *
 * Bug
@@ -510,6 +551,10 @@ path.Bug, circle.Bug {
 }
 
 circle.Bug {
+	fill: $bug;
+}
+
+svg.base-stats rect.Bug {
 	fill: $bug;
 }
 /***********************
@@ -557,6 +602,9 @@ circle.Rock {
 	fill: $rock;
 }
 
+svg.base-stats rect.Rock {
+	fill: $rock;
+}
 /*************************
 *
 * Ghost
@@ -595,6 +643,10 @@ path.Ghost, circle.Ghost {
 }
 
 circle.Ghost {
+	fill: $ghost;
+}
+
+svg.base-stats rect.Ghost {
 	fill: $ghost;
 }
 /********************
@@ -641,6 +693,10 @@ path.Dragon, circle.Dragon {
 circle.Dragon {
 	fill: $dragon;
 }
+
+svg.base-stats rect.Dragon {
+	fill: $dragon;
+}
 /***********************
 *
 * Dark
@@ -679,6 +735,10 @@ path.Dark, circle.Dark {
 }
 
 circle.Dark {
+	fill: $dark;
+}
+
+svg.base-stats rect.Dark {
 	fill: $dark;
 }
 /**************************
@@ -721,6 +781,10 @@ path.Steel, circle.Steel {
 circle.Steel {
 	fill: $steel;
 }
+
+svg.base-stats rect.Steel {
+	fill: $steel;
+}
 /**********************
 *
 * Fairy
@@ -759,5 +823,9 @@ path.Fairy, circle.Fairy {
 }
 
 circle.Fairy {
+	fill: $fairy;
+}
+
+svg.base-stats rect.Fairy {
 	fill: $fairy;
 }

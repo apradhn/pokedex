@@ -21,6 +21,7 @@
 .panel.panel-default.content {
   border-radius: 0px;
   background: #ffffff;
+  padding-bottom: 50px;
   /*box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.24), 0px 17px 50px 0px rgba(0, 0, 0, 0.19);*/ }
 
 .pokemon-name {
@@ -61,6 +62,27 @@
 
 .base-stat {
   text-align: left; }
+
+.total-bubble {
+  float: left;
+  width: 75px;
+  margin-top: 150px; }
+
+.total {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 22px;
+  color: #555555; }
+
+.total-bubble div:last-child {
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif; }
 
 .type-defenses {
   margin-bottom: 10px;
@@ -104,7 +126,8 @@
   background-color: #ffa726;
   text-align: right;
   padding: 5px 5px 5px 2px;
-  margin: 5px; }
+  margin: 5px;
+  float: left; }
 
 .captions div:last-child {
   font-size: 16px;
@@ -145,6 +168,9 @@ path.Normal, circle.Normal {
 circle.Normal {
   fill: #d39e52; }
 
+svg.base-stats rect.Normal {
+  fill: #EDD7B8; }
+
 /************************
 *
 * Fire
@@ -176,6 +202,9 @@ path.Fire, circle.Fire {
   stroke-width: 4; }
 
 circle.Fire {
+  fill: #ffa726; }
+
+svg.base-stats rect.Fire {
   fill: #ffa726; }
 
 /*************************
@@ -211,6 +240,9 @@ path.Water, circle.Water {
 circle.Water {
   fill: #42a5f5; }
 
+svg.base-stats rect.Water {
+  fill: #42a5f5; }
+
 /****************************
 *
 * Electric
@@ -242,6 +274,9 @@ path.Electric, circle.Electric {
   stroke-width: 4; }
 
 circle.Electric {
+  fill: #ffee58; }
+
+svg.base-stats rect.Electric {
   fill: #ffee58; }
 
 /*************************
@@ -277,6 +312,9 @@ path.Grass, circle.Grass {
 circle.Grass {
   fill: #66bb6a; }
 
+svg.base-stats rect.Grass {
+  fill: #66bb6a; }
+
 /*********************
 *
 * Ice
@@ -308,6 +346,9 @@ path.Ice, circle.Ice {
   stroke-width: 4; }
 
 circle.Ice {
+  fill: #26c6da; }
+
+svg.base-stats rect.Ice {
   fill: #26c6da; }
 
 /**************************
@@ -343,6 +384,9 @@ path.Fighting, circle.Fighting {
 circle.Fighting {
   fill: #ef5350; }
 
+svg.base-stats rect.Fighting {
+  fill: #ef5350; }
+
 /**********************
 *
 * Poison
@@ -374,6 +418,9 @@ path.Poison, circle.Poison {
   stroke-width: 4; }
 
 circle.Poison {
+  fill: #ab47bc; }
+
+svg.base-stats rect.Poison {
   fill: #ab47bc; }
 
 /********************
@@ -409,6 +456,9 @@ path.Ground, circle.Ground {
 circle.Ground {
   fill: #ffca28; }
 
+svg.base-stats rect.Ground {
+  fill: #ffca28; }
+
 /*********************
 *
 * Flying
@@ -440,6 +490,9 @@ path.Flying, circle.Flying {
   stroke-width: 4; }
 
 circle.Flying {
+  fill: #b388ff; }
+
+svg.base-stats rect.Flying {
   fill: #b388ff; }
 
 /********************
@@ -475,6 +528,9 @@ path.Psychic, circle.Psychic {
 circle.Psychic {
   fill: #ec407a; }
 
+svg.base-stats rect.Psychic {
+  fill: #ec407a; }
+
 /**********************
 *
 * Bug
@@ -506,6 +562,9 @@ path.Bug, circle.Bug {
   stroke-width: 4; }
 
 circle.Bug {
+  fill: #d4e157; }
+
+svg.base-stats rect.Bug {
   fill: #d4e157; }
 
 /***********************
@@ -544,6 +603,9 @@ path.Rock, circle.Rock {
 circle.Rock {
   fill: #8d6e63; }
 
+svg.base-stats rect.Rock {
+  fill: #8d6e63; }
+
 /*************************
 *
 * Ghost
@@ -575,6 +637,9 @@ path.Ghost, circle.Ghost {
   stroke-width: 4; }
 
 circle.Ghost {
+  fill: #7e57c2; }
+
+svg.base-stats rect.Ghost {
   fill: #7e57c2; }
 
 /********************
@@ -613,6 +678,9 @@ path.Dragon, circle.Dragon {
 circle.Dragon {
   fill: #5c6bc0; }
 
+svg.base-stats rect.Dragon {
+  fill: #5c6bc0; }
+
 /***********************
 *
 * Dark
@@ -644,6 +712,9 @@ path.Dark, circle.Dark {
   stroke-width: 4; }
 
 circle.Dark {
+  fill: #555555; }
+
+svg.base-stats rect.Dark {
   fill: #555555; }
 
 /**************************
@@ -679,6 +750,9 @@ path.Steel, circle.Steel {
 circle.Steel {
   fill: #78909c; }
 
+svg.base-stats rect.Steel {
+  fill: #78909c; }
+
 /**********************
 *
 * Fairy
@@ -712,6 +786,9 @@ path.Fairy, circle.Fairy {
 circle.Fairy {
   fill: #f48fb1; }
 
+svg.base-stats rect.Fairy {
+  fill: #f48fb1; }
+
 .chart div:last-child {
   background: white;
   text-align: left;
@@ -739,5 +816,11 @@ circle.Fairy {
 .zero {
   background: #555;
   color: #fff; }
+
+/* Styles for chart svg */
+svg.base-stats {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px; }
 
 /*# sourceMappingURL=search.css.map */

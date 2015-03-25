@@ -26,9 +26,11 @@
 .panel.panel-default.content {
 	border-radius: 0px;
 	background: #ffffff;
+	padding-bottom: 50px;
 	/*box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.24), 0px 17px 50px 0px rgba(0, 0, 0, 0.19);*/
 }
 
+// Styles for column 1
 .pokemon-name {
 	text-align: left;
 	color: #333;
@@ -69,6 +71,8 @@
 	width: 150px;
 }
 
+// Styles for column 2
+
 .stats-heading  h3 {
 	border-bottom: 2px solid #333;
 	padding-bottom: 10px;
@@ -78,6 +82,31 @@
 	text-align: left;
 }
 
+.total-bubble {
+	float: left;
+	width: 75px;
+	margin-top: 150px;
+}
+
+.total {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 2px solid #555;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 22px;
+	color: #555555;
+}
+
+.total-bubble div:last-child {
+	text-align: center;
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+// styles for column 3
 .type-defenses {
 	margin-bottom: 10px;
 	font-size: 11px;
@@ -129,6 +158,7 @@
   text-align: right;
   padding: 5px 5px 5px 2px;
   margin: 5px;
+  float: left;
 }
 
 .captions div:last-child {
@@ -171,4 +201,13 @@
 .zero {
 	background: #555;
 	color: #fff;
+}
+
+
+/* Styles for chart svg */
+
+svg.base-stats {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }

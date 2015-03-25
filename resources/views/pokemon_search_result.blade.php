@@ -34,6 +34,7 @@
 		</div>	
 		<div class="row">
 			<div class="col-sm-12">
+			<!--
 				<div class="captions">
 					<div>HP</div>
 					<div>Attack</div>
@@ -43,16 +44,81 @@
 					<div>Speed</div>
 					<div>Total</div>
 				</div>	
-
+			
 				<div class="chart {{ $pm['type_a'] }}">
-					<div style="width: {{ $pm['hp'] }}px;">{{ $pm['hp'] }}</div>
-					<div style="width: {{ $pm['attack'] }}px;">{{ $pm['attack'] }}</div>
-					<div style="width: {{ $pm['defense'] }}px;">{{ $pm['defense'] }}</div>
-					<div style="width: {{ $pm['sp_atk'] }}px;">{{ $pm['sp_atk'] }}</div>
-					<div style="width: {{ $pm['sp_def'] }}px;">{{ $pm['sp_def'] }}</div>
-					<div style="width: {{ $pm['speed'] }}px;">{{ $pm['speed'] }}</div>
+					<div style="height: {{ $pm['hp'] }}px;">{{ $pm['hp'] }}</div>
+					<div style="height: {{ $pm['attack'] }}px;">{{ $pm['attack'] }}</div>
+					<div style="height: {{ $pm['defense'] }}px;">{{ $pm['defense'] }}</div>
+					<div style="height: {{ $pm['sp_atk'] }}px;">{{ $pm['sp_atk'] }}</div>
+					<div style="height: {{ $pm['sp_def'] }}px;">{{ $pm['sp_def'] }}</div>
+					<div style="height: {{ $pm['speed'] }}px;">{{ $pm['speed'] }}</div>
 					<div>{{ $total }}</div>
 				</div>	
+			-->
+			<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" class="base-stats">
+				<g transform="translate(-25 -25)">
+					<g transform="translate(100 350) rotate(180 50 50)">
+						<rect x="150" y="200" width="20" height="{{ $pm['hp'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="120" y="200" width="20" height="{{ $pm['attack'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="90" y="200" width="20" height="{{ $pm['defense'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="60" y="200" width="20" height="{{ $pm['sp_atk'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="30" y="200" width="20" height="{{ $pm['sp_def'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
+						<rect x="0" y="200" width="20" height="{{ $pm['speed'] }}" fill="black" class="{{ $pm['type_a'] }}"/>			
+					</g>
+					
+					<g transform="translate(20 275) rotate(-90 25 25)">
+						<text x="50" y="25">HP</text>
+						<text x="35" y="55">Attack</text>
+						<text x="25" y="85">Defense</text>
+						<text x="30" y="115">Sp. Def</text>
+						<text x="30" y="145">Sp. Atk</text>
+						<text x="35" y="175">Speed</text>
+					</g>
+					
+					<g transform = "translate(7)">
+						<text x="25" y="{{ 245 - $pm['hp'] }}">{{ $pm['hp'] }}</text>
+						<text x="55" y="{{ 245 - $pm['attack'] }}">{{ $pm['attack'] }}</text>
+						<text x="85" y="{{ 245 - $pm['defense'] }}">{{ $pm['defense'] }}</text>
+						<text x="115" y="{{ 245 - $pm['sp_atk'] }}">{{ $pm['sp_atk'] }}</text>
+						<text x="145" y="{{ 245 - $pm['sp_def'] }}">{{ $pm['sp_def'] }}</text>
+						<text x="175" y="{{ 245 - $pm['speed'] }}">{{ $pm['speed'] }}</text>
+					</g>
+				</g>
+<!--
+				<g>
+					<line x1="1" x2="1" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="25" x2="25" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="50" x2="50" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="75" x2="75" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="100" x2="100" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="125" x2="125" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="150" x2="150" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="175" x2="175" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="200" x2="200" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="225" x2="225" y1="0" y2="300" stroke="#DADFE1" />
+					<line x1="250" x2="250" y1="0" y2="300" stroke="#DADFE1" />
+				</g>
+				<g>
+					<line x1="1" x2="250" y1="1" y2="1" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="25" y2="25" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="50" y2="50" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="75" y2="75" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="100" y2="100" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="125" y2="125" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="150" y2="150" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="175" y2="175" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="200" y2="200" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="225" y2="225" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="250" y2="250" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="275" y2="275" stroke="#DADFE1" />
+					<line x1="1" x2="250" y1="299" y2="299" stroke="#DADFE1" />
+				</g>
+-->				
+			</svg>	
+			<div class="total-bubble">
+				<div class="total">{{ $total }}</div>
+				<div>Total</div>
+			</div>
 			</div>
 		</div>
 	</div>
