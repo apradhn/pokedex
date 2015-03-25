@@ -1,23 +1,17 @@
-## Laravel PHP Framework
+## Minimal Pokédex
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Minimal Pokédex provides an AJAX powered search for looking up the base stats and type defenses of all Pokémon. Also features data visualizations of the base stats for each Pokémon type
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Live URL
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+[http://pokedex.apradhan.me](http://pokedex.apradhan.me)
 
-## Official Documentation
+## Resources Used
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+* Laravel 5: [http://laravel.com/](http://laravel.com/)
+* Bootstrap 3.3.4: [http://getbootstrap.com/](http://getbootstrap.com/)
+* SASS: [http://sass-lang.com/](http://sass-lang.com/)
+* D3.js: [http://d3js.org/](http://d3js.org/)
+* Snap.svg [http://snapsvg.io/](http://snapsvg.io/)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
