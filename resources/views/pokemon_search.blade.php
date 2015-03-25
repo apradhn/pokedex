@@ -61,7 +61,7 @@
 			<h3>Search by Name</h3>
 
 			<!-- <label for='query'>Search:</label> -->
-			<div class="form-group col-sm-4 col-lg-6">
+			<div class="form-group col-sm-6 col-lg-8">
 				<input type='text' id='query' name='query' placeholder='Electrode, Diglett, Nidoran, Mankey...' class="form-control">
 				{!! Form::token() !!}
 			</div>
