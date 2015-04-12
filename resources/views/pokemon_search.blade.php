@@ -24,6 +24,7 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/">Search Pokédex<span class="sr-only">(current)</span></a></li>
 				    <li><a href="/data-visualizations">Data Visualizations</a></li>
+				    <li><a href="/team-builder">Team Builder</a></li>
 				</ul>
 			</div>
 		</div>

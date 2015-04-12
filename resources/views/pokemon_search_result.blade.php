@@ -5,7 +5,7 @@
 			<div class="col-sm-12">
 				<h2 class="pokemon-name">{{ $pm['name'] }} <br><small>{{ $national_number }}</small></h2>
 			</div>
-		</div>		
+		</div>
 
 		<div class="row">
 			<div class="col-sm-12">
@@ -31,7 +31,7 @@
 			<div class="stats-heading col-sm-12">
 				<h3>Base Stats</h3>
 			</div>
-		</div>	
+		</div>
 		<div class="row">
 			<div class="col-sm-12">
 			<!--
@@ -43,8 +43,8 @@
 					<div>Sp. Def</div>
 					<div>Speed</div>
 					<div>Total</div>
-				</div>	
-			
+				</div>
+
 				<div class="chart {{ $pm['type_a'] }}">
 					<div style="height: {{ $pm['hp'] }}px;">{{ $pm['hp'] }}</div>
 					<div style="height: {{ $pm['attack'] }}px;">{{ $pm['attack'] }}</div>
@@ -53,7 +53,7 @@
 					<div style="height: {{ $pm['sp_def'] }}px;">{{ $pm['sp_def'] }}</div>
 					<div style="height: {{ $pm['speed'] }}px;">{{ $pm['speed'] }}</div>
 					<div>{{ $total }}</div>
-				</div>	
+				</div>
 			-->
 			<svg width="250" height="300" xmlns="http://www.w3.org/2000/svg" class="base-stats">
 				<g transform="translate(25 -25)">
@@ -64,9 +64,9 @@
 						<rect x="90" y="200" width="20" height="{{ $pm['sp_atk'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
 						<rect x="60" y="200" width="20" height="{{ $pm['sp_def'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
 						<rect x="30" y="200" width="20" height="{{ $pm['speed'] }}" fill="black" class="{{ $pm['type_a'] }}"/>
-						<rect x="0" y="200" width="20" height="{{ $total / 4 }}" fill="black" class="{{ $pm['type_a'] }} total"/>				
+						<rect x="0" y="200" width="20" height="{{ $total / 4 }}" fill="black" class="{{ $pm['type_a'] }} total"/>
 					</g>
-					
+
 					<g transform="translate(-10 275) rotate(-90 25 25)">
 						<text x="50" y="25">HP</text>
 						<text x="35" y="55">Attack</text>
@@ -76,7 +76,7 @@
 						<text x="35" y="175">Speed</text>
 						<text x="35" y="205" class="total">Total</text>
 					</g>
-					
+
 					<g transform = "translate(-22)">
 						<text x="25" y="{{ 245 - $pm['hp'] }}">{{ $pm['hp'] }}</text>
 						<text x="55" y="{{ 245 - $pm['attack'] }}">{{ $pm['attack'] }}</text>
@@ -116,8 +116,8 @@
 					<line x1="1" x2="250" y1="275" y2="275" stroke="#DADFE1" />
 					<line x1="1" x2="250" y1="299" y2="299" stroke="#DADFE1" />
 				</g>
--->				
-			</svg>	
+-->
+			</svg>
 			<!--
 			<div class="total-bubble">
 				<div class="total">{{ $total }}</div>
@@ -161,4 +161,3 @@
 	</div>
 
 </div>
-

@@ -55,6 +55,14 @@ Route::get('/types/{type_id}', 'TypeController@show');
 
 Route::get('/data-visualizations', 'VisualizationsController@show');
 
+/**
+* Team Builder route
+**/
+Route::get('/team-builder', function() 
+{
+    return View::make('team_builder');
+});
+
 # /app/routes.php
 Route::get('/debug', function() {
 
