@@ -57,4 +57,63 @@ class PokemonController extends Controller {
 	        }
 		}
 	}
+
+	public function getTeamSearch()
+	{
+		if(Request::ajax()) {
+			$query = Input::get('query');
+			$format = Input::get('format');
+			$pokemon = Pokemon::search($query);
+
+			if ($format == 'html') {
+				$results = '';
+				foreach($pokemon as $pm) {
+					$name = $pm['name'];		
+					$results .= View::make('team_search_result')
+					->with('pm', $pm)
+					->with('name', $name)
+					->render();
+				}
+				return $results;
+			}
+		}
+	}
+
+	public function getTeamSelection()
+	{
+		if(Request::ajax()) {
+			$query = Input::get('query');
+			$format = Input::get('format');
+			$pokemon = Pokemon::search($query);
+			$pokemon = $pokemon[0];
+
+			if ($format == 'html') {
+				$results = View::make('team_selection')
+				->with('pokemon', $pokemon)
+				->render();
+
+				return $results;
+			}
+		}
+
+	}	
+
+/*	
+
+	public function postTeamSelection()
+	{
+		if(Request::ajax()) {
+			$query = Input::get('query');
+			$format = Input::get('format');
+			$pokemon = Pokemon::search($query);
+
+			if $($format == 'html') {
+				$results .= View::make('team_selection');
+				->with('pokemon', $pokemon)
+				->render();
+			}
+			return $results;
+		}
+	}
+	*/
 }

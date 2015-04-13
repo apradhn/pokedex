@@ -63,6 +63,12 @@ Route::get('/team-builder', function()
     return View::make('team_builder');
 });
 
+Route::post('/pokemon/team-search', 'PokemonController@postTeamSearch');
+Route::get('/pokemon/team-search', 'PokemonController@getTeamSearch');
+Route::get('/pokemon/team-selection', 'PokemonController@getTeamSelection');
+# Route::post('/pokemon/team-selection', 'PokemonController@postTeamSelection');
+
+
 # /app/routes.php
 Route::get('/debug', function() {
 

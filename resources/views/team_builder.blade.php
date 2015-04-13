@@ -1,7 +1,7 @@
 @extends('_master')
 
 @section('head')
-<link rel="stylesheet" type="text/css" href="{{ asset('css/search.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/team-builder.css') }}">
 @stop
 
 @section('navigation')
@@ -29,4 +29,124 @@
 			</div>
 		</div>
 	</nav>
+@stop
+
+@section('content')
+<div class="container-fluid">
+	<div class="row page-title">
+		<div class="col-sm-12">
+			<h2>Team Builder</h2>
+			<p>This tool calculates your team's strengths and weaknesses towards different types.</p>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="panel col-sm-10 col-sm-offset-1">
+			<div class="row content">
+				<div class="col-sm-3 cell cell-1">
+					<h3>#1</h3>
+					<div class="selected-pokemon cell-1"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search cell-1">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>	
+
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>
+				</div>
+				<div class="col-sm-3 cell cell-2">
+					<h3>#2</h3>
+					<div class="selected-pokemon"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>	
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>					
+				</div>
+				<div class="col-sm-3 cell cell-3">
+					<h3>#3</h3>
+					<div class="selected-pokemon"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>	
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 cell cell-4">
+					<h3>#4</h3>
+					<div class="selected-pokemon"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>				
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>					
+				</div>
+				<div class="col-sm-3 cell cell-5">
+					<h3>#5</h3>
+					<div class="selected-pokemon"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>						
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>					
+				</div>
+				<div class="col-sm-3 cell cell-6">
+					<h3>#6</h3>
+					<div class="selected-pokemon"></div>
+					<div class="poke-select">
+						<i class="fa fa-times fa-lg"></i>
+						<div class="form-group">
+							<input type="text" class="form-control" name="query">
+							<!-- {!! Form::token() !!} -->
+						</div>
+							<button class="btn btn-default search">Search</button>	
+						<select name="options" class="search-results"></select>
+						<button class="btn btn-default select">Select</button>
+					</div>						
+					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
+					<p class="change"><i class="fa fa-pencil"></i> Change</p>					
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>
+@stop
+
+@section('footer')
+<script src="{{ asset('js/team-builder.js') }}"></script>
 @stop
