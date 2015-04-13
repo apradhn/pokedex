@@ -52,7 +52,7 @@
 							<!-- {!! Form::token() !!} -->
 						</div>
 							<button class="btn btn-default search cell-1">Search</button>	
-						<select name="options" class="search-results"></select>
+						<select name="options" class="search-results cell-1"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>	
 
@@ -68,8 +68,8 @@
 							<input type="text" class="form-control" name="query">
 							<!-- {!! Form::token() !!} -->
 						</div>
-							<button class="btn btn-default search">Search</button>	
-						<select name="options" class="search-results"></select>
+							<button class="btn btn-default search cell-2">Search</button>	
+						<select name="options" class="search-results cell-2"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>	
 					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
@@ -84,8 +84,8 @@
 							<input type="text" class="form-control" name="query">
 							<!-- {!! Form::token() !!} -->
 						</div>
-							<button class="btn btn-default search">Search</button>	
-						<select name="options" class="search-results"></select>
+							<button class="btn btn-default search cell-3">Search</button>	
+						<select name="options" class="search-results cell-3"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>	
 					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
@@ -102,8 +102,8 @@
 							<input type="text" class="form-control" name="query">
 							<!-- {!! Form::token() !!} -->
 						</div>
-							<button class="btn btn-default search">Search</button>	
-						<select name="options" class="search-results"></select>
+							<button class="btn btn-default search cell-4">Search</button>	
+						<select name="options" class="search-results cell-4"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>				
 					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
@@ -118,8 +118,8 @@
 							<input type="text" class="form-control" name="query">
 							<!-- {!! Form::token() !!} -->
 						</div>
-							<button class="btn btn-default search">Search</button>	
-						<select name="options" class="search-results"></select>
+							<button class="btn btn-default search cell-5">Search</button>	
+						<select name="options" class="search-results cell-5"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>						
 					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">
@@ -134,8 +134,8 @@
 							<input type="text" class="form-control" name="query">
 							<!-- {!! Form::token() !!} -->
 						</div>
-							<button class="btn btn-default search">Search</button>	
-						<select name="options" class="search-results"></select>
+							<button class="btn btn-default search cell-6">Search</button>	
+						<select name="options" class="search-results cell-6"></select>
 						<button class="btn btn-default select">Select</button>
 					</div>						
 					<img src="{{ asset('img/pokeball-icon.png') }}" alt="pokéball" class="pokeball">

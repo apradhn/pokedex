@@ -9,27 +9,8 @@ $(document).ready(function() {
 		$('.cell-'+(index+1) + ' .change').click(function() {
 			$('.cell-'+(index+1)+' .pokeball').css('display', 'none');
 			$('.cell-'+(index+1)+' .poke-select').css('display', 'block');			
-		});
-
-	$('.search').click(function() {
-		$.ajax({
-			type: 'GET',
-			url: '/pokemon/team-search',
-			error: function(data) {
-				console.log(data);
-			},
-			success: function(response) {
-	        	console.log("success-html");
-				$('.search-results').html(response);
-			},
-			data: {
-				format: 'html', 
-				query: $('input[name=query]').val(),
-				//_token: $('input[name=_token]').val(),
-			},
-		});
-	});		
-	})
+		});		
+	});
 
 	$('.fa-times').each(function(index) {
 		$('.cell-'+(index+1)+' .fa-times').click(function() {
@@ -38,7 +19,28 @@ $(document).ready(function() {
 		})
 	});
 
+	$('.search').each(function(index) {
+		$('.search.cell-'+(index+1)).click(function() {
+			$.ajax({
+				type: 'GET',
+				url: '/pokemon/team-search',
+				error: function(data) {
+					console.log(data);
+				},
+				success: function(response) {
+		        	console.log("success-html");
+					$('.search-results.cell-'+(index+1)).html(response);
+				},
+				data: {
+					format: 'html', 
+					query: $('.cell-'+(index+1)+' input[name=query]').val(),
+					//_token: $('input[name=_token]').val(),
+				},
+			});			
+		});
+	});
 
+/*
 	$('.search').click(function() {
 		$.ajax({
 			type: 'GET',
@@ -57,8 +59,9 @@ $(document).ready(function() {
 			},
 		});
 	});
+*/
 
-
+/*
 
 	$('.select').click(function() {
 		var pokemon = $(".search-results option:selected").val();
@@ -82,6 +85,7 @@ $(document).ready(function() {
 			},
 		});		
 	});
+*/
 });
 
 
