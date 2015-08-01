@@ -1,3 +1,713 @@
+/* Type Colors */
+/**************************
+*
+* Normal
+*
+***************************/
+.Normal, .Normal a, .Normal a:hover, .chart.Normal div, .type > .Normal,
+.poke-cell .Normal, .chart-nav .Normal {
+  background: #EDD7B8;
+  color: #8D6E63; }
+
+a .Normal:hover {
+  background: #f7eee1; }
+
+.chart.Normal {
+  background: transparent; }
+
+.row.name.Normal {
+  color: #555555;
+  background: transparent; }
+
+.poke-cell .Normal {
+  padding: 2px; }
+
+.poke-cell.Normal > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #EDD7B8; }
+
+path.Normal, circle.Normal {
+  stroke: #d39e52;
+  stroke-width: 4; }
+
+circle.Normal {
+  fill: #d39e52; }
+
+svg.base-stats rect.Normal {
+  fill: #EDD7B8; }
+
+svg.base-stats rect.Normal.total {
+  fill: #d39e52; }
+
+/************************
+*
+* Fire
+*
+*************************/
+.Fire, .Fire a, .Fire a:hover .chart.Fire div, .type > .Fire, .poke-cell .Fire {
+  background: #ffa726;
+  color: #e65100; }
+
+a .Fire:hover {
+  background: #ffbc59; }
+
+.chart.Fire {
+  background: transparent; }
+
+.row.name.Fire {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Fire {
+  padding: 2px; }
+
+.poke-cell.Fire > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffa726; }
+
+path.Fire, circle.Fire {
+  stroke: #ffa726;
+  stroke-width: 4; }
+
+circle.Fire {
+  fill: #ffa726; }
+
+svg.base-stats rect.Fire {
+  fill: #ffa726; }
+
+svg.base-stats rect.Fire.total {
+  fill: #a56200; }
+
+/*************************
+*
+* Water
+*
+**************************/
+.Water, .Water a, .Water a:hover, .chart.Water div, .type > .Water, .poke-cell .Water {
+  background: #42a5f5;
+  color: #0d47a1; }
+
+a .Water:hover {
+  background: #72bcf8; }
+
+.chart.Water {
+  background: transparent; }
+
+.row.name.Water {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Water {
+  padding: 2px; }
+
+.poke-cell.Water > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #42a5f5; }
+
+path.Water, circle.Water {
+  stroke: #42a5f5;
+  stroke-width: 4; }
+
+circle.Water {
+  fill: #42a5f5; }
+
+svg.base-stats rect.Water {
+  fill: #42a5f5; }
+
+svg.base-stats rect.Water.total {
+  fill: #0965ae; }
+
+/****************************
+*
+* Electric
+*
+*****************************/
+.Electric, .Electric a, .Electric a:hover, .chart.Electric div, .type > .Electric, .poke-cell .Electric {
+  background: #ffee58;
+  color: #f57f17; }
+
+a .Electric:hover {
+  background: #fff38b; }
+
+.chart.Electric {
+  background: transparent; }
+
+.row.name.Electric {
+  color: #555555;
+  background: transparent; }
+
+.poke-cell .Electric {
+  padding: 2px; }
+
+.poke-cell.Electric > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffee58; }
+
+path.Electric, circle.Electric {
+  stroke: #ffee58;
+  stroke-width: 4; }
+
+circle.Electric {
+  fill: #ffee58; }
+
+svg.base-stats rect.Electric {
+  fill: #ffee58; }
+
+svg.base-stats rect.Electric.total {
+  fill: #d8c200; }
+
+/*************************
+*
+* Grass
+*
+**************************/
+.Grass, .Grass a, .Grass a:hover, .chart.Grass div, .type > .Grass, .poke-cell .Grass {
+  background: #66bb6a;
+  color: #1b5e20; }
+
+a .Grass:hover {
+  background: #89cb8c; }
+
+.chart.Grass {
+  background: transparent; }
+
+.row.name.Grass {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Grass {
+  padding: 2px; }
+
+.poke-cell.Grass > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #66bb6a; }
+
+path.Grass, circle.Grass {
+  stroke: #66bb6a;
+  stroke-width: 4; }
+
+circle.Grass {
+  fill: #66bb6a; }
+
+svg.base-stats rect.Grass {
+  fill: #66bb6a; }
+
+svg.base-stats rect.Grass.total {
+  fill: #327035; }
+
+/*********************
+*
+* Ice
+*
+**********************/
+.Ice, .Ice a, .Ice a:hover, .chart.Ice div, .type > .Ice, .poke-cell .Ice {
+  background: #26c6da;
+  color: #006064; }
+
+a .Ice:hover {
+  background: #52d1e1; }
+
+.chart.Ice {
+  background: transparent; }
+
+.row.name.Ice {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Ice {
+  padding: 2px; }
+
+.poke-cell.Ice > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #26c6da; }
+
+path.Ice, circle.Ice {
+  stroke: #26c6da;
+  stroke-width: 4; }
+
+circle.Ice {
+  fill: #26c6da; }
+
+svg.base-stats rect.Ice {
+  fill: #26c6da; }
+
+svg.base-stats rect.Ice.total {
+  fill: #13646e; }
+
+/**************************
+*
+* Fighting
+*
+***************************/
+.Fighting, .Fighting a, .Fighting a:hover, .chart.Fighting div, .type > .Fighting, .poke-cell .Fighting {
+  background: #ef5350;
+  color: #ffcdd2; }
+
+a .Fighting:hover {
+  background: #f3817f; }
+
+.chart.Fighting {
+  background: transparent; }
+
+.row.name.Fighting {
+  color: #555;
+  background: transparent; }
+
+.type > .Fighting, .poke-cell .Fighting {
+  padding: 2px; }
+
+.poke-cell.Fighting > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ef5350; }
+
+path.Fighting, circle.Fighting {
+  stroke: #ef5350;
+  stroke-width: 4; }
+
+circle.Fighting {
+  fill: #ef5350; }
+
+svg.base-stats rect.Fighting {
+  fill: #ef5350; }
+
+svg.base-stats rect.Fighting.total {
+  fill: #af1310; }
+
+/**********************
+*
+* Poison
+*
+**********************/
+.Poison, .Poison a, .Poison a:hover, .chart.Poison div, .type > .Poison, .poke-cell .Poison {
+  background: #ab47bc;
+  color: #e1bee7; }
+
+a .Poison:hover {
+  background: #bc6cca; }
+
+.chart.Poison {
+  background: transparent; }
+
+.row.name.Poison {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Poison {
+  padding: 2px; }
+
+.poke-cell.Poison > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ab47bc; }
+
+path.Poison, circle.Poison {
+  stroke: #ab47bc;
+  stroke-width: 4; }
+
+circle.Poison {
+  fill: #ab47bc; }
+
+svg.base-stats rect.Poison {
+  fill: #ab47bc; }
+
+svg.base-stats rect.Poison.total {
+  fill: #572360; }
+
+/********************
+*
+* Ground
+*
+********************/
+.Ground, .Ground a, .Ground a:hover, .chart.Ground div, .type > .Ground, .poke-cell .Ground {
+  background: #ffca28;
+  color: #ff6f00; }
+
+a .Ground:hover {
+  background: #ffd75b; }
+
+.chart.Ground {
+  background: transparent; }
+
+.row.name.Ground {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Ground {
+  padding: 2px; }
+
+.poke-cell.Ground > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffca28; }
+
+path.Ground, circle.Ground {
+  stroke: #ffca28;
+  stroke-width: 4; }
+
+circle.Ground {
+  fill: #ffca28; }
+
+svg.base-stats rect.Ground {
+  fill: #ffca28; }
+
+svg.base-stats rect.Ground.total {
+  fill: #a77e00; }
+
+/*********************
+*
+* Flying
+*
+**********************/
+.Flying, .Flying a, .Flying a:hover, .chart.Flying div, .type > .Flying, .poke-cell .Flying {
+  background: #b388ff;
+  color: #ede7f6; }
+
+a .Flying:hover {
+  background: #d4bbff; }
+
+.chart.Flying {
+  background: transparent; }
+
+.row.name.Flying {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Flying {
+  padding: 2px; }
+
+.poke-cell.Flying > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #b388ff; }
+
+path.Flying, circle.Flying {
+  stroke: #b388ff;
+  stroke-width: 4; }
+
+circle.Flying {
+  fill: #b388ff; }
+
+svg.base-stats rect.Flying {
+  fill: #b388ff; }
+
+svg.base-stats rect.Flying.total {
+  fill: #6209ff; }
+
+/********************
+*
+* Psychic
+*
+*********************/
+.Psychic, .Psychic a, .Psychic a:hover, .chart.Psychic div, .type > .Psychic, .poke-cell .Psychic {
+  background: #ec407a;
+  color: #f8bbd0; }
+
+a .Psychic:hover {
+  background: #f16e9a; }
+
+.chart.Psychic {
+  background: transparent; }
+
+.row.name.Psychic {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Psychic {
+  padding: 2px; }
+
+.poke-cell.Psychic > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ec407a; }
+
+path.Psychic, circle.Psychic {
+  stroke: #ec407a;
+  stroke-width: 4; }
+
+circle.Psychic {
+  fill: #ec407a; }
+
+svg.base-stats rect.Psychic {
+  fill: #ec407a; }
+
+svg.base-stats rect.Psychic.total {
+  fill: #9d103f; }
+
+/**********************
+*
+* Bug
+*
+***********************/
+.Bug, .Bug a, .Bug a:hover, .chart.Bug div, .type > .Bug, .poke-cell .Bug {
+  background: #d4e157;
+  color: #827717; }
+
+a .Bug:hover {
+  background: #dfe982; }
+
+.chart.Bug {
+  background: transparent; }
+
+.row.name.Bug {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Bug {
+  padding: 2px; }
+
+.poke-cell.Bug > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #d4e157; }
+
+path.Bug, circle.Bug {
+  stroke: #d4e157;
+  stroke-width: 4; }
+
+circle.Bug {
+  fill: #d4e157; }
+
+svg.base-stats rect.Bug {
+  fill: #d4e157; }
+
+svg.base-stats rect.Bug.total {
+  fill: #909d1c; }
+
+/***********************
+*
+* Rock
+*
+***********************/
+.Rock, .Rock a, .Rock a:hover, .chart.Rock div, .row.name.Rock, .type > .Rock, .poke-cell .Rock {
+  background: #8d6e63;
+  color: #d7ccc8; }
+
+a .Rock:hover {
+  background: #a5887e; }
+
+.chart.Rock {
+  background: transparent; }
+
+.row.name.Rock {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Rock {
+  padding: 2px; }
+
+.Rock.selected {
+  border-bottom: 3px solid #8d6e63; }
+
+.poke-cell.Rock > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #8d6e63; }
+
+path.Rock, circle.Rock {
+  stroke: #8d6e63;
+  stroke-width: 4; }
+
+circle.Rock {
+  fill: #8d6e63; }
+
+svg.base-stats rect.Rock {
+  fill: #8d6e63; }
+
+svg.base-stats rect.Rock.total {
+  fill: #6f574e; }
+
+/*************************
+*
+* Ghost
+*
+**************************/
+.Ghost, .Ghost a, .Ghost a:hover, .chart.Ghost div, .type > .Ghost, .poke-cell .Ghost {
+  background: #7e57c2;
+  color: #d1c4e9; }
+
+a .Ghost:hover {
+  background: #9b7cd0; }
+
+.chart.Ghost {
+  background: transparent; }
+
+.row.name.Ghost {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Ghost {
+  padding: 2px; }
+
+.poke-cell.Ghost > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #7e57c2; }
+
+path.Ghost, circle.Ghost {
+  stroke: #7e57c2;
+  stroke-width: 4; }
+
+circle.Ghost {
+  fill: #7e57c2; }
+
+svg.base-stats rect.Ghost {
+  fill: #7e57c2; }
+
+svg.base-stats rect.Ghost.total {
+  fill: #432971; }
+
+/********************
+*
+* Dragon
+*
+*********************/
+.Dragon, .Dragon a, .Dragon a:hover, .chart.Dragon div, .type > .Dragon, .poke-cell .Dragon {
+  background: #5c6bc0;
+  color: #c5cae9; }
+
+a .Dragon:hover {
+  background: #818cce; }
+
+.chart.Dragon {
+  background: transparent; }
+
+.row.name.Dragon {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Dragon {
+  padding: 2px; }
+
+.Dragon.selected {
+  border-bottom: 3px solid #5c6bc0; }
+
+.poke-cell.Dragon > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #5c6bc0; }
+
+path.Dragon, circle.Dragon {
+  stroke: #5c6bc0;
+  stroke-width: 4; }
+
+circle.Dragon {
+  fill: #5c6bc0; }
+
+svg.base-stats rect.Dragon {
+  fill: #5c6bc0; }
+
+svg.base-stats rect.Dragon.total {
+  fill: #2c3671; }
+
+/***********************
+*
+* Dark
+*
+***********************/
+.Dark, .Dark a, .Dark a:hover, .chart.Dark div, .type > .Dark, .poke-cell .Dark {
+  background: #555555;
+  color: #BABABA; }
+
+a .Dark:hover {
+  background: #6e6e6e; }
+
+.chart.Dark {
+  background: transparent; }
+
+.row.name.Dark {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Dark {
+  padding: 2px; }
+
+.poke-cell.Dark > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #555555; }
+
+path.Dark, circle.Dark {
+  stroke: #555555;
+  stroke-width: 4; }
+
+circle.Dark {
+  fill: #555555; }
+
+svg.base-stats rect.Dark {
+  fill: #555555; }
+
+svg.base-stats rect.Dark.total {
+  fill: #151515; }
+
+/**************************
+*
+* Steel
+*
+***************************/
+.Steel, .Steel a, .Steel a:hover, .chart.Steel div, .type > .Steel, .poke-cell .Steel {
+  background: #78909c;
+  color: #cfd8dc; }
+
+a .Steel:hover {
+  background: #95a8b2; }
+
+.chart.Steel {
+  background: transparent; }
+
+.row.name.Steel {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Steel {
+  padding: 2px; }
+
+.poke-cell.Steel > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #78909c; }
+
+path.Steel, circle.Steel {
+  stroke: #78909c;
+  stroke-width: 4; }
+
+circle.Steel {
+  fill: #78909c; }
+
+svg.base-stats rect.Steel {
+  fill: #78909c; }
+
+svg.base-stats rect.Steel.total {
+  fill: #3f4e56; }
+
+/**********************
+*
+* Fairy
+*
+***********************/
+.Fairy, .Fairy a, .Fairy a:hover, .chart.Fairy div, .type > .Fairy, .poke-cell .Fairy {
+  background: #f48fb1;
+  color: #ad1457; }
+
+a .Fairy:hover {
+  background: #f9bdd1; }
+
+.chart.Fairy {
+  background: transparent; }
+
+.row.name.Fairy {
+  color: #555;
+  background: transparent; }
+
+.poke-cell .Fairy {
+  padding: 2px; }
+
+.poke-cell.Fairy > div {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #f48fb1; }
+
+path.Fairy, circle.Fairy {
+  stroke: #f48fb1;
+  stroke-width: 4; }
+
+circle.Fairy {
+  fill: #f48fb1; }
+
+svg.base-stats rect.Fairy {
+  fill: #f48fb1; }
+
+svg.base-stats rect.Fairy.total {
+  fill: #e91b60; }
+
 p, form {
   font-family: 'Open Sans', sans-serif; }
 
@@ -43,5 +753,16 @@ p, form {
 
 .selected-pokemon {
   display: none; }
+
+.type {
+  margin: 0 auto;
+  width: 60px;
+  padding: 5px 0px 5px 0px;
+  text-align: center; }
+
+.name {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=team-builder.css.map */
