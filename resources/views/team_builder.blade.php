@@ -148,5 +148,7 @@
 @stop
 
 @section('footer')
+<script src="{{ asset('js/pokemon-team.js') }}"></script>
+<script src="{{ asset('js/pokemon_list.js') }}"></script>
 <script src="{{ asset('js/team-builder.js') }}"></script>
 @stop
