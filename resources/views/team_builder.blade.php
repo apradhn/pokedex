@@ -148,6 +148,7 @@
 @stop
 
 @section('footer')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>    
 <script src="{{ asset('js/pokemon-team.js') }}"></script>
 <script src="{{ asset('js/pokemon_list.js') }}"></script>
 <script src="{{ asset('js/team-builder.js') }}"></script>
